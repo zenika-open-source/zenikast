@@ -10,9 +10,9 @@ export const SITE_CONFIG = {
 
 export const NAVIGATION_ITEMS = [
   { name: "Accueil", href: "/" },
-  { name: "Épisodes", href: "/episodes" },
+  { name: "Saison 2", href: "/saison-2" },
+  { name: "Saison 1", href: "/saison-1" },
   { name: "À propos", href: "/about" },
-  { name: "Contact", href: "/contact" },
 ] as const;
 
 export const PODCAST_PLATFORMS = [
@@ -45,54 +45,42 @@ export const PODCAST_PLATFORMS = [
 export const SAISON_2_EPISODES = [
   {
     id: 1,
-    title: "Approche produit, une bonne idée ?",
-    description:
-      "Découvre les points clés pour réussir une expérience de personnes du métier UX/Produit.",
-    duration: "À venir",
-    status: "À venir • Durée inconnue",
-    image: "/placeholder.svg",
-    audioUrl: "#",
+    title: "Être une femme dans la tech",
+    description: "Conversations authentiques sur le parcours des femmes dans l'écosystème technologique.",
+    duration: "45 min",
+    status: "Disponible",
+    image: "/covers/s2e1.jpg",
     season: 2,
     episodeNumber: 1,
+    commentedBy: "PRÉNOM NOM",
+    guests: "LISS MELISSA COTIN, LINE QUESNEL, CYRIELLE EUDELINE"
   },
   {
     id: 2,
-    title: "DevQuest : Création d'une conférence dans le bassin nantais",
-    description: "Organisez des événements tech avec passion et innovation.",
-    duration: "À venir",
-    status: "À venir • Durée inconnue",
-    image: "/placeholder.svg",
-    audioUrl: "#",
+    title: "D'UX Designer à Product Manager",
+    description: "Le passage du design à la gestion de produit : enjeux et opportunités.",
+    duration: "38 min",
+    status: "Disponible",
+    image: "/covers/s2e2.jpg",
     season: 2,
     episodeNumber: 2,
+    commentedBy: "PRÉNOM NOM",
+    guests: "MARIE DUPONT, JEAN MARTIN"
   },
 ] as const;
 
 export const SAISON_1_EPISODES = [
   {
     id: 3,
-    title: "Présentation du projet",
-    description:
-      "Introduction à Zenikast et présentation de l'équipe made by Zenika Nantes.",
-    duration: "7 m 30s",
-    status: "13 Juin 2024 • 7 m 30 sec",
-    image: "/placeholder.svg",
-    audioUrl: "#",
+    title: "L'IA au quotidien",
+    description: "Comment l'IA transforme notre façon de travailler et de créer.",
+    duration: "31 min",
+    status: "Disponible",
+    image: "/covers/s1e1.jpg",
     season: 1,
     episodeNumber: 1,
-  },
-  {
-    id: 4,
-    title:
-      "Intérêt de l'utilisation au quotidien de l'IA pour créer une application",
-    description:
-      "Découvrez comment l'IA transforme le développement d'applications au quotidien.",
-    duration: "30 m 56 sec",
-    status: "1 Juillet 2024 • 30 m 56 sec",
-    image: "/placeholder.svg",
-    audioUrl: "#",
-    season: 1,
-    episodeNumber: 2,
+    commentedBy: "PRÉNOM NOM",
+    guests: "GARY KASPAROV, ALAN TURING"
   },
 ] as const;
 
@@ -123,10 +111,5 @@ export const SOCIAL_LINKS = [
     name: "YouTube",
     url: "#",
     icon: "youtube",
-  },
-  {
-    name: "Email",
-    url: "mailto:hello@zenikast.com",
-    icon: "mail",
   },
 ] as const;

@@ -6,7 +6,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import Episodes from "./pages/Episodes";
 import About from "./pages/About";
-import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -19,9 +18,9 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/episodes" element={<Episodes />} />
+          <Route path="/saison-2" element={<Index />} />
+          <Route path="/saison-1" element={<Index />} />
           <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
           {/* Placeholder routes - these will be implemented later */}
           <Route path="/privacy" element={<NotFound />} />
           <Route path="/terms" element={<NotFound />} />

@@ -36,37 +36,6 @@ export default function Footer() {
                 ))}
               </ul>
             </div>
-
-            {/* Legal Links */}
-            <div>
-              <h3 className="font-semibold mb-4 text-white">Légal</h3>
-              <ul className="space-y-3">
-                <li>
-                  <Link
-                    to="/privacy"
-                    className="text-muted-foreground hover:text-white transition-colors"
-                  >
-                    Politique de confidentialité
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/terms"
-                    className="text-muted-foreground hover:text-white transition-colors"
-                  >
-                    Conditions d'utilisation
-                  </Link>
-                </li>
-                <li>
-                  <a
-                    href="mailto:hello@zenikast.com"
-                    className="text-muted-foreground hover:text-white transition-colors"
-                  >
-                    Nous contacter
-                  </a>
-                </li>
-              </ul>
-            </div>
           </div>
 
           {/* Bottom Bar */}
@@ -77,7 +46,7 @@ export default function Footer() {
                 réservés.
               </p>
               <p className="text-sm text-muted-foreground">
-                Fait avec ❤️ pour les auditeurs passionnés
+                Made with ❤️ by Zenika
               </p>
             </div>
           </div>

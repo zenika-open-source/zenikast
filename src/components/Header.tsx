@@ -11,36 +11,42 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto container-padding">
-        <div className="flex h-16 items-center justify-between">
+        <div className="flex h-20 items-center justify-between">
           {/* Logo */}
           <Link
             to="/"
-            className="flex items-center space-x-3 hover:opacity-80 transition-opacity"
+            className="flex items-center space-x-2 hover:opacity-80 transition-opacity"
           >
-            <div className="text-2xl font-bold text-white">
-              🎧 {SITE_CONFIG.name}
+            <div className="flex items-center text-2xl font-bold text-white">
+              <span className="mr-2 opacity-90">🎙️</span>
+              <span>Zenikast<span className="text-brand-red">.</span></span>
             </div>
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-8">
-            {NAVIGATION_ITEMS.map((item) => (
+          <nav className="hidden md:flex items-center space-x-12">
+            {NAVIGATION_ITEMS.map((item) => {
+              const isActive = (item.href === "/" && window.location.pathname === "/") || 
+                               (item.href !== "/" && window.location.pathname.startsWith(item.href));
+              return (
               <Link
                 key={item.name}
                 to={item.href}
-                className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors relative group"
+                className={cn(
+                  "text-sm font-semibold transition-all duration-300",
+                  isActive 
+                    ? "text-white nav-active" 
+                    : "text-white/70 hover:text-white"
+                )}
               >
                 {item.name}
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full" />
               </Link>
-            ))}
+            )})}
           </nav>
 
-          {/* CTA Button */}
-          <div className="hidden md:flex items-center space-x-4">
-            <Button className="bg-primary hover:bg-primary/90 text-white">
-              Écouter maintenant
-            </Button>
+          {/* Spacer for right alignment if needed, or keeping buttons */}
+          <div className="hidden md:flex items-center">
+            {/* Empty for now to match image which has nav items on the right */}
           </div>
 
           {/* Mobile Menu Button */}
