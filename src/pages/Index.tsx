@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import Layout from "@/components/Layout";
 import EpisodeCover from "@/components/EpisodeCover";
-import { useLocation } from "react-router-dom";
+import { useLocation, Link, useParams } from "react-router-dom";
 import {
   SAISON_3_EPISODES,
   SAISON_2_EPISODES,
@@ -16,11 +16,11 @@ export default function Index() {
   const location = useLocation();
   const currentPath = location.pathname;
 
-  // Choose default tab based on path
+  // Choose default tab based on URL path
   let defaultTab = "saison-3";
-  if (currentPath === "/saison-1") defaultTab = "saison-1";
-  else if (currentPath === "/saison-2") defaultTab = "saison-2";
-  else if (currentPath === "/saison-3") defaultTab = "saison-3";
+  if (currentPath.includes("/saison/1")) defaultTab = "saison-1";
+  else if (currentPath.includes("/saison/2")) defaultTab = "saison-2";
+  else if (currentPath.includes("/saison/3")) defaultTab = "saison-3";
 
   return (
     <Layout>
@@ -111,9 +111,10 @@ export default function Index() {
             <TabsContent value="saison-3" className="mt-0 focus-visible:outline-none focus-visible:ring-0">
               <div className="flex overflow-x-auto pb-8 gap-6 scrollbar-hide snap-x">
                 {SAISON_3_EPISODES.map((episode, index) => (
-                  <div
+                  <Link
                     key={episode.id}
-                    className="flex-none w-[600px] h-[232px] bg-[#221e1f] border-none rounded-[2rem] overflow-hidden snap-start hover:bg-[#2a2527] transition-colors p-4 relative"
+                    to={`/saison/${episode.season}/episode/${episode.id}`}
+                    className="flex-none w-[600px] h-[232px] bg-[#221e1f] border-none rounded-[2rem] overflow-hidden snap-start hover:bg-[#2a2527] transition-colors p-4 relative block"
                   >
                     <div className="flex flex-row gap-6 h-full items-stretch">
                       {/* Episode Artwork */}
@@ -168,7 +169,7 @@ export default function Index() {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </Link>
                 ))}
               </div>
             </TabsContent>
@@ -176,9 +177,10 @@ export default function Index() {
             <TabsContent value="saison-2" className="mt-0 focus-visible:outline-none focus-visible:ring-0">
               <div className="flex overflow-x-auto pb-8 gap-6 scrollbar-hide snap-x">
                 {SAISON_2_EPISODES.map((episode, index) => (
-                  <div
+                  <Link
                     key={episode.id}
-                    className="flex-none w-[600px] h-[232px] bg-[#221e1f] border-none rounded-[2rem] overflow-hidden snap-start hover:bg-[#2a2527] transition-colors p-4 relative"
+                    to={`/saison/${episode.season}/episode/${episode.id}`}
+                    className="flex-none w-[600px] h-[232px] bg-[#221e1f] border-none rounded-[2rem] overflow-hidden snap-start hover:bg-[#2a2527] transition-colors p-4 relative block"
                   >
                     <div className="flex flex-row gap-6 h-full items-stretch">
                       {/* Episode Artwork */}
@@ -233,7 +235,7 @@ export default function Index() {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </Link>
                 ))}
               </div>
             </TabsContent>
@@ -241,9 +243,10 @@ export default function Index() {
             <TabsContent value="saison-1" className="mt-0 focus-visible:outline-none focus-visible:ring-0">
               <div className="flex overflow-x-auto pb-8 gap-6 scrollbar-hide snap-x">
                 {SAISON_1_EPISODES.map((episode, index) => (
-                  <div
+                  <Link
                     key={episode.id}
-                    className="flex-none w-[600px] h-[232px] bg-[#221e1f] border-none rounded-[2rem] overflow-hidden snap-start hover:bg-[#2a2527] transition-colors p-4 relative"
+                    to={`/saison/${episode.season}/episode/${episode.id}`}
+                    className="flex-none w-[600px] h-[232px] bg-[#221e1f] border-none rounded-[2rem] overflow-hidden snap-start hover:bg-[#2a2527] transition-colors p-4 relative block"
                   >
                     <div className="flex flex-row gap-6 h-full items-stretch">
                       {/* Episode Artwork */}
@@ -298,7 +301,7 @@ export default function Index() {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </Link>
                 ))}
               </div>
             </TabsContent>

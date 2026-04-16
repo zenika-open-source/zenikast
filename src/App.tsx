@@ -8,6 +8,8 @@ import Episodes from "./pages/Episodes";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
 
+import EpisodeDetail from "./pages/EpisodeDetail";
+
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -18,9 +20,11 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/saison-3" element={<Index />} />
-          <Route path="/saison-2" element={<Index />} />
-          <Route path="/saison-1" element={<Index />} />
+
+          {/* Episode detail routes */}
+          <Route path="/saison/:seasonId/episode/:episodeId" element={<><Index /><EpisodeDetail /></>} />
+          <Route path="/episodes/:seasonId/episode/:episodeId" element={<><Episodes /><EpisodeDetail /></>} />
+          <Route path="/episodes" element={<Episodes />} />
 
           <Route path="/about" element={<About />} />
           {/* Placeholder routes - these will be implemented later */}
