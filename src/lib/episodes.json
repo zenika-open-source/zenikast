@@ -1,0 +1,102 @@
+{
+  "saison3": [
+    {
+      "id": 1,
+      "title": "Bilan",
+      "description": "Bilan de fin d'année et leçons retenues.",
+      "duration": "45 min",
+      "status": "Disponible",
+      "image": "/img/episodes/S3E4-bilan.png",
+      "season": 3,
+      "episodeNumber": 4,
+      "commentedBy": "PRÉNOM NOM",
+      "guests": "LISS MELISSA COTIN"
+    },
+    {
+      "id": 2,
+      "title": "Agents IA",
+      "description": "L'évolution des agents d'intelligence artificielle.",
+      "duration": "50 min",
+      "status": "Disponible",
+      "image": "/img/episodes/S3E5-agents_IA.png",
+      "season": 3,
+      "episodeNumber": 5,
+      "commentedBy": "PRÉNOM NOM",
+      "guests": "INVITÉ(S)"
+    },
+    {
+      "id": 3,
+      "title": "Dagger",
+      "description": "Déploiements avec Dagger.",
+      "duration": "40 min",
+      "status": "Disponible",
+      "image": "/img/episodes/S3E6-Dagger.png",
+      "season": 3,
+      "episodeNumber": 6,
+      "commentedBy": "PRÉNOM NOM",
+      "guests": "INVITÉ(S)"
+    }
+  ],
+  "saison2": [
+    {
+      "id": 1,
+      "title": "Approche produit, une bonne idée ?",
+      "description": "Partager les points de vues et retours d'expériences de personnes du...",
+      "duration": "Durée inconnue",
+      "status": "À venir • Durée inconnue",
+      "image": "/img/episodes/S2E1-approche-produit.png",
+      "season": 2,
+      "episodeNumber": 1,
+      "commentedBy": "PRÉNOM NOM",
+      "guests": "INVITÉ(S)"
+    },
+    {
+      "id": 2,
+      "title": "L'Open Source",
+      "description": "Discussion autour de l'open source et de son impact.",
+      "duration": "38 min",
+      "status": "Disponible",
+      "image": "/img/episodes/S2E1-opensource.png",
+      "season": 2,
+      "episodeNumber": 2,
+      "commentedBy": "PRÉNOM NOM",
+      "guests": "INVITÉ(S)"
+    },
+    {
+      "id": 3,
+      "title": "Autre Episode",
+      "description": "Vignette de l'épisode 2 de la saison 2.",
+      "duration": "35 min",
+      "status": "Disponible",
+      "image": "/img/episodes/S2E2-vignette.png",
+      "season": 2,
+      "episodeNumber": 3,
+      "commentedBy": "PRÉNOM NOM",
+      "guests": "INVITÉ(S)"
+    }
+  ],
+  "saison1": [
+    {
+      "id": 1,
+      "title": "Être Junior",
+      "description": "Comment l'IA transforme notre façon de travailler et de créer.",
+      "duration": "31 min",
+      "status": "Disponible",
+      "image": "/img/episodes/S1E4-Junior.png",
+      "season": 1,
+      "episodeNumber": 1,
+      "commentedBy": "PRÉNOM NOM",
+      "guests": "GARY KASPAROV, ALAN TURING"
+    }
+  ],
+  "featured": {
+    "id": 5,
+    "title": "Les 40 ans",
+    "description": "Comment organiser des événements tech avec passion et innovation dans l'écosystème nantais.",
+    "duration": "À venir",
+    "status": "À venir • Durée inconnue",
+    "image": "/img/episodes/S3E2-40_ans.png",
+    "audioUrl": "#",
+    "label": "DERNIER ÉPISODE"
+  }
+}

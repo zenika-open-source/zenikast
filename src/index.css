@@ -5,19 +5,23 @@
 
 @layer base {
   :root {
-    --background: 15 15 15; /* #0F0F0F */
+    --background: 15 15 15;
+    /* #0F0F0F */
     --foreground: 255 255 255;
 
-    --card: 26 26 26; /* #1A1A1A */
+    --card: 26 26 26;
+    /* #1A1A1A */
     --card-foreground: 255 255 255;
 
     --popover: 26 26 26;
     --popover-foreground: 255 255 255;
 
-    --primary: 220 38 38; /* #DC2626 */
+    --primary: 220 38 38;
+    /* #DC2626 */
     --primary-foreground: 255 255 255;
 
-    --secondary: 42 42 42; /* #2A2A2A */
+    --secondary: 42 42 42;
+    /* #2A2A2A */
     --secondary-foreground: 255 255 255;
 
     --muted: 26 26 26;
@@ -53,7 +57,7 @@
 
   body {
     @apply bg-[#050505] text-foreground font-sans;
-    background-image: url("/Zenikast_bg.png");
+    background-image: url("img/Zenikast_bg.png");
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -90,11 +94,9 @@
   }
 
   .grid-overlay {
-    background-image: radial-gradient(
-      circle,
-      rgba(220, 38, 38, 0.2) 1.5px,
-      transparent 1.5px
-    );
+    background-image: radial-gradient(circle,
+        rgba(220, 38, 38, 0.2) 1.5px,
+        transparent 1.5px);
     background-size: 30px 30px;
   }
 

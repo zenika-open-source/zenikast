@@ -18,8 +18,10 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
+          <Route path="/saison-3" element={<Index />} />
           <Route path="/saison-2" element={<Index />} />
           <Route path="/saison-1" element={<Index />} />
+
           <Route path="/about" element={<About />} />
           {/* Placeholder routes - these will be implemented later */}
           <Route path="/privacy" element={<NotFound />} />
