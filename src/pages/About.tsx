@@ -14,7 +14,7 @@ export default function About() {
           <div className="py-20">
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="text-5xl md:text-6xl font-bold text-white mb-8 leading-tight">
-                À propos de <span className="text-brand-red">Zenikast</span>
+                Zenikast<span className="text-brand-red">.</span>
               </h1>
               <p className="text-xl text-white/80 mb-12 leading-relaxed">
                 {SITE_CONFIG.description}
@@ -28,31 +28,6 @@ export default function About() {
       <section className="bg-brand-dark py-20">
         <div className="container mx-auto container-padding">
           <div className="max-w-6xl mx-auto">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-20">
-              <div>
-                <h2 className="text-4xl font-bold text-white mb-6">
-                  Notre Mission
-                </h2>
-                <p className="text-lg text-white/80 mb-6 leading-relaxed">
-                  Chez Zenikast, nous croyons que la mindfulness et la
-                  croissance personnelle doivent être accessibles à tous. Notre
-                  podcast explore les sujets qui comptent vraiment dans notre
-                  développement personnel et professionnel.
-                </p>
-                <p className="text-lg text-white/80 leading-relaxed">
-                  Chaque épisode est conçu pour vous offrir des insights
-                  pratiques, des conversations authentiques et des outils
-                  concrets pour votre parcours de développement.
-                </p>
-              </div>
-
-              <div className="relative">
-                <div className="aspect-square bg-gradient-to-br from-brand-red/40 to-brand-red/20 rounded-2xl flex items-center justify-center">
-                  <Headphones className="w-24 h-24 text-white" />
-                </div>
-              </div>
-            </div>
-
             {/* Values */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <Card className="bg-brand-dark-light border border-border/30 rounded-2xl">
@@ -61,12 +36,10 @@ export default function About() {
                     <Heart className="w-8 h-8 text-brand-red" />
                   </div>
                   <h3 className="text-xl font-semibold text-white mb-4">
-                    Authenticité
+                    Partage
                   </h3>
                   <p className="text-white/70 leading-relaxed">
-                    Nous privilégions les conversations vraies et les
-                    expériences authentiques plutôt que les discours
-                    superficiels.
+                    Nos experts-es accompagnés d'invités-ées partagent leurs connaissances et leurs expériences sur des sujets variés.
                   </p>
                 </CardContent>
               </Card>
@@ -77,11 +50,10 @@ export default function About() {
                     <Users className="w-8 h-8 text-brand-red" />
                   </div>
                   <h3 className="text-xl font-semibold text-white mb-4">
-                    Communauté
+                    Veille & Expertise
                   </h3>
                   <p className="text-white/70 leading-relaxed">
-                    Nous construisons une communauté bienveillante où chacun
-                    peut partager et apprendre ensemble.
+                    La veille et le partage font partie de Zenika. Dans nos épisodes, nous partageons notre expertise et nos retours d'expérience sur des sujets variés et d'actualité.
                   </p>
                 </CardContent>
               </Card>
@@ -92,11 +64,10 @@ export default function About() {
                     <Mic className="w-8 h-8 text-brand-red" />
                   </div>
                   <h3 className="text-xl font-semibold text-white mb-4">
-                    Qualité
+                    Diffusion
                   </h3>
                   <p className="text-white/70 leading-relaxed">
-                    Chaque épisode est soigneusement préparé pour vous offrir le
-                    meilleur contenu possible.
+                    Zenikast est disponible sur les principales plateformes de podcasts (Deezer, Spotify, Apple podcast) et sur Youtube.
                   </p>
                 </CardContent>
               </Card>
@@ -105,43 +76,6 @@ export default function About() {
         </div>
       </section>
 
-      {/* Team Section */}
-      <section className="bg-brand-dark py-20">
-        <div className="container mx-auto container-padding">
-          <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-4xl font-bold text-white mb-12">
-              L'Équipe Zenikast
-            </h2>
-            <p className="text-lg text-white/80 mb-16 leading-relaxed">
-              Notre équipe est composée de passionnés de développement
-              personnel, de technologie et de mindfulness. Nous apportons notre
-              expertise et notre expérience pour créer des contenus qui
-              comptent.
-            </p>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {[1, 2, 3].map((member) => (
-                <Card
-                  key={member}
-                  className="bg-brand-dark-light border border-border/30 rounded-2xl"
-                >
-                  <CardContent className="p-6 text-center">
-                    <div className="w-20 h-20 bg-gradient-to-br from-brand-red/40 to-brand-red/20 rounded-full mx-auto mb-4 flex items-center justify-center">
-                      <Users className="w-8 h-8 text-white" />
-                    </div>
-                    <h3 className="text-lg font-semibold text-white mb-2">
-                      Membre de l'équipe
-                    </h3>
-                    <p className="text-sm text-white/70">
-                      Expert en développement personnel
-                    </p>
-                  </CardContent>
-                </Card>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
     </Layout>
   );
 }

@@ -1,4 +1,84 @@
 {
+  "saison4": [
+    {
+      "id": 1,
+      "title": "Biztrot Café #1 - L'IA m'a ruiné",
+      "description": "Episode 1 de Biztrot Café.",
+      "longDescription": "Dans ce premier épisode, nous discutons de l'impact de l'IA sur nos métiers.\n\nEst-ce que l'IA va tous nous remplacer ou au contraire, est-ce une opportunité ?",
+      "duration": "45 min",
+      "date": "05 Mai 2026",
+      "status": "Disponible",
+      "image": "/img/episodes/S4/BiztrotCafé-1.png",
+      "season": 4,
+      "episodeNumber": 1,
+      "spotifyUrl": "https://spotify.com",
+      "youtubeUrl": "https://youtube.com",
+      "deezerUrl": "https://deezer.com",
+      "appleUrl": "https://apple.com",
+      "hostsList": [
+        {
+          "name": "Jean-Philippe Baconnais",
+          "role": "Consultant & Directeur Technique - Zenika Nantes"
+        },
+        {
+          "name": "Julien Haumont",
+          "role": "Consultant DevOps - Zenika Nantes"
+        },
+        {
+          "name": "Marian Gappa",
+          "role": "Consultant DevOps - Zenika Lille"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Biztrot Café #2 - IA Gen or not IA Gen ?",
+      "description": "Episode 2 de Biztrot Café.",
+      "duration": "Durée inconnue",
+      "status": "Disponible",
+      "image": "/img/episodes/S4/BiztrotCafé-2.png",
+      "season": 4,
+      "episodeNumber": 2,
+      "hostsList": [
+        {
+          "name": "Jean-Philippe Baconnais",
+          "role": "Consultant & Directeur Technique - Zenika Nantes"
+        },
+        {
+          "name": "Julien Haumont",
+          "role": "Consultant DevOps - Zenika Nantes"
+        },
+        {
+          "name": "Marian Gappa",
+          "role": "Consultant DevOps - Zenika Lille"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Biztrot Café #3 - Layoffs again",
+      "description": "Episode 3 de Biztrot Café.",
+      "duration": "Durée inconnue",
+      "status": "Disponible",
+      "image": "/img/episodes/S4/BiztrotCafé-3.png",
+      "season": 4,
+      "episodeNumber": 3,
+      "hostsList": [
+        {
+          "name": "Jean-Philippe Baconnais",
+          "role": "Consultant & Directeur Technique - Zenika Nantes"
+        },
+        {
+          "name": "Julien Haumont",
+          "role": "Consultant DevOps - Zenika Nantes"
+        },
+        {
+          "name": "Marian Gappa",
+          "role": "Consultant DevOps - Zenika Lille"
+        }
+      ]
+    }
+  ],
   "saison3": [
     {
       "id": 1,

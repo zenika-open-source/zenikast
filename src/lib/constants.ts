@@ -1,9 +1,8 @@
 export const SITE_CONFIG = {
   name: "Zenikast",
+  title: "Zenikast",
   description:
-    "Un podcast explorant la mindfulness, la croissance personnelle et le chemin vers la paix intérieure.",
-  tagline: "Saison 2 disponible dès maintenant",
-  subtitle: "1 nouvel épisode chaque mois",
+    "Zenikast est un podcast porté par les collaboratrices et collaborateurs Zenika afin de parler de sujet tech, mais pas que.",
   url: "https://zenikast.com",
   creator: "@zenikast",
 } as const;
@@ -42,10 +41,43 @@ export const PODCAST_PLATFORMS = [
 
 import episodes from './episodes.json';
 
+export const SAISON_4_EPISODES = episodes.saison4;
 export const SAISON_3_EPISODES = episodes.saison3;
 export const SAISON_2_EPISODES = episodes.saison2;
 export const SAISON_1_EPISODES = episodes.saison1;
-export const FEATURED_EPISODE = episodes.featured;
+
+const allEpisodes = [
+  ...SAISON_4_EPISODES,
+  ...SAISON_3_EPISODES,
+  ...SAISON_2_EPISODES,
+  ...SAISON_1_EPISODES,
+];
+
+const months: Record<string, string> = {
+  "Janvier": "01", "Février": "02", "Mars": "03", "Avril": "04", "Mai": "05", "Juin": "06",
+  "Juillet": "07", "Août": "08", "Septembre": "09", "Octobre": "10", "Novembre": "11", "Décembre": "12"
+};
+
+const parseDate = (dateStr?: string) => {
+  if (!dateStr) return 0;
+  const parts = dateStr.split(" ");
+  if (parts.length === 3) {
+    const day = parts[0].padStart(2, '0');
+    const month = months[parts[1]] || "01";
+    const year = parts[2];
+    return new Date(`${year}-${month}-${day}T00:00:00Z`).getTime();
+  }
+  return 0;
+};
+
+export const FEATURED_EPISODE = allEpisodes.sort((a, b) => {
+  const dateA = parseDate(a.date);
+  const dateB = parseDate(b.date);
+  if (dateA !== dateB) return dateB - dateA;
+  // Fallback if no date is provided
+  if (a.season !== b.season) return b.season - a.season;
+  return b.episodeNumber - a.episodeNumber;
+})[0];
 
 
 export const SOCIAL_LINKS = [
