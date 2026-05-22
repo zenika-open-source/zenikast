@@ -1,20 +1,14 @@
 {
   "saison4": [
     {
-      "id": 1,
-      "title": "Biztrot Café #1 - L'IA m'a ruiné",
-      "description": "Episode 1 de Biztrot Café.",
-      "longDescription": "Dans ce premier épisode, nous discutons de l'impact de l'IA sur nos métiers.\n\nEst-ce que l'IA va tous nous remplacer ou au contraire, est-ce une opportunité ?",
-      "duration": "45 min",
-      "date": "05 Mai 2026",
+      "id": 3,
+      "title": "Biztrot Café #3 - Layoffs again",
+      "description": "Episode 3 de Biztrot Café.",
+      "duration": "Durée inconnue",
       "status": "Disponible",
-      "image": "/img/episodes/S4/BiztrotCafé-1.png",
+      "image": "/img/episodes/S4/BiztrotCafé-3.png",
       "season": 4,
-      "episodeNumber": 1,
-      "spotifyUrl": "https://spotify.com",
-      "youtubeUrl": "https://youtube.com",
-      "deezerUrl": "https://deezer.com",
-      "appleUrl": "https://apple.com",
+      "episodeNumber": 3,
       "hostsList": [
         {
           "name": "Jean-Philippe Baconnais",
@@ -55,14 +49,20 @@
       ]
     },
     {
-      "id": 3,
-      "title": "Biztrot Café #3 - Layoffs again",
-      "description": "Episode 3 de Biztrot Café.",
-      "duration": "Durée inconnue",
+      "id": 1,
+      "title": "Biztrot Café #1 - L'IA m'a ruiné",
+      "description": "Episode 1 de Biztrot Café.",
+      "longDescription": "Dans ce premier épisode, nous discutons de l'impact de l'IA sur nos métiers.\n\nEst-ce que l'IA va tous nous remplacer ou au contraire, est-ce une opportunité ?",
+      "duration": "45 min",
+      "date": "05 Mai 2026",
       "status": "Disponible",
-      "image": "/img/episodes/S4/BiztrotCafé-3.png",
+      "image": "/img/episodes/S4/BiztrotCafé-1.png",
       "season": 4,
-      "episodeNumber": 3,
+      "episodeNumber": 1,
+      "spotifyUrl": "https://spotify.com",
+      "youtubeUrl": "https://youtube.com",
+      "deezerUrl": "https://deezer.com",
+      "appleUrl": "https://apple.com",
       "hostsList": [
         {
           "name": "Jean-Philippe Baconnais",
@@ -82,77 +82,479 @@
   "saison3": [
     {
       "id": 1,
-      "title": "Bilan",
-      "description": "Bilan de fin d'année et leçons retenues.",
+      "title": "Opensource, dans les starting blocks pour l'Hacktoberfest",
+      "description": "Préparez-vous pour le mois mondial de contribution à l'open source !",
+      "longDescription": "Jean-Philippe Baconnais réunit nos experts internes Théophile Chenais, Benjamin Bourgeois et Guillaume Le Floch, ainsi que Benjamin Cavy de la MAIF, pour vous donner toutes les clés pour participer et contribuer avec succès à l'Hacktoberfest.",
+      "duration": "44 min",
+      "date": "28 Septembre 2025",
+      "status": "Disponible",
+      "image": "/img/episodes/S2E1-opensource.png",
+      "season": 3,
+      "episodeNumber": 1,
+      "spotifyUrl": "https://spotify.com",
+      "youtubeUrl": "https://youtube.com",
+      "deezerUrl": "https://deezer.com",
+      "appleUrl": "https://apple.com",
+      "hostsList": [
+        {
+          "name": "Jean-Philippe Baconnais",
+          "role": "Directeur Technique - Zenika Nantes"
+        }
+      ],
+      "guestsList": [
+        {
+          "name": "Théophile Chenais",
+          "role": "Consultant - Zenika"
+        },
+        {
+          "name": "Benjamin Bourgeois",
+          "role": "Consultant - Zenika"
+        },
+        {
+          "name": "Guillaume Le Floch",
+          "role": "Consultant - Zenika"
+        },
+        {
+          "name": "Benjamin Cavy",
+          "role": "MAIF"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Avoir plus de 45 ans dans la tech ! Quelle place et quels défis ?",
+      "description": "L'âgisme dans le secteur de la tech : retour d'expérience, opportunités et stéréotypes à déconstruire.",
+      "longDescription": "Safia Zouaoui anime une discussion nécessaire et inspirante sur la place des seniors dans la tech. Avec Matthias Dugué Cercy (Mads) côté Zenika, et nos invités externes Anne Laure de Boissieu et Kenny D, ils partagent leurs parcours, les défis rencontrés et la richesse de la transmission intergénérationnelle.",
+      "duration": "52 min",
+      "date": "14 Octobre 2025",
+      "status": "Disponible",
+      "image": null,
+      "season": 3,
+      "episodeNumber": 2,
+      "spotifyUrl": "https://spotify.com",
+      "youtubeUrl": "https://youtube.com",
+      "deezerUrl": "https://deezer.com",
+      "appleUrl": "https://apple.com",
+      "hostsList": [
+        {
+          "name": "Safia Zouaoui",
+          "role": "Consultante - Zenika"
+        }
+      ],
+      "guestsList": [
+        {
+          "name": "Matthias Dugué Cercy (Mads)",
+          "role": "Consultant - Zenika"
+        },
+        {
+          "name": "Anne Laure de Boissieu",
+          "role": "Consultante & Coach"
+        },
+        {
+          "name": "Kenny D",
+          "role": "Expert Tech"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "GreenIT",
+      "description": "Comment éco-concevoir nos services numériques et réduire l'empreinte environnementale du web.",
+      "longDescription": "Raphaël Lemaire présente cet épisode essentiel consacré au GreenIT. Il y détaille les pratiques d'éco-conception logicielle aux côtés d'Anne Faubry (Designers Éthiques) et Renault Héluin (Green IT) pour sensibiliser et agir concrètement.",
+      "duration": "48 min",
+      "date": "28 Octobre 2025",
+      "status": "Disponible",
+      "image": null,
+      "season": 3,
+      "episodeNumber": 3,
+      "spotifyUrl": "https://spotify.com",
+      "youtubeUrl": "https://youtube.com",
+      "deezerUrl": "https://deezer.com",
+      "appleUrl": "https://apple.com",
+      "hostsList": [
+        {
+          "name": "Raphaël Lemaire",
+          "role": "Consultant - Zenika"
+        }
+      ],
+      "guestsList": [
+        {
+          "name": "Anne Faubry",
+          "role": "Designers Éthiques"
+        },
+        {
+          "name": "Renault Héluin",
+          "role": "Green IT"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Veille / bilan des nouveautés de l'année ?",
+      "description": "Le grand récapitulatif des technologies marquantes de l'année et notre bilan de veille.",
+      "longDescription": "Une rétrospective complète de l'année tech ! Animée par Jean-Philippe Baconnais, avec Julien Haumont pour Zenika, et nos invités de marque Aline Leroy et Camille Roux d'Human Coders, pour faire le tri entre les vraies révolutions et les simples effets de mode.",
       "duration": "45 min",
+      "date": "11 Novembre 2025",
       "status": "Disponible",
       "image": "/img/episodes/S3E4-bilan.png",
       "season": 3,
       "episodeNumber": 4,
-      "commentedBy": "PRÉNOM NOM",
-      "guests": "LISS MELISSA COTIN"
+      "spotifyUrl": "https://spotify.com",
+      "youtubeUrl": "https://youtube.com",
+      "deezerUrl": "https://deezer.com",
+      "appleUrl": "https://apple.com",
+      "hostsList": [
+        {
+          "name": "Jean-Philippe Baconnais",
+          "role": "Directeur Technique - Zenika Nantes"
+        }
+      ],
+      "guestsList": [
+        {
+          "name": "Julien Haumont",
+          "role": "Consultant DevOps - Zenika Nantes"
+        },
+        {
+          "name": "Aline Leroy",
+          "role": "Consultante Tech"
+        },
+        {
+          "name": "Camille Roux",
+          "role": "Human Coders"
+        }
+      ]
     },
     {
-      "id": 2,
-      "title": "Agents IA",
-      "description": "L'évolution des agents d'intelligence artificielle.",
+      "id": 5,
+      "title": "IA : Vision Zenika dans l'IA ? Un monde d'agent ?",
+      "description": "Où va l'intelligence artificielle ? Notre vision du futur dominé par les agents autonomes.",
+      "longDescription": "Dans cet épisode exceptionnel, nos experts internes Benjamin Bourgeois, Carl Azoury, Adrien Nortain et Maria-Eliza Paez partagent la vision stratégique de Zenika sur l'IA. Ils accueillent l'équipe de Renault et Renault Digital (Sophie Frechin, Anthony Vouillon et Pierre Houles) pour débattre du futur de la tech et de l'ère des agents autonomes.",
       "duration": "50 min",
+      "date": "25 Novembre 2025",
       "status": "Disponible",
       "image": "/img/episodes/S3E5-agents_IA.png",
       "season": 3,
       "episodeNumber": 5,
-      "commentedBy": "PRÉNOM NOM",
-      "guests": "INVITÉ(S)"
+      "spotifyUrl": "https://spotify.com",
+      "youtubeUrl": "https://youtube.com",
+      "deezerUrl": "https://deezer.com",
+      "appleUrl": "https://apple.com",
+      "hostsList": [],
+      "guestsList": [
+        {
+          "name": "Benjamin Bourgeois",
+          "role": "Consultant - Zenika"
+        },
+        {
+          "name": "Carl Azoury",
+          "role": "Consultant - Zenika"
+        },
+        {
+          "name": "Adrien Nortain",
+          "role": "Consultant - Zenika"
+        },
+        {
+          "name": "Maria-Eliza Paez",
+          "role": "Consultante - Zenika"
+        },
+        {
+          "name": "Sophie Frechin",
+          "role": "Renault"
+        },
+        {
+          "name": "Anthony Vouillon",
+          "role": "Renault"
+        },
+        {
+          "name": "Pierre Houles",
+          "role": "Renault Digital"
+        }
+      ]
     },
     {
-      "id": 3,
-      "title": "Dagger",
-      "description": "Déploiements avec Dagger.",
+      "id": 6,
+      "title": "Dagger, la révolution de la CI/CD est en marche",
+      "description": "Découvrez comment Dagger transforme l'écriture, le test et l'exécution de vos pipelines CI/CD.",
+      "longDescription": "Julien Haumont anime cet épisode exceptionnel consacré à Dagger. Pour en parler, il reçoit le créateur de Docker et fondateur de Dagger, Solomon Hykes, ainsi que des utilisateurs experts en production : Vincent Maleze (Betclic), Vivien Maffet (Fastly) et Aymeric Martineau (Shodo).",
       "duration": "40 min",
+      "date": "09 Décembre 2025",
       "status": "Disponible",
       "image": "/img/episodes/S3E6-Dagger.png",
       "season": 3,
       "episodeNumber": 6,
-      "commentedBy": "PRÉNOM NOM",
-      "guests": "INVITÉ(S)"
+      "spotifyUrl": "https://spotify.com",
+      "youtubeUrl": "https://youtube.com",
+      "deezerUrl": "https://deezer.com",
+      "appleUrl": "https://apple.com",
+      "hostsList": [
+        {
+          "name": "Julien Haumont",
+          "role": "Consultant DevOps - Zenika Nantes"
+        }
+      ],
+      "guestsList": [
+        {
+          "name": "Solomon Hykes",
+          "role": "Dagger"
+        },
+        {
+          "name": "Vincent Maleze",
+          "role": "Betclic"
+        },
+        {
+          "name": "Vivien Maffet",
+          "role": "Fastly"
+        },
+        {
+          "name": "Aymeric Martineau",
+          "role": "Shodo"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Cloud souverain en 2025 ?",
+      "description": "Où en est la souveraineté numérique et le cloud souverain en Europe cette année ?",
+      "longDescription": "Charles-Edouard Gagnaire anime ce débat crucial sur l'état du cloud souverain en 2025. Accompagné de Sébastien Lavayssière côté Zenika et de Canözüm Eraydın représentant Oracle Cloud, ils font le point sur les réglementations, les offres technologiques et les enjeux stratégiques pour les entreprises françaises.",
+      "duration": "48 min",
+      "date": "23 Décembre 2025",
+      "status": "Disponible",
+      "image": null,
+      "season": 3,
+      "episodeNumber": 7,
+      "spotifyUrl": "https://spotify.com",
+      "youtubeUrl": "https://youtube.com",
+      "deezerUrl": "https://deezer.com",
+      "appleUrl": "https://apple.com",
+      "hostsList": [
+        {
+          "name": "Charles-Edouard Gagnaire",
+          "role": "Consultant - Zenika"
+        }
+      ],
+      "guestsList": [
+        {
+          "name": "Sébastien Lavayssière",
+          "role": "Consultant - Zenika"
+        },
+        {
+          "name": "Canözüm Eraydın",
+          "role": "Oracle Cloud"
+        }
+      ]
     }
   ],
   "saison2": [
     {
       "id": 1,
-      "title": "Approche produit, une bonne idée ?",
-      "description": "Partager les points de vues et retours d'expériences de personnes du...",
-      "duration": "Durée inconnue",
-      "status": "À venir • Durée inconnue",
+      "title": "Approche produit, on adhère ou pas ?",
+      "description": "Confrontez les visions sur la transition d'une approche projet à une véritable culture produit.",
+      "longDescription": "Safia Zouaoui anime ce débat sur l'approche produit. Avec Mélanie Cordero et Stephen Mehaut de Zenika, ainsi que nos invitées externes Estelle Landry et Claire Van de Voorde, ils échangent sans langue de bois sur les réussites, les obstacles et les réalités du quotidien produit.",
+      "duration": "46 min",
+      "date": "14 Janvier 2025",
+      "status": "Disponible",
       "image": "/img/episodes/S2E1-approche-produit.png",
       "season": 2,
       "episodeNumber": 1,
-      "commentedBy": "PRÉNOM NOM",
-      "guests": "INVITÉ(S)"
+      "spotifyUrl": "https://spotify.com",
+      "youtubeUrl": "https://youtube.com",
+      "deezerUrl": "https://deezer.com",
+      "appleUrl": "https://apple.com",
+      "hostsList": [
+        {
+          "name": "Safia Zouaoui",
+          "role": "Consultante - Zenika"
+        }
+      ],
+      "guestsList": [
+        {
+          "name": "Mélanie Cordero",
+          "role": "Consultante - Zenika"
+        },
+        {
+          "name": "Stephen Mehaut",
+          "role": "Consultant - Zenika"
+        },
+        {
+          "name": "Estelle Landry",
+          "role": "Product Manager"
+        },
+        {
+          "name": "Claire Van de Voorde",
+          "role": "Product Manager"
+        }
+      ]
     },
     {
       "id": 2,
-      "title": "L'Open Source",
-      "description": "Discussion autour de l'open source et de son impact.",
-      "duration": "38 min",
+      "title": "Épisode enregistré en conférence (DevFest / Devoxx)",
+      "description": "Retrouvez l'ambiance et les retours à chaud capturés directement dans les allées des conférences majeures.",
+      "longDescription": "Un épisode spécial capturé sur le vif lors d'une des grandes conférences de l'année (DevFest ou Devoxx). Interviews flash, découvertes techniques et ambiance du salon en direct depuis notre stand !",
+      "duration": "30 min",
+      "date": "28 Janvier 2025",
       "status": "Disponible",
-      "image": "/img/episodes/S2E1-opensource.png",
+      "image": null,
       "season": 2,
       "episodeNumber": 2,
-      "commentedBy": "PRÉNOM NOM",
-      "guests": "INVITÉ(S)"
+      "spotifyUrl": "https://spotify.com",
+      "youtubeUrl": "https://youtube.com",
+      "deezerUrl": "https://deezer.com",
+      "appleUrl": "https://apple.com",
+      "hostsList": [],
+      "guestsList": []
     },
     {
       "id": 3,
-      "title": "Autre Episode",
-      "description": "Vignette de l'épisode 2 de la saison 2.",
-      "duration": "35 min",
+      "title": "Mise en place de DevQuest ?",
+      "description": "Découvrez la genèse et les coulisses du projet d'apprentissage DevQuest.",
+      "longDescription": "Jean-Philippe Baconnais (@jean-phi) présente la mise en place de DevQuest. Accompagné d'Alexandre (DevQuest), d'Emmanuel Demey et de Margaux Pirat ou Pascaline Larose, ils discutent de gamification, d'apprentissage continu et de montée en compétences pour les développeurs.",
+      "duration": "42 min",
+      "date": "11 Février 2025",
       "status": "Disponible",
       "image": "/img/episodes/S2E2-vignette.png",
       "season": 2,
       "episodeNumber": 3,
-      "commentedBy": "PRÉNOM NOM",
-      "guests": "INVITÉ(S)"
+      "spotifyUrl": "https://spotify.com",
+      "youtubeUrl": "https://youtube.com",
+      "deezerUrl": "https://deezer.com",
+      "appleUrl": "https://apple.com",
+      "hostsList": [
+        {
+          "name": "Jean-Philippe Baconnais",
+          "role": "Directeur Technique - Zenika Nantes"
+        }
+      ],
+      "guestsList": [
+        {
+          "name": "Alexandre",
+          "role": "DevQuest"
+        },
+        {
+          "name": "Emmanuel Demey",
+          "role": "Consultant & Formateur"
+        },
+        {
+          "name": "Margaux Pirat",
+          "role": "Invitée"
+        },
+        {
+          "name": "Pascaline Larose",
+          "role": "Invitée"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Être junior dans la tech",
+      "description": "Intégration, montée en compétences, mentorat : le guide de survie et de réussite des profils juniors.",
+      "longDescription": "Mickaël Alves anime ce guide précieux destiné aux juniors de la tech. Avec Théo Gianella et Jean-Philippe Baconnais pour Zenika, et nos invités Antoine Caron et Johana Lavigne, ils partagent leurs conseils pour réussir ses premiers pas, surmonter le syndrome de l'imposteur et progresser sereinement.",
+      "duration": "45 min",
+      "date": "25 Février 2025",
+      "status": "Disponible",
+      "image": "/img/episodes/S1E4-Junior.png",
+      "season": 2,
+      "episodeNumber": 4,
+      "spotifyUrl": "https://spotify.com",
+      "youtubeUrl": "https://youtube.com",
+      "deezerUrl": "https://deezer.com",
+      "appleUrl": "https://apple.com",
+      "hostsList": [
+        {
+          "name": "Mickaël Alves",
+          "role": "Consultant - Zenika"
+        }
+      ],
+      "guestsList": [
+        {
+          "name": "Théo Gianella",
+          "role": "Consultant - Zenika"
+        },
+        {
+          "name": "Jean-Philippe Baconnais",
+          "role": "Directeur Technique - Zenika Nantes"
+        },
+        {
+          "name": "Antoine Caron",
+          "role": "Expert Tech"
+        },
+        {
+          "name": "Johana Lavigne",
+          "role": "Coach Tech"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Pourquoi la DX (Developer eXperience) est-elle si importante dans vos projets ?",
+      "description": "Investir dans l'expérience développeur : le secret le mieux gardé de la productivité et de la qualité des projets.",
+      "longDescription": "Mickaël Alves et Matthias Dugué Cercy (Mads) co-animent cet épisode crucial sur l'expérience développeur (DX). Avec l'intervention de William Bartlett, ils décryptent pourquoi une bonne DX réduit le temps de mise sur le marché, améliore la qualité du code et augmente l'engagement des équipes.",
+      "duration": "48 min",
+      "date": "11 Mars 2025",
+      "status": "Disponible",
+      "image": null,
+      "season": 2,
+      "episodeNumber": 5,
+      "spotifyUrl": "https://spotify.com",
+      "youtubeUrl": "https://youtube.com",
+      "deezerUrl": "https://deezer.com",
+      "appleUrl": "https://apple.com",
+      "hostsList": [
+        {
+          "name": "Mickaël Alves",
+          "role": "Consultant - Zenika"
+        },
+        {
+          "name": "Matthias Dugué Cercy (Mads)",
+          "role": "Consultant - Zenika"
+        }
+      ],
+      "guestsList": [
+        {
+          "name": "William Bartlett",
+          "role": "Consultant - Zenika"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "L'art du testing en 2025 pour vos applications",
+      "description": "Tests unitaires, d'intégration, e2e, outils modernes et approches pragmatiques de la qualité logicielle.",
+      "longDescription": "Mickaël Alves fait le tour d'horizon complet de l'état du testing logiciel en 2025. Quels outils privilégier ? Comment trouver le bon équilibre dans son taux de couverture et maintenir une base de code robuste ?",
+      "duration": "40 min",
+      "date": "25 Mars 2025",
+      "status": "Disponible",
+      "image": null,
+      "season": 2,
+      "episodeNumber": 6,
+      "spotifyUrl": "https://spotify.com",
+      "youtubeUrl": "https://youtube.com",
+      "deezerUrl": "https://deezer.com",
+      "appleUrl": "https://apple.com",
+      "hostsList": [
+        {
+          "name": "Mickaël Alves",
+          "role": "Consultant - Zenika"
+        }
+      ],
+      "guestsList": []
+    },
+    {
+      "id": 7,
+      "title": "Comment vivre en bons termes avec son legacy ?",
+      "description": "Stratégies pragmatiques et astuces d'experts pour maintenir, moderniser et aimer son code patrimonial.",
+      "longDescription": "Le code legacy fait partie de la vie de tout développeur. Dans cet épisode, nous explorons comment travailler sereinement avec l'existant, planifier des refactorisations progressives et pérenniser la valeur métier sans tout réécrire.",
+      "duration": "44 min",
+      "date": "08 Avril 2025",
+      "status": "Disponible",
+      "image": null,
+      "season": 2,
+      "episodeNumber": 7,
+      "spotifyUrl": "https://spotify.com",
+      "youtubeUrl": "https://youtube.com",
+      "deezerUrl": "https://deezer.com",
+      "appleUrl": "https://apple.com",
+      "hostsList": [],
+      "guestsList": []
     }
   ],
   "saison1": [
@@ -166,17 +568,23 @@
       "season": 1,
       "episodeNumber": 1,
       "commentedBy": "PRÉNOM NOM",
-      "guests": "GARY KASPAROV, ALAN TURING"
+      "guests": "GARY KASPAROV, ALAN TURING",
+      "hostsList": [
+        {
+          "name": "PRÉNOM NOM",
+          "role": "Animateur"
+        }
+      ],
+      "guestsList": [
+        {
+          "name": "GARY KASPAROV",
+          "role": "Invité"
+        },
+        {
+          "name": "ALAN TURING",
+          "role": "Invité"
+        }
+      ]
     }
-  ],
-  "featured": {
-    "id": 5,
-    "title": "Les 40 ans",
-    "description": "Comment organiser des événements tech avec passion et innovation dans l'écosystème nantais.",
-    "duration": "À venir",
-    "status": "À venir • Durée inconnue",
-    "image": "/img/episodes/S3E2-40_ans.png",
-    "audioUrl": "#",
-    "label": "DERNIER ÉPISODE"
-  }
+  ]
 }

@@ -70,13 +70,9 @@ const parseDate = (dateStr?: string) => {
   return 0;
 };
 
-export const FEATURED_EPISODE = allEpisodes.sort((a, b) => {
-  const dateA = parseDate(a.date);
-  const dateB = parseDate(b.date);
-  if (dateA !== dateB) return dateB - dateA;
-  // Fallback if no date is provided
+export const FEATURED_EPISODE = [...allEpisodes].sort((a, b) => {
   if (a.season !== b.season) return b.season - a.season;
-  return b.episodeNumber - a.episodeNumber;
+  return b.id - a.id;
 })[0];
 
 
