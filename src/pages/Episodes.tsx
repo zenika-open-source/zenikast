@@ -11,6 +11,7 @@ import {
   SAISON_1_EPISODES,
 } from "@/lib/constants";
 import { Link } from "react-router-dom";
+import { getAssetUrl } from "@/lib/utils";
 
 export default function Episodes() {
   const allEpisodes = [
@@ -40,7 +41,7 @@ export default function Episodes() {
                     <div className="w-[200px] h-[200px] flex-shrink-0 relative overflow-hidden rounded-[1.5rem] group cursor-pointer bg-black">
                       {episode.image ? (
                         <img
-                          src={episode.image}
+                          src={getAssetUrl(episode.image)}
                           alt={episode.title}
                           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                         />
@@ -117,7 +118,7 @@ export default function Episodes() {
                     <div className="w-[200px] h-[200px] flex-shrink-0 relative overflow-hidden rounded-[1.5rem] group cursor-pointer bg-black">
                       {episode.image ? (
                         <img
-                          src={episode.image}
+                          src={getAssetUrl(episode.image)}
                           alt={episode.title}
                           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                         />
@@ -194,7 +195,7 @@ export default function Episodes() {
                     <div className="w-[200px] h-[200px] flex-shrink-0 relative overflow-hidden rounded-[1.5rem] group cursor-pointer bg-black">
                       {episode.image ? (
                         <img
-                          src={episode.image}
+                          src={getAssetUrl(episode.image)}
                           alt={episode.title}
                           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                         />
@@ -271,7 +272,7 @@ export default function Episodes() {
                     <div className="w-[200px] h-[200px] flex-shrink-0 relative overflow-hidden rounded-[1.5rem] group cursor-pointer bg-black">
                       {episode.image ? (
                         <img
-                          src={episode.image}
+                          src={getAssetUrl(episode.image)}
                           alt={episode.title}
                           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                         />

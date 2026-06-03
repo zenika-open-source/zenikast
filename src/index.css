@@ -57,7 +57,7 @@
 
   body {
     @apply bg-[#050505] text-foreground font-sans;
-    background-image: url("img/Zenikast_bg.png");
+    background-image: url("/img/Zenikast_bg.png");
     background-attachment: fixed;
     background-size: cover;
     background-position: center;

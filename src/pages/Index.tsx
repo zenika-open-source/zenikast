@@ -11,6 +11,7 @@ import {
   SAISON_1_EPISODES,
   FEATURED_EPISODE,
 } from "@/lib/constants";
+import { getAssetUrl } from "@/lib/utils";
 
 export default function Index() {
   const location = useLocation();
@@ -89,7 +90,7 @@ export default function Index() {
                   {FEATURED_EPISODE.image && (
                     <div className="w-[200px] h-[200px] rounded-[1.5rem] overflow-hidden shadow-2xl border border-white/10 relative group">
                       <img
-                        src={FEATURED_EPISODE.image}
+                        src={getAssetUrl(FEATURED_EPISODE.image)}
                         alt={FEATURED_EPISODE.title}
                         className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                       />
@@ -154,7 +155,7 @@ export default function Index() {
                       <div className="w-[200px] h-[200px] flex-shrink-0 relative overflow-hidden rounded-[1.5rem] group cursor-pointer bg-black">
                         {episode.image ? (
                           <img
-                            src={episode.image}
+                            src={getAssetUrl(episode.image)}
                             alt={episode.title}
                             className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                           />
@@ -232,7 +233,7 @@ export default function Index() {
                       <div className="w-[200px] h-[200px] flex-shrink-0 relative overflow-hidden rounded-[1.5rem] group cursor-pointer bg-black">
                         {episode.image ? (
                           <img
-                            src={episode.image}
+                            src={getAssetUrl(episode.image)}
                             alt={episode.title}
                             className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                           />
@@ -310,7 +311,7 @@ export default function Index() {
                       <div className="w-[200px] h-[200px] flex-shrink-0 relative overflow-hidden rounded-[1.5rem] group cursor-pointer bg-black">
                         {episode.image ? (
                           <img
-                            src={episode.image}
+                            src={getAssetUrl(episode.image)}
                             alt={episode.title}
                             className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                           />
@@ -388,7 +389,7 @@ export default function Index() {
                       <div className="w-[200px] h-[200px] flex-shrink-0 relative overflow-hidden rounded-[1.5rem] group cursor-pointer bg-black">
                         {episode.image ? (
                           <img
-                            src={episode.image}
+                            src={getAssetUrl(episode.image)}
                             alt={episode.title}
                             className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                           />

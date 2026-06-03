@@ -1,5 +1,6 @@
 import React from "react";
 import { Mic } from "lucide-react";
+import { getAssetUrl } from "@/lib/utils";
 
 interface EpisodeCoverProps {
   title: string;
@@ -23,7 +24,7 @@ const EpisodeCover = ({
       {/* Background */}
       {image ? (
         <img
-          src={image}
+          src={getAssetUrl(image)}
           alt={title}
           className="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:opacity-80 transition-opacity duration-500 group-hover:scale-105"
         />

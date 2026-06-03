@@ -8,6 +8,7 @@ import {
   DialogTitle,
 } from "@/components/ui/dialog";
 import { X, Mic } from "lucide-react";
+import { getAssetUrl } from "@/lib/utils";
 
 export default function EpisodeDetail() {
   const { seasonId, episodeId } = useParams();
@@ -51,7 +52,7 @@ export default function EpisodeDetail() {
             <div className="w-[200px] h-[200px] flex-shrink-0 relative overflow-hidden rounded-[1.5rem] bg-black">
               {episode.image ? (
                 <img
-                  src={episode.image}
+                  src={getAssetUrl(episode.image)}
                   alt={episode.title}
                   className="w-full h-full object-cover"
                 />
