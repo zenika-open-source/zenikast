@@ -94,9 +94,11 @@
   }
 
   .grid-overlay {
-    background-image: radial-gradient(circle,
-        rgba(220, 38, 38, 0.2) 1.5px,
-        transparent 1.5px);
+    background-image: radial-gradient(
+      circle,
+      rgba(220, 38, 38, 0.2) 1.5px,
+      transparent 1.5px
+    );
     background-size: 30px 30px;
   }
 

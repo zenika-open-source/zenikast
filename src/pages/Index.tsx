@@ -18,9 +18,10 @@ export default function Index() {
 
   // Calculate the highest identifier of the last season (Saison 4)
   const lastSeasonEpisodes = SAISON_4_EPISODES || [];
-  const maxIdOfLastSeason = lastSeasonEpisodes.length > 0
-    ? Math.max(...lastSeasonEpisodes.map(e => e.id))
-    : 0;
+  const maxIdOfLastSeason =
+    lastSeasonEpisodes.length > 0
+      ? Math.max(...lastSeasonEpisodes.map((e) => e.id))
+      : 0;
 
   // Choose default tab based on URL path
   let defaultTab = "saison-4";
@@ -66,8 +67,9 @@ export default function Index() {
                     {FEATURED_EPISODE.description}
                   </p>
 
-
-                  <Link to={`/saison/${FEATURED_EPISODE.season}/episode/${FEATURED_EPISODE.id}`}>
+                  <Link
+                    to={`/saison/${FEATURED_EPISODE.season}/episode/${FEATURED_EPISODE.id}`}
+                  >
                     <Button
                       size="lg"
                       className="bg-white hover:bg-white/90 text-black font-bold h-14 px-8 rounded-full shadow-lg hover:scale-105 transition-all duration-300"
@@ -80,7 +82,9 @@ export default function Index() {
 
                 <div className="hidden md:flex justify-end pt-2">
                   <p className="text-lg text-white/60 font-medium italic">
-                    {FEATURED_EPISODE.date ? `Sorti le ${FEATURED_EPISODE.date}` : "Nouvel épisode"}
+                    {FEATURED_EPISODE.date
+                      ? `Sorti le ${FEATURED_EPISODE.date}`
+                      : "Nouvel épisode"}
                   </p>
                 </div>
               </div>
@@ -94,7 +98,9 @@ export default function Index() {
         <div className="container mx-auto container-padding">
           <Tabs defaultValue={defaultTab} className="w-full">
             <div className="flex items-center justify-between mb-16 px-2">
-              <h2 className="text-4xl font-bold text-white tracking-tighter">Épisodes</h2>
+              <h2 className="text-4xl font-bold text-white tracking-tighter">
+                Épisodes
+              </h2>
               <TabsList className="bg-white/5 border border-white/10 p-1 h-12 rounded-full">
                 <TabsTrigger
                   value="saison-4"
@@ -123,7 +129,10 @@ export default function Index() {
               </TabsList>
             </div>
 
-            <TabsContent value="saison-4" className="mt-0 focus-visible:outline-none focus-visible:ring-0">
+            <TabsContent
+              value="saison-4"
+              className="mt-0 focus-visible:outline-none focus-visible:ring-0"
+            >
               <div className="flex overflow-x-auto pb-8 gap-6 scrollbar-hide snap-x">
                 {SAISON_4_EPISODES.map((episode, index) => (
                   <Link
@@ -175,8 +184,17 @@ export default function Index() {
 
                           <Button className="bg-[#2A2A2A] hover:bg-[#3A3A3A] text-white rounded-full px-6 py-5 transition-colors border border-white/10 flex items-center gap-2 font-semibold">
                             <span className="w-6 h-6 bg-white rounded-full flex items-center justify-center text-black">
-                              <svg width="10" height="12" viewBox="0 0 10 12" fill="none" className="ml-0.5">
-                                <path d="M9.5 5.13397C10.1667 5.51888 10.1667 6.48113 9.5 6.86603L1.25 11.6292C0.583334 12.0141 -4.16209e-08 11.533 -8.08376e-09 10.7631L3.35515e-07 1.23686C3.69032e-07 0.467061 0.583333 -0.0140643 1.25 0.370836L9.5 5.13397Z" fill="black" />
+                              <svg
+                                width="10"
+                                height="12"
+                                viewBox="0 0 10 12"
+                                fill="none"
+                                className="ml-0.5"
+                              >
+                                <path
+                                  d="M9.5 5.13397C10.1667 5.51888 10.1667 6.48113 9.5 6.86603L1.25 11.6292C0.583334 12.0141 -4.16209e-08 11.533 -8.08376e-09 10.7631L3.35515e-07 1.23686C3.69032e-07 0.467061 0.583333 -0.0140643 1.25 0.370836L9.5 5.13397Z"
+                                  fill="black"
+                                />
                               </svg>
                             </span>
                             Voir Plus
@@ -189,7 +207,10 @@ export default function Index() {
               </div>
             </TabsContent>
 
-            <TabsContent value="saison-3" className="mt-0 focus-visible:outline-none focus-visible:ring-0">
+            <TabsContent
+              value="saison-3"
+              className="mt-0 focus-visible:outline-none focus-visible:ring-0"
+            >
               <div className="flex overflow-x-auto pb-8 gap-6 scrollbar-hide snap-x">
                 {SAISON_3_EPISODES.map((episode, index) => (
                   <Link
@@ -241,8 +262,17 @@ export default function Index() {
 
                           <Button className="bg-[#2A2A2A] hover:bg-[#3A3A3A] text-white rounded-full px-6 py-5 transition-colors border border-white/10 flex items-center gap-2 font-semibold">
                             <span className="w-6 h-6 bg-white rounded-full flex items-center justify-center text-black">
-                              <svg width="10" height="12" viewBox="0 0 10 12" fill="none" className="ml-0.5">
-                                <path d="M9.5 5.13397C10.1667 5.51888 10.1667 6.48113 9.5 6.86603L1.25 11.6292C0.583334 12.0141 -4.16209e-08 11.533 -8.08376e-09 10.7631L3.35515e-07 1.23686C3.69032e-07 0.467061 0.583333 -0.0140643 1.25 0.370836L9.5 5.13397Z" fill="black" />
+                              <svg
+                                width="10"
+                                height="12"
+                                viewBox="0 0 10 12"
+                                fill="none"
+                                className="ml-0.5"
+                              >
+                                <path
+                                  d="M9.5 5.13397C10.1667 5.51888 10.1667 6.48113 9.5 6.86603L1.25 11.6292C0.583334 12.0141 -4.16209e-08 11.533 -8.08376e-09 10.7631L3.35515e-07 1.23686C3.69032e-07 0.467061 0.583333 -0.0140643 1.25 0.370836L9.5 5.13397Z"
+                                  fill="black"
+                                />
                               </svg>
                             </span>
                             Voir Plus
@@ -255,7 +285,10 @@ export default function Index() {
               </div>
             </TabsContent>
 
-            <TabsContent value="saison-2" className="mt-0 focus-visible:outline-none focus-visible:ring-0">
+            <TabsContent
+              value="saison-2"
+              className="mt-0 focus-visible:outline-none focus-visible:ring-0"
+            >
               <div className="flex overflow-x-auto pb-8 gap-6 scrollbar-hide snap-x">
                 {SAISON_2_EPISODES.map((episode, index) => (
                   <Link
@@ -307,8 +340,17 @@ export default function Index() {
 
                           <Button className="bg-[#2A2A2A] hover:bg-[#3A3A3A] text-white rounded-full px-6 py-5 transition-colors border border-white/10 flex items-center gap-2 font-semibold">
                             <span className="w-6 h-6 bg-white rounded-full flex items-center justify-center text-black">
-                              <svg width="10" height="12" viewBox="0 0 10 12" fill="none" className="ml-0.5">
-                                <path d="M9.5 5.13397C10.1667 5.51888 10.1667 6.48113 9.5 6.86603L1.25 11.6292C0.583334 12.0141 -4.16209e-08 11.533 -8.08376e-09 10.7631L3.35515e-07 1.23686C3.69032e-07 0.467061 0.583333 -0.0140643 1.25 0.370836L9.5 5.13397Z" fill="black" />
+                              <svg
+                                width="10"
+                                height="12"
+                                viewBox="0 0 10 12"
+                                fill="none"
+                                className="ml-0.5"
+                              >
+                                <path
+                                  d="M9.5 5.13397C10.1667 5.51888 10.1667 6.48113 9.5 6.86603L1.25 11.6292C0.583334 12.0141 -4.16209e-08 11.533 -8.08376e-09 10.7631L3.35515e-07 1.23686C3.69032e-07 0.467061 0.583333 -0.0140643 1.25 0.370836L9.5 5.13397Z"
+                                  fill="black"
+                                />
                               </svg>
                             </span>
                             Voir Plus
@@ -321,7 +363,10 @@ export default function Index() {
               </div>
             </TabsContent>
 
-            <TabsContent value="saison-1" className="mt-0 focus-visible:outline-none focus-visible:ring-0">
+            <TabsContent
+              value="saison-1"
+              className="mt-0 focus-visible:outline-none focus-visible:ring-0"
+            >
               <div className="flex overflow-x-auto pb-8 gap-6 scrollbar-hide snap-x">
                 {SAISON_1_EPISODES.map((episode, index) => (
                   <Link
@@ -373,8 +418,17 @@ export default function Index() {
 
                           <Button className="bg-[#2A2A2A] hover:bg-[#3A3A3A] text-white rounded-full px-6 py-5 transition-colors border border-white/10 flex items-center gap-2 font-semibold">
                             <span className="w-6 h-6 bg-white rounded-full flex items-center justify-center text-black">
-                              <svg width="10" height="12" viewBox="0 0 10 12" fill="none" className="ml-0.5">
-                                <path d="M9.5 5.13397C10.1667 5.51888 10.1667 6.48113 9.5 6.86603L1.25 11.6292C0.583334 12.0141 -4.16209e-08 11.533 -8.08376e-09 10.7631L3.35515e-07 1.23686C3.69032e-07 0.467061 0.583333 -0.0140643 1.25 0.370836L9.5 5.13397Z" fill="black" />
+                              <svg
+                                width="10"
+                                height="12"
+                                viewBox="0 0 10 12"
+                                fill="none"
+                                className="ml-0.5"
+                              >
+                                <path
+                                  d="M9.5 5.13397C10.1667 5.51888 10.1667 6.48113 9.5 6.86603L1.25 11.6292C0.583334 12.0141 -4.16209e-08 11.533 -8.08376e-09 10.7631L3.35515e-07 1.23686C3.69032e-07 0.467061 0.583333 -0.0140643 1.25 0.370836L9.5 5.13397Z"
+                                  fill="black"
+                                />
                               </svg>
                             </span>
                             Voir Plus
@@ -389,7 +443,6 @@ export default function Index() {
           </Tabs>
         </div>
       </section>
-
     </Layout>
   );
 }

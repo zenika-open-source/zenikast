@@ -39,7 +39,8 @@ export default function About() {
                     Partage
                   </h3>
                   <p className="text-white/70 leading-relaxed">
-                    Nos experts-es accompagnés d'invités-ées partagent leurs connaissances et leurs expériences sur des sujets variés.
+                    Nos experts-es accompagnés d'invités-ées partagent leurs
+                    connaissances et leurs expériences sur des sujets variés.
                   </p>
                 </CardContent>
               </Card>
@@ -53,7 +54,9 @@ export default function About() {
                     Veille & Expertise
                   </h3>
                   <p className="text-white/70 leading-relaxed">
-                    La veille et le partage font partie de Zenika. Dans nos épisodes, nous partageons notre expertise et nos retours d'expérience sur des sujets variés et d'actualité.
+                    La veille et le partage font partie de Zenika. Dans nos
+                    épisodes, nous partageons notre expertise et nos retours
+                    d'expérience sur des sujets variés et d'actualité.
                   </p>
                 </CardContent>
               </Card>
@@ -67,7 +70,8 @@ export default function About() {
                     Diffusion
                   </h3>
                   <p className="text-white/70 leading-relaxed">
-                    Zenikast est disponible sur les principales plateformes de podcasts (Deezer, Spotify, Apple podcast) et sur Youtube.
+                    Zenikast est disponible sur les principales plateformes de
+                    podcasts (Deezer, Spotify, Apple podcast) et sur Youtube.
                   </p>
                 </CardContent>
               </Card>
@@ -75,7 +79,6 @@ export default function About() {
           </div>
         </div>
       </section>
-
     </Layout>
   );
 }

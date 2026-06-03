@@ -19,29 +19,34 @@ export default function Header() {
           >
             <div className="flex items-center text-2xl font-bold text-white">
               <span className="mr-2 opacity-90">🎙️</span>
-              <span>Zenikast<span className="text-brand-red">.</span></span>
+              <span>
+                Zenikast<span className="text-brand-red">.</span>
+              </span>
             </div>
           </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-12">
             {NAVIGATION_ITEMS.map((item) => {
-              const isActive = (item.href === "/" && window.location.pathname === "/") || 
-                               (item.href !== "/" && window.location.pathname.startsWith(item.href));
+              const isActive =
+                (item.href === "/" && window.location.pathname === "/") ||
+                (item.href !== "/" &&
+                  window.location.pathname.startsWith(item.href));
               return (
-              <Link
-                key={item.name}
-                to={item.href}
-                className={cn(
-                  "text-sm font-semibold transition-all duration-300",
-                  isActive 
-                    ? "text-white nav-active" 
-                    : "text-white/70 hover:text-white"
-                )}
-              >
-                {item.name}
-              </Link>
-            )})}
+                <Link
+                  key={item.name}
+                  to={item.href}
+                  className={cn(
+                    "text-sm font-semibold transition-all duration-300",
+                    isActive
+                      ? "text-white nav-active"
+                      : "text-white/70 hover:text-white",
+                  )}
+                >
+                  {item.name}
+                </Link>
+              );
+            })}
           </nav>
 
           {/* Spacer for right alignment if needed, or keeping buttons */}

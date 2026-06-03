@@ -4,12 +4,21 @@ import { Input } from "@/components/ui/input";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import Layout from "@/components/Layout";
-import { SAISON_4_EPISODES, SAISON_3_EPISODES, SAISON_2_EPISODES, SAISON_1_EPISODES } from "@/lib/constants";
+import {
+  SAISON_4_EPISODES,
+  SAISON_3_EPISODES,
+  SAISON_2_EPISODES,
+  SAISON_1_EPISODES,
+} from "@/lib/constants";
 import { Link } from "react-router-dom";
 
 export default function Episodes() {
-  const allEpisodes = [...SAISON_4_EPISODES, ...SAISON_3_EPISODES, ...SAISON_2_EPISODES, ...SAISON_1_EPISODES];
-
+  const allEpisodes = [
+    ...SAISON_4_EPISODES,
+    ...SAISON_3_EPISODES,
+    ...SAISON_2_EPISODES,
+    ...SAISON_1_EPISODES,
+  ];
 
   return (
     <Layout>
@@ -30,8 +39,8 @@ export default function Episodes() {
                     {/* Episode Artwork */}
                     <div className="w-[200px] h-[200px] flex-shrink-0 relative overflow-hidden rounded-[1.5rem] group cursor-pointer bg-black">
                       {episode.image ? (
-                        <img 
-                          src={episode.image} 
+                        <img
+                          src={episode.image}
                           alt={episode.title}
                           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                         />
@@ -70,8 +79,17 @@ export default function Episodes() {
 
                         <Button className="bg-[#2A2A2A] hover:bg-[#3A3A3A] text-white rounded-full px-6 py-5 transition-colors border border-white/10 flex items-center gap-2 font-semibold">
                           <span className="w-6 h-6 bg-white rounded-full flex items-center justify-center text-black">
-                            <svg width="10" height="12" viewBox="0 0 10 12" fill="none" className="ml-0.5">
-                              <path d="M9.5 5.13397C10.1667 5.51888 10.1667 6.48113 9.5 6.86603L1.25 11.6292C0.583334 12.0141 -4.16209e-08 11.533 -8.08376e-09 10.7631L3.35515e-07 1.23686C3.69032e-07 0.467061 0.583333 -0.0140643 1.25 0.370836L9.5 5.13397Z" fill="black"/>
+                            <svg
+                              width="10"
+                              height="12"
+                              viewBox="0 0 10 12"
+                              fill="none"
+                              className="ml-0.5"
+                            >
+                              <path
+                                d="M9.5 5.13397C10.1667 5.51888 10.1667 6.48113 9.5 6.86603L1.25 11.6292C0.583334 12.0141 -4.16209e-08 11.533 -8.08376e-09 10.7631L3.35515e-07 1.23686C3.69032e-07 0.467061 0.583333 -0.0140643 1.25 0.370836L9.5 5.13397Z"
+                                fill="black"
+                              />
                             </svg>
                           </span>
                           Voir Plus
@@ -98,8 +116,8 @@ export default function Episodes() {
                     {/* Episode Artwork */}
                     <div className="w-[200px] h-[200px] flex-shrink-0 relative overflow-hidden rounded-[1.5rem] group cursor-pointer bg-black">
                       {episode.image ? (
-                        <img 
-                          src={episode.image} 
+                        <img
+                          src={episode.image}
                           alt={episode.title}
                           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                         />
@@ -138,8 +156,17 @@ export default function Episodes() {
 
                         <Button className="bg-[#2A2A2A] hover:bg-[#3A3A3A] text-white rounded-full px-6 py-5 transition-colors border border-white/10 flex items-center gap-2 font-semibold">
                           <span className="w-6 h-6 bg-white rounded-full flex items-center justify-center text-black">
-                            <svg width="10" height="12" viewBox="0 0 10 12" fill="none" className="ml-0.5">
-                              <path d="M9.5 5.13397C10.1667 5.51888 10.1667 6.48113 9.5 6.86603L1.25 11.6292C0.583334 12.0141 -4.16209e-08 11.533 -8.08376e-09 10.7631L3.35515e-07 1.23686C3.69032e-07 0.467061 0.583333 -0.0140643 1.25 0.370836L9.5 5.13397Z" fill="black"/>
+                            <svg
+                              width="10"
+                              height="12"
+                              viewBox="0 0 10 12"
+                              fill="none"
+                              className="ml-0.5"
+                            >
+                              <path
+                                d="M9.5 5.13397C10.1667 5.51888 10.1667 6.48113 9.5 6.86603L1.25 11.6292C0.583334 12.0141 -4.16209e-08 11.533 -8.08376e-09 10.7631L3.35515e-07 1.23686C3.69032e-07 0.467061 0.583333 -0.0140643 1.25 0.370836L9.5 5.13397Z"
+                                fill="black"
+                              />
                             </svg>
                           </span>
                           Voir Plus
@@ -166,8 +193,8 @@ export default function Episodes() {
                     {/* Episode Artwork */}
                     <div className="w-[200px] h-[200px] flex-shrink-0 relative overflow-hidden rounded-[1.5rem] group cursor-pointer bg-black">
                       {episode.image ? (
-                        <img 
-                          src={episode.image} 
+                        <img
+                          src={episode.image}
                           alt={episode.title}
                           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                         />
@@ -206,8 +233,17 @@ export default function Episodes() {
 
                         <Button className="bg-[#2A2A2A] hover:bg-[#3A3A3A] text-white rounded-full px-6 py-5 transition-colors border border-white/10 flex items-center gap-2 font-semibold">
                           <span className="w-6 h-6 bg-white rounded-full flex items-center justify-center text-black">
-                            <svg width="10" height="12" viewBox="0 0 10 12" fill="none" className="ml-0.5">
-                              <path d="M9.5 5.13397C10.1667 5.51888 10.1667 6.48113 9.5 6.86603L1.25 11.6292C0.583334 12.0141 -4.16209e-08 11.533 -8.08376e-09 10.7631L3.35515e-07 1.23686C3.69032e-07 0.467061 0.583333 -0.0140643 1.25 0.370836L9.5 5.13397Z" fill="black"/>
+                            <svg
+                              width="10"
+                              height="12"
+                              viewBox="0 0 10 12"
+                              fill="none"
+                              className="ml-0.5"
+                            >
+                              <path
+                                d="M9.5 5.13397C10.1667 5.51888 10.1667 6.48113 9.5 6.86603L1.25 11.6292C0.583334 12.0141 -4.16209e-08 11.533 -8.08376e-09 10.7631L3.35515e-07 1.23686C3.69032e-07 0.467061 0.583333 -0.0140643 1.25 0.370836L9.5 5.13397Z"
+                                fill="black"
+                              />
                             </svg>
                           </span>
                           Voir Plus
@@ -234,8 +270,8 @@ export default function Episodes() {
                     {/* Episode Artwork */}
                     <div className="w-[200px] h-[200px] flex-shrink-0 relative overflow-hidden rounded-[1.5rem] group cursor-pointer bg-black">
                       {episode.image ? (
-                        <img 
-                          src={episode.image} 
+                        <img
+                          src={episode.image}
                           alt={episode.title}
                           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                         />
@@ -274,8 +310,17 @@ export default function Episodes() {
 
                         <Button className="bg-[#2A2A2A] hover:bg-[#3A3A3A] text-white rounded-full px-6 py-5 transition-colors border border-white/10 flex items-center gap-2 font-semibold">
                           <span className="w-6 h-6 bg-white rounded-full flex items-center justify-center text-black">
-                            <svg width="10" height="12" viewBox="0 0 10 12" fill="none" className="ml-0.5">
-                              <path d="M9.5 5.13397C10.1667 5.51888 10.1667 6.48113 9.5 6.86603L1.25 11.6292C0.583334 12.0141 -4.16209e-08 11.533 -8.08376e-09 10.7631L3.35515e-07 1.23686C3.69032e-07 0.467061 0.583333 -0.0140643 1.25 0.370836L9.5 5.13397Z" fill="black"/>
+                            <svg
+                              width="10"
+                              height="12"
+                              viewBox="0 0 10 12"
+                              fill="none"
+                              className="ml-0.5"
+                            >
+                              <path
+                                d="M9.5 5.13397C10.1667 5.51888 10.1667 6.48113 9.5 6.86603L1.25 11.6292C0.583334 12.0141 -4.16209e-08 11.533 -8.08376e-09 10.7631L3.35515e-07 1.23686C3.69032e-07 0.467061 0.583333 -0.0140643 1.25 0.370836L9.5 5.13397Z"
+                                fill="black"
+                              />
                             </svg>
                           </span>
                           Voir Plus
@@ -287,8 +332,6 @@ export default function Episodes() {
               ))}
             </div>
           </div>
-
-
         </div>
       </section>
     </Layout>

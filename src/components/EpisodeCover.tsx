@@ -9,15 +9,23 @@ interface EpisodeCoverProps {
   className?: string;
 }
 
-const EpisodeCover = ({ title, commentedBy, guests, image, className }: EpisodeCoverProps) => {
+const EpisodeCover = ({
+  title,
+  commentedBy,
+  guests,
+  image,
+  className,
+}: EpisodeCoverProps) => {
   return (
-    <div className={`relative aspect-square rounded-3xl overflow-hidden bg-[#1A0A0A] border border-white/10 group cursor-pointer ${className}`}>
+    <div
+      className={`relative aspect-square rounded-3xl overflow-hidden bg-[#1A0A0A] border border-white/10 group cursor-pointer ${className}`}
+    >
       {/* Background */}
       {image ? (
-        <img 
-          src={image} 
-          alt={title} 
-          className="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:opacity-80 transition-opacity duration-500 group-hover:scale-105" 
+        <img
+          src={image}
+          alt={title}
+          className="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:opacity-80 transition-opacity duration-500 group-hover:scale-105"
         />
       ) : (
         <div className="absolute inset-0 opacity-20 group-hover:opacity-30 transition-opacity duration-500">
@@ -27,7 +35,9 @@ const EpisodeCover = ({ title, commentedBy, guests, image, className }: EpisodeC
       )}
 
       {/* Gradient overlay to ensure text readability if there's an image */}
-      {image && <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent z-0" />}
+      {image && (
+        <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent z-0" />
+      )}
 
       {/* Content */}
       <div className="absolute inset-0 p-8 flex flex-col justify-between z-10">

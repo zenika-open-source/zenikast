@@ -39,7 +39,7 @@ export const PODCAST_PLATFORMS = [
   },
 ] as const;
 
-import episodes from './episodes.json';
+import episodes from "./episodes.json";
 
 export const SAISON_4_EPISODES = episodes.saison4;
 export const SAISON_3_EPISODES = episodes.saison3;
@@ -54,15 +54,25 @@ const allEpisodes = [
 ];
 
 const months: Record<string, string> = {
-  "Janvier": "01", "Février": "02", "Mars": "03", "Avril": "04", "Mai": "05", "Juin": "06",
-  "Juillet": "07", "Août": "08", "Septembre": "09", "Octobre": "10", "Novembre": "11", "Décembre": "12"
+  Janvier: "01",
+  Février: "02",
+  Mars: "03",
+  Avril: "04",
+  Mai: "05",
+  Juin: "06",
+  Juillet: "07",
+  Août: "08",
+  Septembre: "09",
+  Octobre: "10",
+  Novembre: "11",
+  Décembre: "12",
 };
 
 const parseDate = (dateStr?: string) => {
   if (!dateStr) return 0;
   const parts = dateStr.split(" ");
   if (parts.length === 3) {
-    const day = parts[0].padStart(2, '0');
+    const day = parts[0].padStart(2, "0");
     const month = months[parts[1]] || "01";
     const year = parts[2];
     return new Date(`${year}-${month}-${day}T00:00:00Z`).getTime();
@@ -74,7 +84,6 @@ export const FEATURED_EPISODE = [...allEpisodes].sort((a, b) => {
   if (a.season !== b.season) return b.season - a.season;
   return b.id - a.id;
 })[0];
-
 
 export const SOCIAL_LINKS = [
   {

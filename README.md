@@ -31,17 +31,20 @@ Zenikast is a modern web application designed for Zenika Nantes to manage and sh
 ### Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/zenika-open-source/zenikast.git
    cd zenikast
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    ```
 
 3. Start the development server:
+
    ```bash
    npm run dev
    ```
@@ -60,4 +63,5 @@ Zenikast is a modern web application designed for Zenika Nantes to manage and sh
 - `public`: Static assets (images, icons, etc.).
 
 ---
+
 Made with ❤️ by Zenika

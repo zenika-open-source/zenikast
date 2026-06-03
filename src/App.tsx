@@ -22,8 +22,24 @@ const App = () => (
           <Route path="/" element={<Index />} />
 
           {/* Episode detail routes */}
-          <Route path="/saison/:seasonId/episode/:episodeId" element={<><Index /><EpisodeDetail /></>} />
-          <Route path="/episodes/:seasonId/episode/:episodeId" element={<><Episodes /><EpisodeDetail /></>} />
+          <Route
+            path="/saison/:seasonId/episode/:episodeId"
+            element={
+              <>
+                <Index />
+                <EpisodeDetail />
+              </>
+            }
+          />
+          <Route
+            path="/episodes/:seasonId/episode/:episodeId"
+            element={
+              <>
+                <Episodes />
+                <EpisodeDetail />
+              </>
+            }
+          />
           <Route path="/episodes" element={<Episodes />} />
 
           <Route path="/about" element={<About />} />
