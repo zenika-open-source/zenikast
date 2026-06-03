@@ -80,12 +80,21 @@ export default function Index() {
                   </Link>
                 </div>
 
-                <div className="hidden md:flex justify-end pt-2">
+                <div className="hidden md:flex flex-col items-end gap-6">
                   <p className="text-lg text-white/60 font-medium italic">
                     {FEATURED_EPISODE.date
                       ? `Sorti le ${FEATURED_EPISODE.date}`
                       : "Nouvel épisode"}
                   </p>
+                  {FEATURED_EPISODE.image && (
+                    <div className="w-[200px] h-[200px] rounded-[1.5rem] overflow-hidden shadow-2xl border border-white/10 relative group">
+                      <img
+                        src={FEATURED_EPISODE.image}
+                        alt={FEATURED_EPISODE.title}
+                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                      />
+                    </div>
+                  )}
                 </div>
               </div>
             </div>
@@ -94,7 +103,7 @@ export default function Index() {
       </section>
 
       {/* Saison Sections with Tabs */}
-      <section className="bg-[#000000] py-12 min-h-screen">
+      <section className="bg-[#000000] py-12 pb-16">
         <div className="container mx-auto container-padding">
           <Tabs defaultValue={defaultTab} className="w-full">
             <div className="flex items-center justify-between mb-16 px-2">
