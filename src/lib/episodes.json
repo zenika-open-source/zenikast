@@ -5,8 +5,8 @@
       "title": "Biztrot Café #4 - IO IO IO",
       "description": "Lors de sa conférence annuelle Google I/O, Google a annoncé beaucoup (beaucoup) de nouveautés.",
       "longDescription": "Lors de sa conférence annuelle Google I/O, Google a annoncé beaucoup (beaucoup) de nouveautés.<br /><br />Podcast enregistré le 27/05/2026<br /><br />La transcription est disponible sur ce lien https://links.zenika.com/link/zenikast/biztrot-cafe/4<br /><br />Liens échangés pendant le live :<br /><br />https://io.google/2026/explore/google-keynote-1 <br />https://blog.google/innovation-and-ai/models-and-research/google-labs/pomelli-agentic-capabilities/<br />https://blog.google/products-and-platforms/products/workspace/workspace-updates/ <br />https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/ <br />https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/ <br />https://gemini.google/fr/overview/video-generation/ <br />https://antigravity.google/product/antigravity-cli <br />https://antigravity.google/product/antigravity-2 <br />https://developer.chrome.com/blog/html-in-canvas-origin-trial <br />https://developers.googleblog.com/all-the-news-from-the-google-io-2026-developer-keynote/ <br />https://www.kapa.ai/<br />https://amical.ai/<br />https://charm.land/<br />https://github.com/charmbracelet/bubbletea/ <br />https://github.com/charmbracelet/glow<br />https://github.com/charmbracelet/crush<br />https://github.com/tamboui/tamboui <br />https://stitch.withgoogle.com/",
-      "duration": "42 min",
-      "date": "28 Mai 2026",
+      "duration": "42'15",
+      "date": "27/05/2026",
       "status": "Disponible",
       "image": "/img/episodes/S4/BiztrotCafé-4.png",
       "season": 4,
@@ -33,8 +33,8 @@
     {
       "id": 3,
       "title": "Biztrot Café #3 - Layoffs again",
-      "description": "Pannes historiques et vagues de licenciements dans la tech.",
-      "duration": "31 min",
+      "description": "L'actualité n'est pas toujours rose. Dans ce podcast, Marian, Julien et Jean-Phi discutent des diverses pannes et phases de layoffs que doivent affronter des compagnies en mettant plus ou moins l'IA comme élément déclencheur ...",
+      "duration": "30'52",
       "status": "Disponible",
       "image": "/img/episodes/S4/BiztrotCafé-3.png",
       "season": 4,
@@ -58,13 +58,13 @@
       "deezerUrl": "https://deezer.com",
       "appleUrl": "https://apple.com",
       "date": "21 Mai 2026",
-      "longDescription": "L'actualité n'est pas toujours rose. Dans ce podcast, Marian, Julien et Jean-Phi discutent des diverses pannes et phases de layoffs que doivent affronter des compagnies en mettant plus ou moins l'IA comme élément déclencheur ...<br /><br />Podcast enregistré le 18/05/2026<br /><br />La transcription est disponible sur ce lien https://links.zenika.com/link/zenikast/biztrot-cafe/3<br /><br />Liens échangés pendant le live :<br /><br />https://www.reddit.com/r/github/comments/1rnvhs9/githubs_historic_downtime_scraped_and_plotted/?rdt=45834<br />https://froggit.fr/<br />https://blog.tangled.org/seed/ <br />https://mitchellh.com/writing/ghostty-leaving-github <br />https://pivot-to-ai.com/2026/05/12/gitlab-announces-ai-layoffs-stock-goes-down-9/ <br />https://about.gitlab.com/blog/gitlab-act-2/ <br />https://blog.cloudflare.com/fr-fr/building-for-the-future/<br />https://readuncut.com/the-ai-layoff-receipts/ <br />https://youtu.be/55pTFVoclvE?si=bWjyPeXLdgW8MjGt<br />https://x.com/anishmoonka/status/2054890468282900934?s=20<br />https://holmesgpt.dev/latest/#new-operator-mode-find-problems-247-in-the-background <br />https://github.com/oven-sh/bun/pull/30412 <br />https://www.waveterm.dev/"
+      "longDescription": "L'actualité n'est pas toujours rose. Dans ce podcast, Marian, Julien et Jean-Phi discutent des diverses pannes et phases de layoffs que doivent affronter des compagnies en mettant plus ou moins l'IA comme élément déclencheur ...<br /><br />Podcast enregistré le 18/05/2026<br /><br />"
     },
     {
       "id": 2,
       "title": "Biztrot Café #2 - IA Gen or not IA Gen ?",
-      "description": "L'utilisation raisonnée ou abusive de l'IA Gen dans la génération d'images.",
-      "duration": "61 min",
+      "description": "IA Gen or not IA Gen ? Accompagnée de notre invité, Aurélie Vache, Marian, Julien et Jean-Phi échangent sur l'utilisation raisonnée ou plus abusive de l'IA Gen dans la génération d'images.",
+      "duration": "1h01'18",
       "status": "Disponible",
       "image": "/img/episodes/S4/BiztrotCafé-2.png",
       "season": 4,
@@ -93,16 +93,16 @@
           "role": "Consultant DevOps - Zenika Lille"
         }
       ],
-      "date": "13 Mai 2026",
+      "date": "12/05/2026",
       "longDescription": "IA Gen or not IA Gen ? Accompagnée de notre invité, Aurélie Vache, Marian, Julien et Jean-Phi échangent sur l'utilisation raisonnée ou plus abusive de l'IA Gen dans la génération d'images.<br /><br />Podcast enregistré le 12/05/2026<br /><br />La transcription est disponible sur ce lien https://links.zenika.com/link/zenikast/biztrot-cafe/2<br /><br />Liens échangés pendant le live :<br /><br />- https://www.bloomberg.com/news/articles/2026-05-07/apple-s-camera-equipped-airpods-reach-advanced-testing-stage-in-ai-device-push<br />- https://www.zdnet.fr/pratique/jai-utilise-gemini-nano-banana-2-pour-creer-des-sketchnotes-voici-ce-qui-a-bien-fonctionne-et-ce-qui-a-tourne-au-comique-491797.htm <br />- https://www.pdnob.com/pdf-tips/how-to-create-sketchnotes-with-gemini.html<br />- https://glaforge.dev/posts/2026/04/02/creating-a-wikipedia-mcp-server-in-java-in-a-few-prompts/"
     },
     {
       "id": 1,
       "title": "Biztrot Café #1 - L'IA m'a ruiné",
-      "description": "Episode 1 de Biztrot Café.",
-      "longDescription": "Dans ce premier épisode, nous discutons de l'impact de l'IA sur nos métiers.\n\nEst-ce que l'IA va tous nous remplacer ou au contraire, est-ce une opportunité ?",
-      "duration": "45 min",
-      "date": "05 Mai 2026",
+      "description": "Marian, Julien et Jean-Philippe échangent sur l'augmentation des tarifs de l'usage de l'IA à travers quelques liens.",
+      "longDescription": "Marian, Julien et Jean-Philippe échangent sur l'augmentation des tarifs de l'usage de l'IA à travers quelques liens",
+      "duration": "24'05",
+      "date": "04/05/2026",
       "status": "Disponible",
       "image": "/img/episodes/S4/BiztrotCafé-1.png",
       "season": 4,
@@ -131,10 +131,10 @@
     {
       "id": 1,
       "title": "Opensource, dans les starting blocks pour l'Hacktoberfest",
-      "description": "Préparez-vous pour le mois mondial de contribution à l'open source !",
-      "longDescription": "Jean-Philippe Baconnais réunit nos experts internes Théophile Chenais, Benjamin Bourgeois et Guillaume Le Floch, ainsi que Benjamin Cavy de la MAIF, pour vous donner toutes les clés pour participer et contribuer avec succès à l'Hacktoberfest.",
-      "duration": "44 min",
-      "date": "28 Septembre 2025",
+      "description": "Dans cet épisode, nous profitons du démarrage de l'Hacktoberfest pour discuter autour de l'open source",
+      "longDescription": "Dans cet épisode, nous profitons du démarrage de l'Hacktoberfest pour discuter autour de l'open source<br/><br/>Podcast enregistré le 25/09/2025<br/><br/>Intervenants :<br/>- Benjamin Cavy, Développeur à la Maïf<br/>- Guillaume Le Floch, Directeur Technique chez Zenika<br/>- Benjamin Bourgeois, Développeur chez Zenika<br/>- Théophile Chenais, Full stack data chez Zenika <br/>- Jean-Philippe Baconnais, Consultant / Tech Lead chez Zenika<br/><br/>La transcription de cet épisode est disponible : https://links.zenika.com/link/zenikast/episode-1-s3<br/><br/>Les jingle son et video ont été réalisés par Jonathan Beaton de Classic Production (https://www.classic.productions/)",
+      "duration": "52'10",
+      "date": "25/09/2025",
       "status": "Disponible",
       "image": "/img/episodes/S2E1-opensource.png",
       "season": 3,
@@ -146,7 +146,7 @@
       "hostsList": [
         {
           "name": "Jean-Philippe Baconnais",
-          "role": "Directeur Technique - Zenika Nantes"
+          "role": "Consultant - Zenika Nantes"
         }
       ],
       "guestsList": [
@@ -170,13 +170,13 @@
     },
     {
       "id": 2,
-      "title": "Avoir plus de 45 ans dans la tech ! Quelle place et quels défis ?",
-      "description": "L'âgisme dans le secteur de la tech : retour d'expérience, opportunités et stéréotypes à déconstruire.",
-      "longDescription": "Safia Zouaoui anime une discussion nécessaire et inspirante sur la place des seniors dans la tech. Avec Matthias Dugué Cercy (Mads) côté Zenika, et nos invités externes Anne Laure de Boissieu et Kenny D, ils partagent leurs parcours, les défis rencontrés et la richesse de la transmission intergénérationnelle.",
-      "duration": "52 min",
-      "date": "14 Octobre 2025",
+      "title": "Avoir plus de 40 ans dans l'IT",
+      "description": "Dans cet épisode, nous partageons des retours d'expériences, des ressentis et des perspectives autour du fait d'avoir plus de 40 ans dans la tech.",
+      "longDescription": "Dans cet épisode, nous partageons des retours d'expériences, des ressentis et des perspectives autour du fait d'avoir plus de 40 ans dans la tech. <br /><br />Podcast enregistré le 24/10/2025<br /><br />Intervenants :<br />- Aude Lemar-Verrier, PO et Manager chez Fluid Topics<br />- Eric Daspet, leading software engineering teams chez Sanofi<br />- Matthias Dugué Cercy, Directeur technique chez Zenika<br />- Safia Zouaoui, Product manager chez Zenika <br /><br />La transcription de cet épisode est disponible : https://links.zenika.com/link/zenikast/episode-2-s3<br /><br />Les jingle son et vidéo ont été réalisés par Jonathan Beaton de Classic Production (https://www.classic.productions/)",
+      "duration": "41'41",
+      "date": "24/10/2025",
       "status": "Disponible",
-      "image": null,
+      "image": "/img/episodes/S3E2.png",
       "season": 3,
       "episodeNumber": 2,
       "spotifyUrl": "https://spotify.com",
@@ -208,11 +208,11 @@
       "id": 3,
       "title": "Dans les coulisses des référentiels Green IT",
       "description": "Comment éco-concevoir nos services numériques et réduire l'empreinte environnementale du web.",
-      "longDescription": "Raphaël Lemaire présente cet épisode essentiel consacré au GreenIT. Il y détaille les pratiques d'éco-conception logicielle aux côtés d'Anne Faubry (Designers Éthiques) et Renault Héluin (Green IT) pour sensibiliser et agir concrètement.",
-      "duration": "48 min",
-      "date": "28 Octobre 2025",
+      "longDescription": "Dans cet épisode, nous avons échangé sur :<br>- ☑️ La nature et l’histoire des référentiels d’écoconception : RGESN, RWEB et RWP en particulier  <br>- ⚙️ Comment les utiliser sur le terrain, avec des retours d’expérience<br>- 🆕 L’évolution de ces outils, avec notamment les consortium RGESN des designers éthiques <br>- 👮 L’évolution législative vers une meilleure prise en compte des impacts environnementaux <br><br>Podcast enregistré le 07/11/2025 <br /><br />Intervenants :<br/>- Anne Faubry - UX/UI designer indépendante chez Entrelas<br />- Renaud Héluin - Consultant chez Rhapsodies Conseil<br />- Raphaël Lemaire - Consultant chez Zenika<br/><br/>La transcription de cet épisode est disponible : https://links.zenika.com/link/zenikast/episode-3-s3<br/><br/>Les jingle son et vidéo ont été réalisés par Jonathan Beaton de Classic Production (https://www.classic.productions/)",
+      "duration": "50'38",
+      "date": "07/11/2025",
       "status": "Disponible",
-      "image": null,
+      "image": "/img/episodes/S3E3-GreenIT.png",
       "season": 3,
       "episodeNumber": 3,
       "spotifyUrl": "https://spotify.com",
@@ -238,11 +238,11 @@
     },
     {
       "id": 4,
-      "title": "Veille / bilan des nouveautés de l'année ?",
-      "description": "Le grand récapitulatif des technologies marquantes de l'année et notre bilan de veille.",
-      "longDescription": "Une rétrospective complète de l'année tech ! Animée par Jean-Philippe Baconnais, avec Julien Haumont pour Zenika, et nos invités de marque Aline Leroy et Camille Roux d'Human Coders, pour faire le tri entre les vraies révolutions et les simples effets de mode.",
-      "duration": "45 min",
-      "date": "11 Novembre 2025",
+      "title": "2025 : une année autour de l'IA, mais pas que",
+      "description": "Dans cet épisode, nous avons retracé l'année 2025 et discuté des évènements marquants de cette année.",
+      "longDescription": "Dans cet épisode, nous avons retracé l'année 2025 et discuté des évènements marquants de cette année. <br /><br />Podcast enregistré le 04/12/2025<br /><br />Intervenants :<br />- Aline Leroy, Développeuse chez Groupe Dadoun<br />- Camille Roux, Développeur et Fondateur de Human Coders <br />- Julien Haumont, Consultant Cloud DevOps chez Zenika Nantes<br />- Théophile Chenais, Consultant Data chez Zenika Nantes<br />- Jean-Philippe Baconnais, Consultant Dev / Tech Lead chez Zenika Nantes<br /><br />La transcription de cet épisode est disponible : https://links.zenika.com/link/zenikast/episode-3-s4<br /><br />Les jingle son et vidéo ont été réalisés par Jonathan Beaton de Classic Production (https://www.classic.productions/)",
+      "duration": "1h16'58",
+      "date": "04/12/2025",
       "status": "Disponible",
       "image": "/img/episodes/S3E4-bilan.png",
       "season": 3,
@@ -269,15 +269,19 @@
         {
           "name": "Camille Roux",
           "role": "Human Coders"
+        },
+        {
+          "name": "Théophile Chenais",
+          "role": "Consultant Data - Zenika"
         }
       ]
     },
     {
       "id": 5,
-      "title": "IA : Vision Zenika dans l'IA ? Un monde d'agent ?",
-      "description": "Où va l'intelligence artificielle ? Notre vision du futur dominé par les agents autonomes.",
-      "longDescription": "Dans cet épisode exceptionnel, nos experts internes Benjamin Bourgeois, Carl Azoury, Adrien Nortain et Maria-Eliza Paez partagent la vision stratégique de Zenika sur l'IA. Ils accueillent l'équipe de Renault et Renault Digital (Sophie Frechin, Anthony Vouillon et Pierre Houles) pour débattre du futur de la tech et de l'ère des agents autonomes.",
-      "duration": "50 min",
+      "title": "Un monde d'agents",
+      "description": "Pour ce premier épisode de l'année, nous avons échangé sur le cœur de la révolution de l'IA en 2025 : les agents ! Quels sont les défis techniques majeurs ? Les problématiques émergeantes ? Les enjeux concrets pour le monde de la Tech ?",
+      "longDescription": "Pour ce premier épisode de l'année, nous avons échangé sur le cœur de la révolution de l'IA en 2025 : les agents ! Quels sont les défis techniques majeurs ? Les problématiques émergeantes ? Les enjeux concrets pour le monde de la Tech ?<br /><br />Podcast enregistré le 18/01/2026<br /><br />Intervenants·es :<br />- Maria-Eliza Paez, Product Manager freelance<br />- Carl Azoury, CEO Zenika<br />- Adrien Nortain, CTO Zenika<br />- Benjamin Bourgeois, Développeur Zenika<br />- Jean-Philippe Baconnais, Consultant Tech Lead chez Zenika<br /><br />La transcription de cet épisode est disponible : https://links.zenika.com/link/zenikast/episode-3-s5<br /><br />Les jingle son et vidéo ont été réalisés par Jonathan Beaton de Classic Production (https://www.classic.productions/)",
+      "duration": "51'53",
       "date": "25 Novembre 2025",
       "status": "Disponible",
       "image": "/img/episodes/S3E5-agents_IA.png",
@@ -321,11 +325,11 @@
     },
     {
       "id": 6,
-      "title": "Dagger, la révolution de la CI/CD est en marche",
-      "description": "Découvrez comment Dagger transforme l'écriture, le test et l'exécution de vos pipelines CI/CD.",
-      "longDescription": "Julien Haumont anime cet épisode exceptionnel consacré à Dagger. Pour en parler, il reçoit le créateur de Docker et fondateur de Dagger, Solomon Hykes, ainsi que des utilisateurs experts en production : Vincent Maleze (Betclic), Vivien Maffet (Fastly) et Aymeric Martineau (Shodo).",
-      "duration": "40 min",
-      "date": "09 Décembre 2025",
+      "title": "Dagger, la révolution de la CI en route ?",
+      "description": "Dans cet épisode, nous échangeons avec nos invités autour de la CICD et plus particulièrement autour de Dagger, cet outil qui transforme vos pipelines en code, testable directement sur vos postes.",
+      "longDescription": "Dans cet épisode, nous échangeons avec nos invités autour de la CICD et plus particulièrement autour de Dagger, cet outil qui transforme vos pipelines en code, testable directement sur vos postes. <br /><br />Podcast enregistré le 18/02/2025<br /><br />Intervenants :<br />- Emeric Martineau, Développeur chez Shodo<br />- Solomon Hykes, Fondateur de Dagger<br />- Vincent Maffet, Ingénieur logiciel  chez Fastly<br />- Vivien Maleze, Platform engineer chez Ippon<br />- Jean-Philippe Baconnais, Consultant développeur/Tech Lead chez Zenika Nantes<br />- Julien Haumont, Consultant SRE chez Zenika Nantes<br /><br />La transcription de cet épisode est disponible : https://links.zenika.com/link/zenikast/episode-3-s6<br /><br />Les jingle son et vidéo ont été réalisés par Jonathan Beaton de Classic Production (https://www.classic.productions/)",
+      "duration": "1h20'39",
+      "date": "18/02/2025",
       "status": "Disponible",
       "image": "/img/episodes/S3E6-Dagger.png",
       "season": 3,
@@ -354,8 +358,12 @@
           "role": "Fastly"
         },
         {
-          "name": "Aymeric Martineau",
+          "name": "Emeric Martineau",
           "role": "Shodo"
+        },
+        {
+          "name": "Jean-Philippe Baconnais",
+          "role": "Consultant Tech Lead - Zenika Nantes"
         }
       ]
     }
