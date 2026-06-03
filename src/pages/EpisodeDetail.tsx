@@ -10,6 +10,14 @@ import {
 import { X, Mic } from "lucide-react";
 import { getAssetUrl } from "@/lib/utils";
 
+const linkify = (text: string) => {
+  if (!text) return "";
+  const urlRegex = /(https?:\/\/[^\s<]+)/g;
+  return text.replace(urlRegex, (url) => {
+    return `<a href="${url}" target="_blank" rel="noopener noreferrer" class="text-brand-red hover:underline">${url}</a>`;
+  });
+};
+
 export default function EpisodeDetail() {
   const { seasonId, episodeId } = useParams();
   const navigate = useNavigate();
@@ -152,11 +160,15 @@ export default function EpisodeDetail() {
             {episode.longDescription ? (
               <div
                 dangerouslySetInnerHTML={{
-                  __html: episode.longDescription.replace(/\n/g, "<br />"),
+                  __html: linkify(episode.longDescription.replace(/\n/g, "<br />")),
                 }}
               />
             ) : (
-              episode.description
+              <div
+                dangerouslySetInnerHTML={{
+                  __html: linkify(episode.description.replace(/\n/g, "<br />")),
+                }}
+              />
             )}
           </div>
 
