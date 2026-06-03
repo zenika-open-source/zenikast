@@ -41,10 +41,18 @@ export const PODCAST_PLATFORMS = [
 
 import episodes from "./episodes.json";
 
-export const SAISON_4_EPISODES = episodes.saison4;
-export const SAISON_3_EPISODES = episodes.saison3;
-export const SAISON_2_EPISODES = episodes.saison2;
-export const SAISON_1_EPISODES = episodes.saison1;
+export const SAISON_4_EPISODES = [...episodes.saison4].sort(
+  (a, b) => b.episodeNumber - a.episodeNumber,
+);
+export const SAISON_3_EPISODES = [...episodes.saison3].sort(
+  (a, b) => b.episodeNumber - a.episodeNumber,
+);
+export const SAISON_2_EPISODES = [...episodes.saison2].sort(
+  (a, b) => b.episodeNumber - a.episodeNumber,
+);
+export const SAISON_1_EPISODES = [...episodes.saison1].sort(
+  (a, b) => b.episodeNumber - a.episodeNumber,
+);
 
 const allEpisodes = [
   ...SAISON_4_EPISODES,
