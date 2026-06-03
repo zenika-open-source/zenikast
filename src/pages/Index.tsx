@@ -43,9 +43,9 @@ export default function Index() {
             loop
             playsInline
             className="w-full h-full object-cover opacity-60"
-            poster="/Zenikast_bg.png"
+            poster={getAssetUrl("/img/Zenikast_bg.png")}
           >
-            <source src="/Zenikast-intro.mp4" type="video/mp4" />
+            <source src={getAssetUrl("/Zenikast-intro.mp4")} type="video/mp4" />
           </video>
           {/* Overlay to ensure readability and match brand colors */}
           <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-black/20" />
