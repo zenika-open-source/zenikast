@@ -1,0 +1,742 @@
+{
+  "saison4": [
+    {
+      "id": 4,
+      "title": "Biztrot Café #4 - IO IO IO",
+      "description": "Lors de sa conférence annuelle Google I/O, Google a annoncé beaucoup (beaucoup) de nouveautés.",
+      "longDescription": "Lors de sa conférence annuelle Google I/O, Google a annoncé beaucoup (beaucoup) de nouveautés.",
+      "duration": "42'15",
+      "date": "27/05/2026",
+      "status": "Disponible",
+      "image": "/img/episodes/S4/BiztrotCafé-4.png",
+      "season": 4,
+      "episodeNumber": 4,
+      "spotifyUrl": "https://open.spotify.com/episode/5SW2sJvza2hAaBjpuOQGpS",
+      "youtubeUrl": "https://www.youtube.com/watch?v=PrwUwYRl51Y",
+      "deezerUrl": "https://www.deezer.com/fr/episode/885930861",
+      "appleUrl": "https://podcasts.apple.com/us/podcast/zenikast-biztrot-caf%C3%A9-4-io-io-io/id1750454113?i=1000770000992",
+      "hostsList": [
+        {
+          "name": "Jean-Philippe Baconnais",
+          "role": "Consultant & Directeur Technique - Zenika Nantes"
+        },
+        {
+          "name": "Julien Haumont",
+          "role": "Consultant DevOps - Zenika Nantes"
+        },
+        {
+          "name": "Marian Gappa",
+          "role": "Consultant DevOps - Zenika Lille"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Biztrot Café #3 - Layoffs again",
+      "description": "L'actualité n'est pas toujours rose. Dans ce podcast, Marian, Julien et Jean-Phi discutent des diverses pannes et phases de layoffs que doivent affronter des compagnies en mettant plus ou moins l'IA comme élément déclencheur ...",
+      "duration": "30'52",
+      "status": "Disponible",
+      "image": "/img/episodes/S4/BiztrotCafé-3.png",
+      "season": 4,
+      "episodeNumber": 3,
+      "hostsList": [
+        {
+          "name": "Jean-Philippe Baconnais",
+          "role": "Consultant & Directeur Technique - Zenika Nantes"
+        },
+        {
+          "name": "Julien Haumont",
+          "role": "Consultant DevOps - Zenika Nantes"
+        },
+        {
+          "name": "Marian Gappa",
+          "role": "Consultant DevOps - Zenika Lille"
+        }
+      ],
+      "youtubeUrl": "https://www.youtube.com/watch?v=Hf4NsCRkV_c",
+      "spotifyUrl": "https://open.spotify.com/episode/7N1rlux4OLcYIrhTgQVhoi",
+      "deezerUrl": "https://www.deezer.com/fr/episode/883474571",
+      "appleUrl": "https://podcasts.apple.com/us/podcast/zenikast-biztrot-caf%C3%A9-3-layoffs-again/id1750454113?i=1000768922850",
+      "date": "18/05/2026",
+      "longDescription": "L'actualité n'est pas toujours rose. Dans ce podcast, Marian, Julien et Jean-Phi discutent des diverses pannes et phases de layoffs que doivent affronter des compagnies en mettant plus ou moins l'IA comme élément déclencheur ...<br /><br />Podcast enregistré le 18/05/2026<br /><br />"
+    },
+    {
+      "id": 2,
+      "title": "Biztrot Café #2 - IA Gen or not IA Gen ?",
+      "description": "IA Gen or not IA Gen ? Accompagnée de notre invité, Aurélie Vache, Marian, Julien et Jean-Phi échangent sur l'utilisation raisonnée ou plus abusive de l'IA Gen dans la génération d'images.",
+      "duration": "1h01'18",
+      "status": "Disponible",
+      "image": "/img/episodes/S4/BiztrotCafé-2.png",
+      "season": 4,
+      "episodeNumber": 2,
+      "spotifyUrl": "https://open.spotify.com/episode/1ZJ1INcRrJP0KOEwuh7XTq",
+      "youtubeUrl": "https://www.youtube.com/watch?v=mtl-59PLkAo",
+      "deezerUrl": "https://www.deezer.com/fr/episode/881036281",
+      "appleUrl": "https://podcasts.apple.com/us/podcast/zenikast-biztrot-caf%C3%A9-2-ia-gen-or-not-ia-gen/id1750454113?i=1000767556648",
+      "guestsList": [
+        {
+          "name": "Aurélie Vache",
+          "role": "Developer Advocate chez OVH"
+        }
+      ],
+      "hostsList": [
+        {
+          "name": "Jean-Philippe Baconnais",
+          "role": "Consultant & Directeur Technique - Zenika Nantes"
+        },
+        {
+          "name": "Julien Haumont",
+          "role": "Consultant DevOps - Zenika Nantes"
+        },
+        {
+          "name": "Marian Gappa",
+          "role": "Consultant DevOps - Zenika Lille"
+        }
+      ],
+      "date": "12/05/2026",
+      "longDescription": "IA Gen or not IA Gen ? Accompagnée de notre invité, Aurélie Vache, Marian, Julien et Jean-Phi échangent sur l'utilisation raisonnée ou plus abusive de l'IA Gen dans la génération d'images.<br /><br />Podcast enregistré le 12/05/2026<br /><br />"
+    },
+    {
+      "id": 1,
+      "title": "Biztrot Café #1 - L'IA m'a ruiné",
+      "description": "Marian, Julien et Jean-Philippe échangent sur l'augmentation des tarifs de l'usage de l'IA à travers quelques liens.",
+      "longDescription": "Marian, Julien et Jean-Philippe échangent sur l'augmentation des tarifs de l'usage de l'IA à travers quelques liens",
+      "duration": "24'05",
+      "date": "04/05/2026",
+      "status": "Disponible",
+      "image": "/img/episodes/S4/BiztrotCafé-1.png",
+      "season": 4,
+      "episodeNumber": 1,
+      "spotifyUrl": "https://open.spotify.com/episode/2GwYI69RIt0kefY8Bt1Ckj",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WIDF2IEuM-0",
+      "deezerUrl": "https://www.deezer.com/fr/episode/877908961",
+      "appleUrl": "https://podcasts.apple.com/us/podcast/zenikast-biztrot-caf%C3%A9-1-lia-ma-ruin%C3%A9/id1750454113?i=1000766478918",
+      "hostsList": [
+        {
+          "name": "Jean-Philippe Baconnais",
+          "role": "Consultant & Directeur Technique - Zenika Nantes"
+        },
+        {
+          "name": "Julien Haumont",
+          "role": "Consultant DevOps - Zenika Nantes"
+        },
+        {
+          "name": "Marian Gappa",
+          "role": "Consultant DevOps - Zenika Lille"
+        }
+      ]
+    }
+  ],
+  "saison3": [
+    {
+      "id": 1,
+      "title": "Opensource, dans les starting blocks pour l'Hacktoberfest",
+      "description": "Dans cet épisode, nous profitons du démarrage de l'Hacktoberfest pour discuter autour de l'open source",
+      "longDescription": "Dans cet épisode, nous profitons du démarrage de l'Hacktoberfest pour discuter autour de l'open source<br/><br/>Podcast enregistré le 25/09/2025<br/><br/>Intervenants :<br/>- Benjamin Cavy, Développeur à la Maïf<br/>- Guillaume Le Floch, Directeur Technique chez Zenika<br/>- Benjamin Bourgeois, Développeur chez Zenika<br/>- Théophile Chenais, Full stack data chez Zenika <br/>- Jean-Philippe Baconnais, Consultant / Tech Lead chez Zenika<br/><br/>La transcription de cet épisode est disponible : https://links.zenika.com/link/zenikast/episode-1-s3<br/><br/>Les jingle son et video ont été réalisés par Jonathan Beaton de Classic Production (https://www.classic.productions/)",
+      "duration": "52'10",
+      "date": "25/09/2025",
+      "status": "Disponible",
+      "image": "/img/episodes/S2E1-opensource.png",
+      "season": 3,
+      "episodeNumber": 1,
+      "spotifyUrl": "https://open.spotify.com/episode/54Fcamtxrrod6OYPEvbF7N",
+      "youtubeUrl": "https://www.youtube.com/watch?v=glFB3k8rWGA",
+      "deezerUrl": "https://www.deezer.com/fr/episode/795502301",
+      "appleUrl": "https://podcasts.apple.com/us/podcast/zenikast-s03e01-opensource-dans-les-starting-blocks/id1750454113?i=1000729487520",
+      "hostsList": [
+        {
+          "name": "Jean-Philippe Baconnais",
+          "role": "Consultant - Zenika Nantes"
+        }
+      ],
+      "guestsList": [
+        {
+          "name": "Théophile Chenais",
+          "role": "Consultant - Zenika"
+        },
+        {
+          "name": "Benjamin Bourgeois",
+          "role": "Consultant - Zenika"
+        },
+        {
+          "name": "Guillaume Le Floch",
+          "role": "Consultant - Zenika"
+        },
+        {
+          "name": "Benjamin Cavy",
+          "role": "MAIF"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Avoir plus de 40 ans dans l'IT",
+      "description": "Dans cet épisode, nous partageons des retours d'expériences, des ressentis et des perspectives autour du fait d'avoir plus de 40 ans dans la tech.",
+      "longDescription": "Dans cet épisode, nous partageons des retours d'expériences, des ressentis et des perspectives autour du fait d'avoir plus de 40 ans dans la tech. <br /><br />Podcast enregistré le 24/10/2025<br /><br />Intervenants :<br />- Aude Lemar-Verrier, PO et Manager chez Fluid Topics<br />- Eric Daspet, leading software engineering teams chez Sanofi<br />- Matthias Dugué Cercy, Directeur technique chez Zenika<br />- Safia Zouaoui, Product manager chez Zenika <br /><br />La transcription de cet épisode est disponible : https://links.zenika.com/link/zenikast/episode-2-s3<br /><br />Les jingle son et vidéo ont été réalisés par Jonathan Beaton de Classic Production (https://www.classic.productions/)",
+      "duration": "41'41",
+      "date": "24/10/2025",
+      "status": "Disponible",
+      "image": "/img/episodes/S3E2.png",
+      "season": 3,
+      "episodeNumber": 2,
+      "spotifyUrl": "https://open.spotify.com/episode/49lQvSYKf3hgvbRxnK5J5i",
+      "youtubeUrl": "https://www.youtube.com/watch?v=6y2WHIYvYmg",
+      "deezerUrl": "https://www.deezer.com/fr/episode/808692822",
+      "appleUrl": "https://podcasts.apple.com/us/podcast/zenikast-s03e02-avoir-plus-de-40-ans-dans-lit/id1750454113?i=1000735547659",
+      "hostsList": [
+        {
+          "name": "Safia Zouaoui",
+          "role": "Consultante - Zenika"
+        }
+      ],
+      "guestsList": [
+        {
+          "name": "Matthias Dugué Cercy (Mads)",
+          "role": "Consultant - Zenika"
+        },
+        {
+          "name": "Anne Laure de Boissieu",
+          "role": "Consultante & Coach"
+        },
+        {
+          "name": "Kenny D",
+          "role": "Expert Tech"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Dans les coulisses des référentiels Green IT",
+      "description": "Comment éco-concevoir nos services numériques et réduire l'empreinte environnementale du web.",
+      "longDescription": "Dans cet épisode, nous avons échangé sur :<br>- ☑️ La nature et l’histoire des référentiels d’écoconception : RGESN, RWEB et RWP en particulier  <br>- ⚙️ Comment les utiliser sur le terrain, avec des retours d’expérience<br>- 🆕 L’évolution de ces outils, avec notamment les consortium RGESN des designers éthiques <br>- 👮 L’évolution législative vers une meilleure prise en compte des impacts environnementaux <br><br>Podcast enregistré le 07/11/2025 <br /><br />Intervenants :<br/>- Anne Faubry - UX/UI designer indépendante chez Entrelas<br />- Renaud Héluin - Consultant chez Rhapsodies Conseil<br />- Raphaël Lemaire - Consultant chez Zenika<br/><br/>La transcription de cet épisode est disponible : https://links.zenika.com/link/zenikast/episode-3-s3<br/><br/>Les jingle son et vidéo ont été réalisés par Jonathan Beaton de Classic Production (https://www.classic.productions/)",
+      "duration": "50'38",
+      "date": "07/11/2025",
+      "status": "Disponible",
+      "image": "/img/episodes/S3E3-GreenIT.png",
+      "season": 3,
+      "episodeNumber": 3,
+      "spotifyUrl": "https://open.spotify.com/episode/0MQu1x6GLgnRTULeaQRd3W",
+      "youtubeUrl": "https://www.youtube.com/watch?v=nzh-LN8gBZ4",
+      "deezerUrl": "https://www.deezer.com/fr/episode/813949312",
+      "appleUrl": "https://podcasts.apple.com/us/podcast/zenikast-s03e03-dans-les-coulisses-des-r%C3%A9f%C3%A9rentiels/id1750454113?i=1000737576189",
+      "hostsList": [
+        {
+          "name": "Raphaël Lemaire",
+          "role": "Consultant - Zenika"
+        }
+      ],
+      "guestsList": [
+        {
+          "name": "Anne Faubry",
+          "role": "Designers Éthiques"
+        },
+        {
+          "name": "Renault Héluin",
+          "role": "Green IT"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "2025 : une année autour de l'IA, mais pas que",
+      "description": "Dans cet épisode, nous avons retracé l'année 2025 et discuté des évènements marquants de cette année.",
+      "longDescription": "Dans cet épisode, nous avons retracé l'année 2025 et discuté des évènements marquants de cette année. <br /><br />Podcast enregistré le 04/12/2025<br /><br />Intervenants :<br />- Aline Leroy, Développeuse chez Groupe Dadoun<br />- Camille Roux, Développeur et Fondateur de Human Coders <br />- Julien Haumont, Consultant Cloud DevOps chez Zenika Nantes<br />- Théophile Chenais, Consultant Data chez Zenika Nantes<br />- Jean-Philippe Baconnais, Consultant Dev / Tech Lead chez Zenika Nantes<br /><br />La transcription de cet épisode est disponible : https://links.zenika.com/link/zenikast/episode-3-s4<br /><br />Les jingle son et vidéo ont été réalisés par Jonathan Beaton de Classic Production (https://www.classic.productions/)",
+      "duration": "1h16'58",
+      "date": "04/12/2025",
+      "status": "Disponible",
+      "image": "/img/episodes/S3E4-bilan.png",
+      "season": 3,
+      "episodeNumber": 4,
+      "spotifyUrl": "https://open.spotify.com/episode/3kTF4nRiitaqZ6EPFTNJUy",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ZK3-w_GUxtg",
+      "deezerUrl": "https://www.deezer.com/fr/episode/821037222",
+      "appleUrl": "https://podcasts.apple.com/us/podcast/zenikast-s03e04-2025-une-anne-e-autour-de-lia-mais-pas-que/id1750454113?i=1000740425554",
+      "hostsList": [
+        {
+          "name": "Jean-Philippe Baconnais",
+          "role": "Directeur Technique - Zenika Nantes"
+        }
+      ],
+      "guestsList": [
+        {
+          "name": "Julien Haumont",
+          "role": "Consultant DevOps - Zenika Nantes"
+        },
+        {
+          "name": "Aline Leroy",
+          "role": "Consultante Tech"
+        },
+        {
+          "name": "Camille Roux",
+          "role": "Human Coders"
+        },
+        {
+          "name": "Théophile Chenais",
+          "role": "Consultant Data - Zenika"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Un monde d'agents",
+      "description": "Pour ce premier épisode de l'année, nous avons échangé sur le cœur de la révolution de l'IA en 2025 : les agents ! Quels sont les défis techniques majeurs ? Les problématiques émergeantes ? Les enjeux concrets pour le monde de la Tech ?",
+      "longDescription": "Pour ce premier épisode de l'année, nous avons échangé sur le cœur de la révolution de l'IA en 2025 : les agents ! Quels sont les défis techniques majeurs ? Les problématiques émergeantes ? Les enjeux concrets pour le monde de la Tech ?<br /><br />Podcast enregistré le 18/01/2026<br /><br />Intervenants·es :<br />- Maria-Eliza Paez, Product Manager freelance<br />- Carl Azoury, CEO Zenika<br />- Adrien Nortain, CTO Zenika<br />- Benjamin Bourgeois, Développeur Zenika<br />- Jean-Philippe Baconnais, Consultant Tech Lead chez Zenika<br /><br />La transcription de cet épisode est disponible : https://links.zenika.com/link/zenikast/episode-3-s5<br /><br />Les jingle son et vidéo ont été réalisés par Jonathan Beaton de Classic Production (https://www.classic.productions/)",
+      "duration": "51'53",
+      "date": "25 Novembre 2025",
+      "status": "Disponible",
+      "image": "/img/episodes/S3E5-agents_IA.png",
+      "season": 3,
+      "episodeNumber": 5,
+      "spotifyUrl": "https://open.spotify.com/episode/60L2divCAxcmRbvXGVXhpB",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-zJs4z94N6M",
+      "deezerUrl": "https://www.deezer.com/fr/episode/833291762",
+      "appleUrl": "https://podcasts.apple.com/us/podcast/zenikast-s03e05-un-monde-dagents/id1750454113?i=1000745412494",
+      "hostsList": [],
+      "guestsList": [
+        {
+          "name": "Benjamin Bourgeois",
+          "role": "Consultant - Zenika"
+        },
+        {
+          "name": "Carl Azoury",
+          "role": "Consultant - Zenika"
+        },
+        {
+          "name": "Adrien Nortain",
+          "role": "Consultant - Zenika"
+        },
+        {
+          "name": "Maria-Eliza Paez",
+          "role": "Consultante - Zenika"
+        },
+        {
+          "name": "Sophie Frechin",
+          "role": "Renault"
+        },
+        {
+          "name": "Anthony Vouillon",
+          "role": "Renault"
+        },
+        {
+          "name": "Pierre Houles",
+          "role": "Renault Digital"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Dagger, la révolution de la CI en route ?",
+      "description": "Dans cet épisode, nous échangeons avec nos invités autour de la CICD et plus particulièrement autour de Dagger, cet outil qui transforme vos pipelines en code, testable directement sur vos postes.",
+      "longDescription": "Dans cet épisode, nous échangeons avec nos invités autour de la CICD et plus particulièrement autour de Dagger, cet outil qui transforme vos pipelines en code, testable directement sur vos postes. <br /><br />Podcast enregistré le 18/02/2025<br /><br />Intervenants :<br />- Emeric Martineau, Développeur chez Shodo<br />- Solomon Hykes, Fondateur de Dagger<br />- Vincent Maffet, Ingénieur logiciel  chez Fastly<br />- Vivien Maleze, Platform engineer chez Ippon<br />- Jean-Philippe Baconnais, Consultant développeur/Tech Lead chez Zenika Nantes<br />- Julien Haumont, Consultant SRE chez Zenika Nantes<br /><br />La transcription de cet épisode est disponible : https://links.zenika.com/link/zenikast/episode-3-s6<br /><br />Les jingle son et vidéo ont été réalisés par Jonathan Beaton de Classic Production (https://www.classic.productions/)",
+      "duration": "1h20'39",
+      "date": "18/02/2025",
+      "status": "Disponible",
+      "image": "/img/episodes/S3E6-Dagger.png",
+      "season": 3,
+      "episodeNumber": 6,
+      "spotifyUrl": "https://open.spotify.com/episode/0S44sAKup2hi7mNaLJsY6n",
+      "youtubeUrl": "https://www.youtube.com/watch?v=aBpfFwZqyHc",
+      "deezerUrl": "https://www.deezer.com/fr/episode/847646561",
+      "appleUrl": "https://podcasts.apple.com/us/podcast/zenikast-s03e06-dagger-la-r%C3%A9volution-de-la-ci-en-route/id1750454113?i=1000750661010",
+      "hostsList": [
+        {
+          "name": "Julien Haumont",
+          "role": "Consultant DevOps - Zenika Nantes"
+        }
+      ],
+      "guestsList": [
+        {
+          "name": "Solomon Hykes",
+          "role": "Dagger"
+        },
+        {
+          "name": "Vincent Maleze",
+          "role": "Betclic"
+        },
+        {
+          "name": "Vivien Maffet",
+          "role": "Fastly"
+        },
+        {
+          "name": "Emeric Martineau",
+          "role": "Shodo"
+        },
+        {
+          "name": "Jean-Philippe Baconnais",
+          "role": "Consultant Tech Lead - Zenika Nantes"
+        }
+      ]
+    }
+  ],
+  "saison2": [
+    {
+      "id": 1,
+      "title": "Approche produit, on adhère ou pas ?",
+      "description": "Dans cet épisode, nous nous sommes intéressés à l’impact de l’approche produit sur les organisations et les équipes.",
+      "longDescription": "Dans cet épisode, nous nous sommes intéressés à l’impact de l’approche produit sur les organisations et les équipes. <br /><br />Podcast enregistré le 14/03/2024. <br /><br />Intervenants : <br />- Claire Van de Voorde, CPO Indépendante & Product Coach <br />- Estelle Landry, Product Manager chez Pix <br />- Stephen Mehaut, Lead Dev chez Zenika <br />- Safia Zouaoui, Product Manager chez Zenika <br />La transcription de cet épisode est disponible : <br /><br />Les jingle son et video ont été réalisés par Jonathan Beaton de Classic Production (https: //www.classic.productions/)",
+      "duration": "47'58",
+      "date": "14/03/2024",
+      "status": "Disponible",
+      "image": "/img/episodes/S2E1-approche-produit.png",
+      "season": 2,
+      "episodeNumber": 1,
+      "spotifyUrl": "https://open.spotify.com/episode/2P64nxD0g4zp3eTixJjfgU",
+      "youtubeUrl": "https://www.youtube.com/watch?v=3bhCYv1TT18",
+      "deezerUrl": "https://www.deezer.com/fr/episode/736181851",
+      "appleUrl": "https://podcasts.apple.com/us/podcast/zenikast-s02e01-approche-produit-on-adh%C3%A8re-ou-pas/id1750454113?i=1000702031608",
+      "hostsList": [
+        {
+          "name": "Safia Zouaoui",
+          "role": "Consultante - Zenika"
+        }
+      ],
+      "guestsList": [
+        {
+          "name": "Mélanie Cordero",
+          "role": "Consultante - Zenika"
+        },
+        {
+          "name": "Stephen Mehaut",
+          "role": "Consultant - Zenika"
+        },
+        {
+          "name": "Estelle Landry",
+          "role": "Product Manager"
+        },
+        {
+          "name": "Claire Van de Voorde",
+          "role": "Product Manager"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Live au Devoxx France 25",
+      "description": "Lors de la 13ème édition du Devoxx France, plusieurs Zenika ont pu y participer en tant que spectateurs ou speakers. A cette occasion, Benjamin Bourgeois et Jean-Philippe Baconnais en ont profité pour enregistrer un épisode live pour vous donner l'ambiance de cette conférence à travers le ressenti de différentes personnes.",
+      "longDescription": "Lors de la 13ème édition du Devoxx France, plusieurs Zenika ont pu y participer en tant que spectateurs ou speakers. A cette occasion, Benjamin Bourgeois et Jean-Philippe Baconnais en ont profité pour enregistrer un épisode live pour vous donner l'ambiance de cette conférence à travers le ressenti de différentes personnes. <br /><br />Intervenants : <br />- Rémi Verchère (Accenture)<br />- Mos Amokhtari (Red Hat)<br />- Aymeric Weinbach (ZeCloud)<br />- Kévin Davin (Gradle)<br />- Océane Gillard (Zenika)<br />- Horacio Gonzales (Clever Cloud)<br />- Julien Briault (Deezer)<br />- Benjamin Bourgeois (Zenika)<br />- Jean-Philippe Baconnais (Zenika)<br /><br />La transcription de cet épisode est disponible : https: //links.zenika.com/link/zenikast/episode-devoxx-s2<br /><br />Les jingle son et video ont été réalisés par Jonathan Beaton de Classic Production (https: //www.classic.productions/)",
+      "duration": "27'57",
+      "date": "14/04/2025",
+      "status": "Disponible",
+      "image": "/img/episodes/S2E2-Live_devoxx.png",
+      "season": 2,
+      "episodeNumber": 2,
+      "spotifyUrl": "https://open.spotify.com/episode/0DzDhXOvV0662ZNWpl7GFf",
+      "youtubeUrl": "https://www.youtube.com/watch?v=6jsWD7kCfQw",
+      "deezerUrl": "https://www.deezer.com/fr/episode/742755241",
+      "appleUrl": "https://podcasts.apple.com/us/podcast/zenikast-s02ebonus-live-au-devoxx-france/id1750454113?i=1000704702450",
+      "hostsList": [
+        {
+          "name": "Benjamin Bourgeois",
+          "role": "Zenika"
+        },
+        {
+          "name": "Jean-Philippe Baconnais",
+          "role": "Zenika"
+        }
+      ],
+      "guestsList": [
+        {
+          "name": "Rémi Verchère",
+          "role": "Accenture"
+        },
+        {
+          "name": "Mos Amokhtari",
+          "role": "Red Hat"
+        },
+        {
+          "name": "Aymeric Weinbach",
+          "role": "ZeCloud"
+        },
+        {
+          "name": "Kévin Davin",
+          "role": "Gradle"
+        },
+        {
+          "name": "Océane Gillard",
+          "role": "Zenika"
+        },
+        {
+          "name": "Horacio Gonzales",
+          "role": "Clever Cloud"
+        },
+        {
+          "name": "Julien Briault",
+          "role": "Deezer"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Créer sa conférence Tech?",
+      "description": "Dans cet épisode, nous nous sommes intéressés aux coulisses des conférences tech.",
+      "longDescription": "Dans cet épisode, nous nous sommes intéressés aux coulisses des conférences tech.<br/><br/>Podcast enregistré le 13/03/2024.<br/><br/>Intervenants : <br/>- Margaux Pirat, co organisatrice du DevFest Lyon <br/>- Emmanuel Demey, co organisateur du DevLille <br/>- Julien Landuré, co organisateur du DevFest Nantes et de TechReady à Niort<br/>- Jean-François Garreau, co organisateur du DevFest Nantes<br/>- Alexandre Pacaud, co organisateur du DevQuest à Niort<br/><br/>La transcription de cet épisode est disponible : https: //links.zenika.com/link/zenikast/episode-2-s2 <br/><br/>Les jingle son et video ont été réalisés par Jonathan Beaton de Classic Production (https: //www.classic.productions/)",
+      "duration": "53'27",
+      "date": "11 Février 2025",
+      "status": "Disponible",
+      "image": "/img/episodes/S2E2-vignette.png",
+      "season": 2,
+      "episodeNumber": 3,
+      "spotifyUrl": "https://open.spotify.com/episode/6lzDve9XRNMuJzFdbM9FF1",
+      "youtubeUrl": "https://www.youtube.com/watch?v=9MuzZk6tMMk",
+      "deezerUrl": "https://link.deezer.com/s/33rT4RpVjIWZ3B8MRdRHi",
+      "appleUrl": "https://podcasts.apple.com/us/podcast/zenikast-s02e02-cr%C3%A9er-sa-conf%C3%A9rence-tech/id1750454113?i=1000705381932",
+      "hostsList": [
+        {
+          "name": "Jean-Philippe Baconnais",
+          "role": "Directeur Technique - Zenika Nantes"
+        }
+      ],
+      "guestsList": [
+        {
+          "name": "Alexandre Pacaud",
+          "role": "Zenika - Co organisateur du DevQuest"
+        },
+        {
+          "name": "Emmanuel Demey",
+          "role": "Consultant & Formateur - Co organisateur DevLille"
+        },
+        {
+          "name": "Margaux Pirat",
+          "role": "x - co organisatrice du DevFest Lyon"
+        },
+        {
+          "name": "Jean-François Garreau",
+          "role": "Sfeir - Co organisateur du DevFest Nantes"
+        },
+        {
+          "name": "Julien Landuré",
+          "role": "Zenika - Co organisateur du DevFest Nantes"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Être junior dans la tech",
+      "description": "Dans cet épisode, nous évoquons la 'juniorité' dans la tech, que l'on soit issue de formation tech ou d'une reconversion professionnelle.",
+      "longDescription": "Dans cet épisode, nous évoquons la 'juniorité' dans la tech, que l'on soit issue de formation tech ou d'une reconversion professionnelle.<br/><br/>Podcast enregistré le 23/05/2025.<br/><br/>Intervenants : <br/>- Johana Lavigne (Fricots)<br/>- Antoine Caron (Scaleway)<br/>- Théo Gianella (Zenika)<br/>- Mickaël Alves (Zenika) <br/><br/>La transcription de cet épisode est disponible : https://links.zenika.com/link/zenikast/episode-3-s2<br/><br/>Les jingle son et video ont été réalisés par Jonathan Beaton de Classic Production (https: //www.classic.productions/)",
+      "duration": "49'32",
+      "date": "23/05/2025",
+      "status": "Disponible",
+      "image": "/img/episodes/S1E4-Junior.png",
+      "season": 2,
+      "episodeNumber": 4,
+      "spotifyUrl": "https://open.spotify.com/episode/41mJ25fVQNBY9EQbCV6a1P",
+      "youtubeUrl": "https://www.youtube.com/watch?v=4yBqGEsjy2E",
+      "deezerUrl": "https://link.deezer.com/s/33rT4nM2i49t57uAqQ6gh",
+      "appleUrl": "https://podcasts.apple.com/us/podcast/zenikast-s02e03-etre-junior-dans-la-tech/id1750454113?i=1000710108146",
+      "hostsList": [
+        {
+          "name": "Mickaël Alves",
+          "role": "Consultant - Zenika"
+        }
+      ],
+      "guestsList": [
+        {
+          "name": "Théo Gianella",
+          "role": "Consultant - Zenika"
+        },
+        {
+          "name": "Jean-Philippe Baconnais",
+          "role": "Directeur Technique - Zenika Nantes"
+        },
+        {
+          "name": "Antoine Caron",
+          "role": "Expert Tech"
+        },
+        {
+          "name": "Johana Lavigne",
+          "role": "Coach Tech"
+        }
+      ]
+    }
+  ],
+  "saison1": [
+    {
+      "id": 4,
+      "title": "Les communautés IT",
+      "description": "Dans cet épisode, nous nous sommes intéressés aux communautés tech.",
+      "longDescription": "Dans cet épisode, nous nous sommes intéressés aux communautés tech.<br /><br />Podcast enregistré le 22/08/2024.<br /><br />Intervenants : <br />- Adriana Nava (Néosoft)<br />- Julien Landuré (Zenika)<br />- Mickaël Alves (Zenika)<br />- Lucas Audart (Zenika)<br />- Jean-Philippe Baconnais (Zenika)<br /><br />La transcription de cet épisode est disponible : https://links.zenika.com/link/zenikast/episode-4<br /><br />Les jingle son et video ont été réalisés par Jonathan Beaton de Classic Production (https://www.classic.productions/)",
+      "duration": "52 min",
+      "date": "17 Septembre 2024",
+      "status": "Disponible",
+      "image": "/img/episodes/S1E4.png",
+      "season": 1,
+      "episodeNumber": 4,
+      "spotifyUrl": "https://open.spotify.com/episode/3qXrrV4wCitoAUhmXBcM88",
+      "youtubeUrl": "https://www.youtube.com/watch?v=wtLd2ABm0Xs",
+      "deezerUrl": "https://www.deezer.com/fr/episode/670708531",
+      "appleUrl": "https://podcasts.apple.com/us/podcast/zenikast-s01e04-les-communaut%C3%A9s-it/id1750454113?i=1000669791692",
+      "hostsList": [
+        {
+          "name": "Julien Landuré",
+          "role": "Zenika"
+        },
+        {
+          "name": "Mickaël Alves",
+          "role": "Zenika"
+        },
+        {
+          "name": "Lucas Audart",
+          "role": "Zenika"
+        },
+        {
+          "name": "Jean-Philippe Baconnais",
+          "role": "Zenika"
+        }
+      ],
+      "guestsList": [
+        {
+          "name": "Adriana Nava",
+          "role": "Néosoft"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "La Hype Driven Development",
+      "description": "Dans cet épisode, nous nous sommes intéressés à la Hype Driven Development.",
+      "longDescription": "Dans cet épisode, nous nous sommes intéressés à la Hype Driven Development.<br /><br />Podcast enregistré le 25/07/2024.<br /><br />Intervenants : <br />- Hubert Sablonnière - Clever Cloud<br />- Mickaël Alves - Zenika<br />- Etienne Idoux - Zenika<br />- Lucas Audart - Zenika<br /><br />La transcription de cet épisode est disponible : https://links.zenika.com/link/zenikast/episode-3<br /><br />Les jingle son et video ont été réalisés par Jonathan Beaton de Classic Production (https://www.classic.productions/)",
+      "duration": "51'51",
+      "date": "22/08/2024",
+      "status": "Disponible",
+      "image": "/img/episodes/S1E3.png",
+      "season": 1,
+      "episodeNumber": 3,
+      "spotifyUrl": "https://open.spotify.com/episode/39LX0b34plhcYzUkMIUEaf",
+      "youtubeUrl": "https://www.youtube.com/watch?v=3tBFOo8Yjoo",
+      "deezerUrl": "https://www.deezer.com/fr/episode/663612321",
+      "appleUrl": "https://podcasts.apple.com/us/podcast/zenikast-s01e03-la-hype-driven-development/id1750454113?i=1000666221881",
+      "hostsList": [
+        {
+          "name": "Mickaël Alves",
+          "role": "Zenika"
+        },
+        {
+          "name": "Etienne Idoux",
+          "role": "Zenika"
+        },
+        {
+          "name": "Lucas Audart",
+          "role": "Zenika"
+        }
+      ],
+      "guestsList": [
+        {
+          "name": "Hubert Sablonnière",
+          "role": "Clever Cloud"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Les certifications dans l'IT",
+      "description": "Dans cet épisode, nous nous sommes intéressés aux certifications dans l'IT.",
+      "longDescription": "Dans cet épisode, nous nous sommes intéressés aux certifications dans l'IT.<br /><br />Podcast enregistré le 25/06/2024.<br /><br />Intervenants : <br />- Denis Germain - Staff SRE - Lucca<br />- Bodo Razakalalao - Archi solutions  - Zenika<br />- Pierre-Yves Aillet - Consultant - Zenika<br />- Benjamin Bourgeois - Développeur  - Zenika<br />- Jean-Philippe Baconnais - Développeur | Tech Lead - Zenika<br /><br />La transcription de cet épisode est disponible : https://links.zenika.com/link/zenikast/episode-2<br /><br />Les jingle son et video ont été réalisés par Jonathan Beaton de Classic Production (https://www.classic.productions/)",
+      "duration": "36'54",
+      "date": "25/06/2024",
+      "status": "Disponible",
+      "image": "/img/episodes/S1E2.png",
+      "season": 1,
+      "episodeNumber": 2,
+      "spotifyUrl": "https://open.spotify.com/episode/3iEMyIxdmiLGJUOG0DeUZq",
+      "youtubeUrl": "https://www.youtube.com/watch?v=1GATdRtTN0g",
+      "deezerUrl": "https://www.deezer.com/fr/episode/654982951",
+      "appleUrl": "https://podcasts.apple.com/us/podcast/zenikast-s01e02-les-certifications-dans-lit/id1750454113?i=1000663295110",
+      "hostsList": [
+        {
+          "name": "Bodo Razakalalao",
+          "role": "Archi solutions - Zenika"
+        },
+        {
+          "name": "Pierre-Yves Aillet",
+          "role": "Consultant - Zenika"
+        },
+        {
+          "name": "Benjamin Bourgeois",
+          "role": "Développeur - Zenika"
+        },
+        {
+          "name": "Jean-Philippe Baconnais",
+          "role": "Développeur | Tech Lead - Zenika"
+        }
+      ],
+      "guestsList": [
+        {
+          "name": "Denis Germain",
+          "role": "Staff SRE - Lucca"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Intérêt de l'utilisation au quotidien de l'IA pour créer une app",
+      "description": "Dans cet épisode, nous nous sommes intéressés à l'usage au quotidien de l'IA pour créer des applications.",
+      "longDescription": "Dans cet épisode, nous nous sommes intéressés à l'usage au quotidien de l'IA pour créer des applications.<br /><br />Podcast enregistré le 20/06/2024.<br /><br />Intervenants : <br />- Tugdual Grall - Solutions Engineer - GitHub<br />- Clément Van Peuter - Développeur - Zenika<br />- Nirina Rabeson - Développeur Frontend - Zenika<br />- Vincent Jobard - Coach Agile/DevOps  - Zenika<br />- Jean-Philippe Baconnais - Développeur | Tech Lead - Zenika<br /><br />La transcription de cet épisode est disponible : https://links.zenika.com/link/zenikast/episode-1<br /><br />Les jingle son et video ont été réalisés par Jonathan Beaton de Classic Production (https://www.classic.productions/)",
+      "duration": "55'56",
+      "date": "20/06/2024",
+      "status": "Disponible",
+      "image": "/img/episodes/S1E1.png",
+      "season": 1,
+      "episodeNumber": 1,
+      "spotifyUrl": "https://open.spotify.com/episode/62OMT3EM5iElgK7pAUH3Sz",
+      "youtubeUrl": "https://www.youtube.com/watch?v=xGEa_m51lsc",
+      "deezerUrl": "https://www.deezer.com/fr/episode/647708412",
+      "appleUrl": "https://podcasts.apple.com/us/podcast/zenikast-s01e01-int%C3%A9r%C3%AAt-de-lutilisation-au-quotidien/id1750454113?i=1000660774978",
+      "hostsList": [
+        {
+          "name": "Clément Van Peuter",
+          "role": "Développeur - Zenika"
+        },
+        {
+          "name": "Nirina Rabeson",
+          "role": "Développeur Frontend - Zenika"
+        },
+        {
+          "name": "Vincent Jobard",
+          "role": "Coach Agile/DevOps - Zenika"
+        },
+        {
+          "name": "Jean-Philippe Baconnais",
+          "role": "Développeur | Tech Lead - Zenika"
+        }
+      ],
+      "guestsList": [
+        {
+          "name": "Tugdual Grall",
+          "role": "Solutions Engineer - GitHub"
+        }
+      ]
+    },
+    {
+      "id": 0,
+      "title": "Ep 0 - Présentation du projet",
+      "description": "L'épisode 0 de ce nouveau podcast made by Zenika.",
+      "longDescription": "L'épisode 0 de ce nouveau podcast made by Zenika.<br /><br />La transcription de cet épisode est disponible : https://links.zenika.com/link/zenikast/episode-0<br /><br />Les jingle son et video ont été réalisés par Jonathan Beaton de Classic Production (https://www.classic.productions/)",
+      "duration": "7'25",
+      "date": "24/06/2024",
+      "status": "Disponible",
+      "image": "/img/episodes/S1E0.png",
+      "season": 1,
+      "episodeNumber": 0,
+      "spotifyUrl": "https://open.spotify.com/episode/5fARHGhfVS0tHUZMPAnHqI",
+      "youtubeUrl": "https://www.youtube.com/watch?v=5XsmZ9Ixcjg",
+      "deezerUrl": "https://www.deezer.com/fr/episode/641923652",
+      "appleUrl": "https://podcasts.apple.com/us/podcast/zenikast-s01e00-pr%C3%A9sentation-du-projet/id1750454113?i=1000658923782",
+      "hostsList": [
+        {
+          "name": "Alex Palma",
+          "role": "Zenika"
+        },
+        {
+          "name": "Benjamin Bourgeois",
+          "role": "Zenika"
+        },
+        {
+          "name": "Jean-Philippe Baconnais",
+          "role": "Zenika"
+        }
+      ],
+      "guestsList": []
+    }
+  ]
+}
