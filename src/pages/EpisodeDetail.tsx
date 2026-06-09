@@ -53,8 +53,8 @@ export default function EpisodeDetail() {
   return (
     <Dialog open={isOpen} onOpenChange={handleClose}>
       <DialogOverlay className="bg-black/60 backdrop-blur-sm" />
-      <DialogContent className="max-w-[840px] p-0 bg-[#221e1f] border-none rounded-[2rem] overflow-hidden text-white data-[state=open]:duration-300">
-        <div className="flex flex-col h-full bg-[#1e1a1b] p-8 pb-10">
+      <DialogContent className="max-w-[840px] w-[95vw] p-0 bg-[#1e1a1b] border-none rounded-[2rem] overflow-y-auto scrollbar-hide text-white data-[state=open]:duration-300 max-h-[90vh]">
+        <div className="flex flex-col p-6 sm:p-8 pb-10">
           {/* Header section with image and title */}
           <div className="flex flex-col sm:flex-row gap-8 mb-8">
             <div className="w-[200px] h-[200px] flex-shrink-0 relative overflow-hidden rounded-[1.5rem] bg-black">
@@ -74,7 +74,7 @@ export default function EpisodeDetail() {
             </div>
 
             <div className="flex-1 flex flex-col justify-center">
-              <div className="text-brand-red mb-3">
+              <div className="text-[#D64F68] mb-3">
                 <span className="text-white/60">Saison {episode.season}</span>{" "}
                 <span className="mx-2 text-white/40">›</span>{" "}
                 <span className="font-semibold">

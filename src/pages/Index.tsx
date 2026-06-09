@@ -107,77 +107,76 @@ export default function Index() {
       <section className="bg-[#000000] py-12 pb-16">
         <div className="container mx-auto container-padding">
           <Tabs defaultValue={defaultTab} className="w-full">
-            <div className="flex items-center justify-between mb-16 px-2">
+            <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-12 md:mb-16 px-2 overflow-hidden">
               <h2 className="text-4xl font-bold text-white tracking-tighter">
                 Épisodes
               </h2>
-              <TabsList className="bg-white/5 border border-white/10 p-1 h-12 rounded-full">
-                <TabsTrigger
-                  value="saison-4"
-                  className="rounded-full px-8 h-10 data-[state=active]:bg-white data-[state=active]:text-black text-white/70 font-bold transition-all"
-                >
-                  Saison 4
-                </TabsTrigger>
-                <TabsTrigger
-                  value="saison-3"
-                  className="rounded-full px-8 h-10 data-[state=active]:bg-white data-[state=active]:text-black text-white/70 font-bold transition-all"
-                >
-                  Saison 3
-                </TabsTrigger>
-                <TabsTrigger
-                  value="saison-2"
-                  className="rounded-full px-8 h-10 data-[state=active]:bg-white data-[state=active]:text-black text-white/70 font-bold transition-all"
-                >
-                  Saison 2
-                </TabsTrigger>
-                <TabsTrigger
-                  value="saison-1"
-                  className="rounded-full px-8 h-10 data-[state=active]:bg-white data-[state=active]:text-black text-white/70 font-bold transition-all"
-                >
-                  Saison 1
-                </TabsTrigger>
-              </TabsList>
+              <div className="w-full md:w-auto overflow-x-auto scrollbar-hide pb-2 md:pb-0 -mb-2 md:mb-0">
+                <TabsList className="bg-white/5 border border-white/10 p-1 h-12 rounded-full inline-flex w-max md:w-auto">
+                  <TabsTrigger
+                    value="saison-1"
+                    className="rounded-full px-5 sm:px-8 h-10 data-[state=active]:bg-white data-[state=active]:text-black text-white/70 font-bold transition-all"
+                  >
+                    Saison 1
+                  </TabsTrigger>
+                  <TabsTrigger
+                    value="saison-2"
+                    className="rounded-full px-5 sm:px-8 h-10 data-[state=active]:bg-white data-[state=active]:text-black text-white/70 font-bold transition-all"
+                  >
+                    Saison 2
+                  </TabsTrigger>
+                  <TabsTrigger
+                    value="saison-3"
+                    className="rounded-full px-5 sm:px-8 h-10 data-[state=active]:bg-white data-[state=active]:text-black text-white/70 font-bold transition-all"
+                  >
+                    Saison 3
+                  </TabsTrigger>
+                  <TabsTrigger
+                    value="saison-4"
+                    className="rounded-full px-5 sm:px-8 h-10 data-[state=active]:bg-white data-[state=active]:text-black text-white/70 font-bold transition-all"
+                  >
+                    Saison 4
+                  </TabsTrigger>
+                </TabsList>
+              </div>
             </div>
 
             <TabsContent
               value="saison-4"
               className="mt-0 focus-visible:outline-none focus-visible:ring-0"
             >
-              <div className="flex overflow-x-auto pb-8 gap-6 scrollbar-hide snap-x">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 pb-4">
                 {SAISON_4_EPISODES.map((episode, index) => (
                   <Link
                     key={episode.id}
                     to={`/saison/${episode.season}/episode/${episode.id}`}
-                    className="flex-none w-[600px] h-[232px] bg-[#221e1f] border-none rounded-[2rem] overflow-hidden snap-start hover:bg-[#2a2527] transition-colors p-4 relative block"
+                    className="w-full bg-[#1A1A1A] border border-white/5 rounded-[1.5rem] overflow-hidden hover:bg-[#222222] transition-colors p-4 relative block"
                   >
-                    <div className="flex flex-row gap-6 h-full items-stretch">
+                    <div className="flex flex-row gap-6 h-full items-center">
                       {/* Episode Artwork */}
-                      <div className="w-[200px] h-[200px] flex-shrink-0 relative overflow-hidden rounded-[1.5rem] group cursor-pointer bg-black">
+                      <div className="w-[160px] h-[160px] flex-shrink-0 relative overflow-hidden rounded-[1rem] bg-black">
                         {episode.image ? (
                           <img
                             src={getAssetUrl(episode.image)}
                             alt={episode.title}
-                            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                            className="w-full h-full object-cover"
                           />
                         ) : (
                           <div className="w-full h-full bg-brand-red/20 flex items-center justify-center">
-                            <div className="w-20 h-20 bg-brand-red/30 rounded-2xl flex items-center justify-center">
-                              <Mic className="w-10 h-10 text-white" />
+                            <div className="w-16 h-16 bg-brand-red/30 rounded-2xl flex items-center justify-center">
+                              <Mic className="w-8 h-8 text-white" />
                             </div>
                           </div>
                         )}
-                        <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center z-20">
-                          <Mic className="w-12 h-12 text-white" />
-                        </div>
                       </div>
 
                       {/* Episode Info */}
-                      <div className="flex-1 py-1 pr-2 flex flex-col justify-between">
+                      <div className="flex-1 py-1 pr-2 flex flex-col h-[160px] justify-between">
                         <div>
-                          <div className="text-brand-red text-sm font-semibold mb-2">
+                          <div className="text-[#D64F68] text-sm font-semibold mb-2">
                             Épisode {episode.episodeNumber || index + 1}
                           </div>
-                          <h3 className="text-xl font-bold text-white mb-3 line-clamp-2 leading-tight">
+                          <h3 className="text-lg font-bold text-white mb-2 line-clamp-2 leading-tight">
                             {episode.title}
                           </h3>
                           <p className="text-white/60 text-sm line-clamp-2 leading-relaxed">
@@ -187,28 +186,10 @@ export default function Index() {
 
                         <div className="flex items-center justify-between mt-auto">
                           <div className="text-sm text-white/70 flex items-center gap-2">
-                            <span>À venir</span>
+                            <span>{episode.date || "À venir"}</span>
                             <span className="w-1 h-1 bg-white/40 rounded-full" />
-                            <span>Durée inconnue</span>
+                            <span>{episode.duration || "Durée inconnue"}</span>
                           </div>
-
-                          <Button className="bg-[#2A2A2A] hover:bg-[#3A3A3A] text-white rounded-full px-6 py-5 transition-colors border border-white/10 flex items-center gap-2 font-semibold">
-                            <span className="w-6 h-6 bg-white rounded-full flex items-center justify-center text-black">
-                              <svg
-                                width="10"
-                                height="12"
-                                viewBox="0 0 10 12"
-                                fill="none"
-                                className="ml-0.5"
-                              >
-                                <path
-                                  d="M9.5 5.13397C10.1667 5.51888 10.1667 6.48113 9.5 6.86603L1.25 11.6292C0.583334 12.0141 -4.16209e-08 11.533 -8.08376e-09 10.7631L3.35515e-07 1.23686C3.69032e-07 0.467061 0.583333 -0.0140643 1.25 0.370836L9.5 5.13397Z"
-                                  fill="black"
-                                />
-                              </svg>
-                            </span>
-                            Voir Plus
-                          </Button>
                         </div>
                       </div>
                     </div>
@@ -221,41 +202,38 @@ export default function Index() {
               value="saison-3"
               className="mt-0 focus-visible:outline-none focus-visible:ring-0"
             >
-              <div className="flex overflow-x-auto pb-8 gap-6 scrollbar-hide snap-x">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 pb-4">
                 {SAISON_3_EPISODES.map((episode, index) => (
                   <Link
                     key={episode.id}
                     to={`/saison/${episode.season}/episode/${episode.id}`}
-                    className="flex-none w-[600px] h-[232px] bg-[#221e1f] border-none rounded-[2rem] overflow-hidden snap-start hover:bg-[#2a2527] transition-colors p-4 relative block"
+                    className="w-full bg-[#1A1A1A] border border-white/5 rounded-[1.5rem] overflow-hidden hover:bg-[#222222] transition-colors p-4 relative block"
                   >
-                    <div className="flex flex-row gap-6 h-full items-stretch">
+                    <div className="flex flex-row gap-6 h-full items-center">
                       {/* Episode Artwork */}
-                      <div className="w-[200px] h-[200px] flex-shrink-0 relative overflow-hidden rounded-[1.5rem] group cursor-pointer bg-black">
+                      <div className="w-[160px] h-[160px] flex-shrink-0 relative overflow-hidden rounded-[1rem] bg-black">
                         {episode.image ? (
                           <img
                             src={getAssetUrl(episode.image)}
                             alt={episode.title}
-                            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                            className="w-full h-full object-cover"
                           />
                         ) : (
                           <div className="w-full h-full bg-brand-red/20 flex items-center justify-center">
-                            <div className="w-20 h-20 bg-brand-red/30 rounded-2xl flex items-center justify-center">
-                              <Mic className="w-10 h-10 text-white" />
+                            <div className="w-16 h-16 bg-brand-red/30 rounded-2xl flex items-center justify-center">
+                              <Mic className="w-8 h-8 text-white" />
                             </div>
                           </div>
                         )}
-                        <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center z-20">
-                          <Mic className="w-12 h-12 text-white" />
-                        </div>
                       </div>
 
                       {/* Episode Info */}
-                      <div className="flex-1 py-1 pr-2 flex flex-col justify-between">
+                      <div className="flex-1 py-1 pr-2 flex flex-col h-[160px] justify-between">
                         <div>
-                          <div className="text-brand-red text-sm font-semibold mb-2">
+                          <div className="text-[#D64F68] text-sm font-semibold mb-2">
                             Épisode {episode.episodeNumber || index + 1}
                           </div>
-                          <h3 className="text-xl font-bold text-white mb-3 line-clamp-2 leading-tight">
+                          <h3 className="text-lg font-bold text-white mb-2 line-clamp-2 leading-tight">
                             {episode.title}
                           </h3>
                           <p className="text-white/60 text-sm line-clamp-2 leading-relaxed">
@@ -265,28 +243,10 @@ export default function Index() {
 
                         <div className="flex items-center justify-between mt-auto">
                           <div className="text-sm text-white/70 flex items-center gap-2">
-                            <span>À venir</span>
+                            <span>{episode.date || "À venir"}</span>
                             <span className="w-1 h-1 bg-white/40 rounded-full" />
-                            <span>Durée inconnue</span>
+                            <span>{episode.duration || "Durée inconnue"}</span>
                           </div>
-
-                          <Button className="bg-[#2A2A2A] hover:bg-[#3A3A3A] text-white rounded-full px-6 py-5 transition-colors border border-white/10 flex items-center gap-2 font-semibold">
-                            <span className="w-6 h-6 bg-white rounded-full flex items-center justify-center text-black">
-                              <svg
-                                width="10"
-                                height="12"
-                                viewBox="0 0 10 12"
-                                fill="none"
-                                className="ml-0.5"
-                              >
-                                <path
-                                  d="M9.5 5.13397C10.1667 5.51888 10.1667 6.48113 9.5 6.86603L1.25 11.6292C0.583334 12.0141 -4.16209e-08 11.533 -8.08376e-09 10.7631L3.35515e-07 1.23686C3.69032e-07 0.467061 0.583333 -0.0140643 1.25 0.370836L9.5 5.13397Z"
-                                  fill="black"
-                                />
-                              </svg>
-                            </span>
-                            Voir Plus
-                          </Button>
                         </div>
                       </div>
                     </div>
@@ -299,41 +259,38 @@ export default function Index() {
               value="saison-2"
               className="mt-0 focus-visible:outline-none focus-visible:ring-0"
             >
-              <div className="flex overflow-x-auto pb-8 gap-6 scrollbar-hide snap-x">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 pb-4">
                 {SAISON_2_EPISODES.map((episode, index) => (
                   <Link
                     key={episode.id}
                     to={`/saison/${episode.season}/episode/${episode.id}`}
-                    className="flex-none w-[600px] h-[232px] bg-[#221e1f] border-none rounded-[2rem] overflow-hidden snap-start hover:bg-[#2a2527] transition-colors p-4 relative block"
+                    className="w-full bg-[#1A1A1A] border border-white/5 rounded-[1.5rem] overflow-hidden hover:bg-[#222222] transition-colors p-4 relative block"
                   >
-                    <div className="flex flex-row gap-6 h-full items-stretch">
+                    <div className="flex flex-row gap-6 h-full items-center">
                       {/* Episode Artwork */}
-                      <div className="w-[200px] h-[200px] flex-shrink-0 relative overflow-hidden rounded-[1.5rem] group cursor-pointer bg-black">
+                      <div className="w-[160px] h-[160px] flex-shrink-0 relative overflow-hidden rounded-[1rem] bg-black">
                         {episode.image ? (
                           <img
                             src={getAssetUrl(episode.image)}
                             alt={episode.title}
-                            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                            className="w-full h-full object-cover"
                           />
                         ) : (
                           <div className="w-full h-full bg-brand-red/20 flex items-center justify-center">
-                            <div className="w-20 h-20 bg-brand-red/30 rounded-2xl flex items-center justify-center">
-                              <Mic className="w-10 h-10 text-white" />
+                            <div className="w-16 h-16 bg-brand-red/30 rounded-2xl flex items-center justify-center">
+                              <Mic className="w-8 h-8 text-white" />
                             </div>
                           </div>
                         )}
-                        <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center z-20">
-                          <Mic className="w-12 h-12 text-white" />
-                        </div>
                       </div>
 
                       {/* Episode Info */}
-                      <div className="flex-1 py-1 pr-2 flex flex-col justify-between">
+                      <div className="flex-1 py-1 pr-2 flex flex-col h-[160px] justify-between">
                         <div>
-                          <div className="text-brand-red text-sm font-semibold mb-2">
+                          <div className="text-[#D64F68] text-sm font-semibold mb-2">
                             Épisode {episode.episodeNumber || index + 1}
                           </div>
-                          <h3 className="text-xl font-bold text-white mb-3 line-clamp-2 leading-tight">
+                          <h3 className="text-lg font-bold text-white mb-2 line-clamp-2 leading-tight">
                             {episode.title}
                           </h3>
                           <p className="text-white/60 text-sm line-clamp-2 leading-relaxed">
@@ -343,28 +300,10 @@ export default function Index() {
 
                         <div className="flex items-center justify-between mt-auto">
                           <div className="text-sm text-white/70 flex items-center gap-2">
-                            <span>À venir</span>
+                            <span>{episode.date || "À venir"}</span>
                             <span className="w-1 h-1 bg-white/40 rounded-full" />
-                            <span>Durée inconnue</span>
+                            <span>{episode.duration || "Durée inconnue"}</span>
                           </div>
-
-                          <Button className="bg-[#2A2A2A] hover:bg-[#3A3A3A] text-white rounded-full px-6 py-5 transition-colors border border-white/10 flex items-center gap-2 font-semibold">
-                            <span className="w-6 h-6 bg-white rounded-full flex items-center justify-center text-black">
-                              <svg
-                                width="10"
-                                height="12"
-                                viewBox="0 0 10 12"
-                                fill="none"
-                                className="ml-0.5"
-                              >
-                                <path
-                                  d="M9.5 5.13397C10.1667 5.51888 10.1667 6.48113 9.5 6.86603L1.25 11.6292C0.583334 12.0141 -4.16209e-08 11.533 -8.08376e-09 10.7631L3.35515e-07 1.23686C3.69032e-07 0.467061 0.583333 -0.0140643 1.25 0.370836L9.5 5.13397Z"
-                                  fill="black"
-                                />
-                              </svg>
-                            </span>
-                            Voir Plus
-                          </Button>
                         </div>
                       </div>
                     </div>
@@ -377,41 +316,38 @@ export default function Index() {
               value="saison-1"
               className="mt-0 focus-visible:outline-none focus-visible:ring-0"
             >
-              <div className="flex overflow-x-auto pb-8 gap-6 scrollbar-hide snap-x">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 pb-4">
                 {SAISON_1_EPISODES.map((episode, index) => (
                   <Link
                     key={episode.id}
                     to={`/saison/${episode.season}/episode/${episode.id}`}
-                    className="flex-none w-[600px] h-[232px] bg-[#221e1f] border-none rounded-[2rem] overflow-hidden snap-start hover:bg-[#2a2527] transition-colors p-4 relative block"
+                    className="w-full bg-[#1A1A1A] border border-white/5 rounded-[1.5rem] overflow-hidden hover:bg-[#222222] transition-colors p-4 relative block"
                   >
-                    <div className="flex flex-row gap-6 h-full items-stretch">
+                    <div className="flex flex-row gap-6 h-full items-center">
                       {/* Episode Artwork */}
-                      <div className="w-[200px] h-[200px] flex-shrink-0 relative overflow-hidden rounded-[1.5rem] group cursor-pointer bg-black">
+                      <div className="w-[160px] h-[160px] flex-shrink-0 relative overflow-hidden rounded-[1rem] bg-black">
                         {episode.image ? (
                           <img
                             src={getAssetUrl(episode.image)}
                             alt={episode.title}
-                            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                            className="w-full h-full object-cover"
                           />
                         ) : (
                           <div className="w-full h-full bg-brand-red/20 flex items-center justify-center">
-                            <div className="w-20 h-20 bg-brand-red/30 rounded-2xl flex items-center justify-center">
-                              <Mic className="w-10 h-10 text-white" />
+                            <div className="w-16 h-16 bg-brand-red/30 rounded-2xl flex items-center justify-center">
+                              <Mic className="w-8 h-8 text-white" />
                             </div>
                           </div>
                         )}
-                        <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center z-20">
-                          <Mic className="w-12 h-12 text-white" />
-                        </div>
                       </div>
 
                       {/* Episode Info */}
-                      <div className="flex-1 py-1 pr-2 flex flex-col justify-between">
+                      <div className="flex-1 py-1 pr-2 flex flex-col h-[160px] justify-between">
                         <div>
-                          <div className="text-brand-red text-sm font-semibold mb-2">
+                          <div className="text-[#D64F68] text-sm font-semibold mb-2">
                             Épisode {episode.episodeNumber || index + 1}
                           </div>
-                          <h3 className="text-xl font-bold text-white mb-3 line-clamp-2 leading-tight">
+                          <h3 className="text-lg font-bold text-white mb-2 line-clamp-2 leading-tight">
                             {episode.title}
                           </h3>
                           <p className="text-white/60 text-sm line-clamp-2 leading-relaxed">
@@ -421,28 +357,10 @@ export default function Index() {
 
                         <div className="flex items-center justify-between mt-auto">
                           <div className="text-sm text-white/70 flex items-center gap-2">
-                            <span>À venir</span>
+                            <span>{episode.date || "À venir"}</span>
                             <span className="w-1 h-1 bg-white/40 rounded-full" />
-                            <span>Durée inconnue</span>
+                            <span>{episode.duration || "Durée inconnue"}</span>
                           </div>
-
-                          <Button className="bg-[#2A2A2A] hover:bg-[#3A3A3A] text-white rounded-full px-6 py-5 transition-colors border border-white/10 flex items-center gap-2 font-semibold">
-                            <span className="w-6 h-6 bg-white rounded-full flex items-center justify-center text-black">
-                              <svg
-                                width="10"
-                                height="12"
-                                viewBox="0 0 10 12"
-                                fill="none"
-                                className="ml-0.5"
-                              >
-                                <path
-                                  d="M9.5 5.13397C10.1667 5.51888 10.1667 6.48113 9.5 6.86603L1.25 11.6292C0.583334 12.0141 -4.16209e-08 11.533 -8.08376e-09 10.7631L3.35515e-07 1.23686C3.69032e-07 0.467061 0.583333 -0.0140643 1.25 0.370836L9.5 5.13397Z"
-                                  fill="black"
-                                />
-                              </svg>
-                            </span>
-                            Voir Plus
-                          </Button>
                         </div>
                       </div>
                     </div>
