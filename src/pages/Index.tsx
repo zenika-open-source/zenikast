@@ -113,16 +113,10 @@ export default function Index() {
               </h2>
               <TabsList className="bg-white/5 border border-white/10 p-1 h-12 rounded-full">
                 <TabsTrigger
-                  value="saison-4"
+                  value="saison-1"
                   className="rounded-full px-8 h-10 data-[state=active]:bg-white data-[state=active]:text-black text-white/70 font-bold transition-all"
                 >
-                  Saison 4
-                </TabsTrigger>
-                <TabsTrigger
-                  value="saison-3"
-                  className="rounded-full px-8 h-10 data-[state=active]:bg-white data-[state=active]:text-black text-white/70 font-bold transition-all"
-                >
-                  Saison 3
+                  Saison 1
                 </TabsTrigger>
                 <TabsTrigger
                   value="saison-2"
@@ -131,10 +125,16 @@ export default function Index() {
                   Saison 2
                 </TabsTrigger>
                 <TabsTrigger
-                  value="saison-1"
+                  value="saison-3"
                   className="rounded-full px-8 h-10 data-[state=active]:bg-white data-[state=active]:text-black text-white/70 font-bold transition-all"
                 >
-                  Saison 1
+                  Saison 3
+                </TabsTrigger>
+                <TabsTrigger
+                  value="saison-4"
+                  className="rounded-full px-8 h-10 data-[state=active]:bg-white data-[state=active]:text-black text-white/70 font-bold transition-all"
+                >
+                  Saison 4
                 </TabsTrigger>
               </TabsList>
             </div>
@@ -152,12 +152,12 @@ export default function Index() {
                   >
                     <div className="flex flex-row gap-6 h-full items-center">
                       {/* Episode Artwork */}
-                      <div className="w-[160px] h-[160px] flex-shrink-0 relative overflow-hidden rounded-[1rem] group cursor-pointer bg-black">
+                      <div className="w-[160px] h-[160px] flex-shrink-0 relative overflow-hidden rounded-[1rem] bg-black">
                         {episode.image ? (
                           <img
                             src={getAssetUrl(episode.image)}
                             alt={episode.title}
-                            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                            className="w-full h-full object-cover"
                           />
                         ) : (
                           <div className="w-full h-full bg-brand-red/20 flex items-center justify-center">
@@ -166,9 +166,6 @@ export default function Index() {
                             </div>
                           </div>
                         )}
-                        <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center z-20">
-                          <Mic className="w-10 h-10 text-white" />
-                        </div>
                       </div>
 
                       {/* Episode Info */}
@@ -191,24 +188,6 @@ export default function Index() {
                             <span className="w-1 h-1 bg-white/40 rounded-full" />
                             <span>{episode.duration || "Durée inconnue"}</span>
                           </div>
-
-                          <Button className="bg-[#2A2A2A] hover:bg-[#3A3A3A] text-white rounded-full px-4 py-2 h-10 transition-colors border border-white/10 flex items-center gap-2 font-semibold text-sm">
-                            <span className="w-5 h-5 bg-white rounded-full flex items-center justify-center text-black">
-                              <svg
-                                width="8"
-                                height="10"
-                                viewBox="0 0 10 12"
-                                fill="none"
-                                className="ml-0.5"
-                              >
-                                <path
-                                  d="M9.5 5.13397C10.1667 5.51888 10.1667 6.48113 9.5 6.86603L1.25 11.6292C0.583334 12.0141 -4.16209e-08 11.533 -8.08376e-09 10.7631L3.35515e-07 1.23686C3.69032e-07 0.467061 0.583333 -0.0140643 1.25 0.370836L9.5 5.13397Z"
-                                  fill="black"
-                                />
-                              </svg>
-                            </span>
-                            Voir Plus
-                          </Button>
                         </div>
                       </div>
                     </div>
@@ -230,12 +209,12 @@ export default function Index() {
                   >
                     <div className="flex flex-row gap-6 h-full items-center">
                       {/* Episode Artwork */}
-                      <div className="w-[160px] h-[160px] flex-shrink-0 relative overflow-hidden rounded-[1rem] group cursor-pointer bg-black">
+                      <div className="w-[160px] h-[160px] flex-shrink-0 relative overflow-hidden rounded-[1rem] bg-black">
                         {episode.image ? (
                           <img
                             src={getAssetUrl(episode.image)}
                             alt={episode.title}
-                            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                            className="w-full h-full object-cover"
                           />
                         ) : (
                           <div className="w-full h-full bg-brand-red/20 flex items-center justify-center">
@@ -244,9 +223,6 @@ export default function Index() {
                             </div>
                           </div>
                         )}
-                        <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center z-20">
-                          <Mic className="w-10 h-10 text-white" />
-                        </div>
                       </div>
 
                       {/* Episode Info */}
@@ -269,24 +245,6 @@ export default function Index() {
                             <span className="w-1 h-1 bg-white/40 rounded-full" />
                             <span>{episode.duration || "Durée inconnue"}</span>
                           </div>
-
-                          <Button className="bg-[#2A2A2A] hover:bg-[#3A3A3A] text-white rounded-full px-4 py-2 h-10 transition-colors border border-white/10 flex items-center gap-2 font-semibold text-sm">
-                            <span className="w-5 h-5 bg-white rounded-full flex items-center justify-center text-black">
-                              <svg
-                                width="8"
-                                height="10"
-                                viewBox="0 0 10 12"
-                                fill="none"
-                                className="ml-0.5"
-                              >
-                                <path
-                                  d="M9.5 5.13397C10.1667 5.51888 10.1667 6.48113 9.5 6.86603L1.25 11.6292C0.583334 12.0141 -4.16209e-08 11.533 -8.08376e-09 10.7631L3.35515e-07 1.23686C3.69032e-07 0.467061 0.583333 -0.0140643 1.25 0.370836L9.5 5.13397Z"
-                                  fill="black"
-                                />
-                              </svg>
-                            </span>
-                            Voir Plus
-                          </Button>
                         </div>
                       </div>
                     </div>
@@ -308,12 +266,12 @@ export default function Index() {
                   >
                     <div className="flex flex-row gap-6 h-full items-center">
                       {/* Episode Artwork */}
-                      <div className="w-[160px] h-[160px] flex-shrink-0 relative overflow-hidden rounded-[1rem] group cursor-pointer bg-black">
+                      <div className="w-[160px] h-[160px] flex-shrink-0 relative overflow-hidden rounded-[1rem] bg-black">
                         {episode.image ? (
                           <img
                             src={getAssetUrl(episode.image)}
                             alt={episode.title}
-                            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                            className="w-full h-full object-cover"
                           />
                         ) : (
                           <div className="w-full h-full bg-brand-red/20 flex items-center justify-center">
@@ -322,9 +280,6 @@ export default function Index() {
                             </div>
                           </div>
                         )}
-                        <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center z-20">
-                          <Mic className="w-10 h-10 text-white" />
-                        </div>
                       </div>
 
                       {/* Episode Info */}
@@ -347,24 +302,6 @@ export default function Index() {
                             <span className="w-1 h-1 bg-white/40 rounded-full" />
                             <span>{episode.duration || "Durée inconnue"}</span>
                           </div>
-
-                          <Button className="bg-[#2A2A2A] hover:bg-[#3A3A3A] text-white rounded-full px-4 py-2 h-10 transition-colors border border-white/10 flex items-center gap-2 font-semibold text-sm">
-                            <span className="w-5 h-5 bg-white rounded-full flex items-center justify-center text-black">
-                              <svg
-                                width="8"
-                                height="10"
-                                viewBox="0 0 10 12"
-                                fill="none"
-                                className="ml-0.5"
-                              >
-                                <path
-                                  d="M9.5 5.13397C10.1667 5.51888 10.1667 6.48113 9.5 6.86603L1.25 11.6292C0.583334 12.0141 -4.16209e-08 11.533 -8.08376e-09 10.7631L3.35515e-07 1.23686C3.69032e-07 0.467061 0.583333 -0.0140643 1.25 0.370836L9.5 5.13397Z"
-                                  fill="black"
-                                />
-                              </svg>
-                            </span>
-                            Voir Plus
-                          </Button>
                         </div>
                       </div>
                     </div>
@@ -386,12 +323,12 @@ export default function Index() {
                   >
                     <div className="flex flex-row gap-6 h-full items-center">
                       {/* Episode Artwork */}
-                      <div className="w-[160px] h-[160px] flex-shrink-0 relative overflow-hidden rounded-[1rem] group cursor-pointer bg-black">
+                      <div className="w-[160px] h-[160px] flex-shrink-0 relative overflow-hidden rounded-[1rem] bg-black">
                         {episode.image ? (
                           <img
                             src={getAssetUrl(episode.image)}
                             alt={episode.title}
-                            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                            className="w-full h-full object-cover"
                           />
                         ) : (
                           <div className="w-full h-full bg-brand-red/20 flex items-center justify-center">
@@ -400,9 +337,6 @@ export default function Index() {
                             </div>
                           </div>
                         )}
-                        <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center z-20">
-                          <Mic className="w-10 h-10 text-white" />
-                        </div>
                       </div>
 
                       {/* Episode Info */}
@@ -425,24 +359,6 @@ export default function Index() {
                             <span className="w-1 h-1 bg-white/40 rounded-full" />
                             <span>{episode.duration || "Durée inconnue"}</span>
                           </div>
-
-                          <Button className="bg-[#2A2A2A] hover:bg-[#3A3A3A] text-white rounded-full px-4 py-2 h-10 transition-colors border border-white/10 flex items-center gap-2 font-semibold text-sm">
-                            <span className="w-5 h-5 bg-white rounded-full flex items-center justify-center text-black">
-                              <svg
-                                width="8"
-                                height="10"
-                                viewBox="0 0 10 12"
-                                fill="none"
-                                className="ml-0.5"
-                              >
-                                <path
-                                  d="M9.5 5.13397C10.1667 5.51888 10.1667 6.48113 9.5 6.86603L1.25 11.6292C0.583334 12.0141 -4.16209e-08 11.533 -8.08376e-09 10.7631L3.35515e-07 1.23686C3.69032e-07 0.467061 0.583333 -0.0140643 1.25 0.370836L9.5 5.13397Z"
-                                  fill="black"
-                                />
-                              </svg>
-                            </span>
-                            Voir Plus
-                          </Button>
                         </div>
                       </div>
                     </div>
