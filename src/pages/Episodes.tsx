@@ -62,7 +62,7 @@ export default function Episodes() {
                       {/* Episode Info */}
                       <div className="flex-1 py-1 pr-2 flex flex-col h-[160px] justify-between">
                         <div>
-                          <div className="text-brand-red text-sm font-semibold mb-2">
+                          <div className="text-[#D64F68] text-sm font-semibold mb-2">
                             Épisode {episode.episodeNumber || index + 1}
                           </div>
                           <h3 className="text-lg font-bold text-white mb-2 line-clamp-2 leading-tight">

@@ -107,36 +107,38 @@ export default function Index() {
       <section className="bg-[#000000] py-12 pb-16">
         <div className="container mx-auto container-padding">
           <Tabs defaultValue={defaultTab} className="w-full">
-            <div className="flex items-center justify-between mb-16 px-2">
+            <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-12 md:mb-16 px-2 overflow-hidden">
               <h2 className="text-4xl font-bold text-white tracking-tighter">
                 Épisodes
               </h2>
-              <TabsList className="bg-white/5 border border-white/10 p-1 h-12 rounded-full">
-                <TabsTrigger
-                  value="saison-1"
-                  className="rounded-full px-8 h-10 data-[state=active]:bg-white data-[state=active]:text-black text-white/70 font-bold transition-all"
-                >
-                  Saison 1
-                </TabsTrigger>
-                <TabsTrigger
-                  value="saison-2"
-                  className="rounded-full px-8 h-10 data-[state=active]:bg-white data-[state=active]:text-black text-white/70 font-bold transition-all"
-                >
-                  Saison 2
-                </TabsTrigger>
-                <TabsTrigger
-                  value="saison-3"
-                  className="rounded-full px-8 h-10 data-[state=active]:bg-white data-[state=active]:text-black text-white/70 font-bold transition-all"
-                >
-                  Saison 3
-                </TabsTrigger>
-                <TabsTrigger
-                  value="saison-4"
-                  className="rounded-full px-8 h-10 data-[state=active]:bg-white data-[state=active]:text-black text-white/70 font-bold transition-all"
-                >
-                  Saison 4
-                </TabsTrigger>
-              </TabsList>
+              <div className="w-full md:w-auto overflow-x-auto scrollbar-hide pb-2 md:pb-0 -mb-2 md:mb-0">
+                <TabsList className="bg-white/5 border border-white/10 p-1 h-12 rounded-full inline-flex w-max md:w-auto">
+                  <TabsTrigger
+                    value="saison-1"
+                    className="rounded-full px-5 sm:px-8 h-10 data-[state=active]:bg-white data-[state=active]:text-black text-white/70 font-bold transition-all"
+                  >
+                    Saison 1
+                  </TabsTrigger>
+                  <TabsTrigger
+                    value="saison-2"
+                    className="rounded-full px-5 sm:px-8 h-10 data-[state=active]:bg-white data-[state=active]:text-black text-white/70 font-bold transition-all"
+                  >
+                    Saison 2
+                  </TabsTrigger>
+                  <TabsTrigger
+                    value="saison-3"
+                    className="rounded-full px-5 sm:px-8 h-10 data-[state=active]:bg-white data-[state=active]:text-black text-white/70 font-bold transition-all"
+                  >
+                    Saison 3
+                  </TabsTrigger>
+                  <TabsTrigger
+                    value="saison-4"
+                    className="rounded-full px-5 sm:px-8 h-10 data-[state=active]:bg-white data-[state=active]:text-black text-white/70 font-bold transition-all"
+                  >
+                    Saison 4
+                  </TabsTrigger>
+                </TabsList>
+              </div>
             </div>
 
             <TabsContent
@@ -171,7 +173,7 @@ export default function Index() {
                       {/* Episode Info */}
                       <div className="flex-1 py-1 pr-2 flex flex-col h-[160px] justify-between">
                         <div>
-                          <div className="text-brand-red text-sm font-semibold mb-2">
+                          <div className="text-[#D64F68] text-sm font-semibold mb-2">
                             Épisode {episode.episodeNumber || index + 1}
                           </div>
                           <h3 className="text-lg font-bold text-white mb-2 line-clamp-2 leading-tight">
@@ -228,7 +230,7 @@ export default function Index() {
                       {/* Episode Info */}
                       <div className="flex-1 py-1 pr-2 flex flex-col h-[160px] justify-between">
                         <div>
-                          <div className="text-brand-red text-sm font-semibold mb-2">
+                          <div className="text-[#D64F68] text-sm font-semibold mb-2">
                             Épisode {episode.episodeNumber || index + 1}
                           </div>
                           <h3 className="text-lg font-bold text-white mb-2 line-clamp-2 leading-tight">
@@ -285,7 +287,7 @@ export default function Index() {
                       {/* Episode Info */}
                       <div className="flex-1 py-1 pr-2 flex flex-col h-[160px] justify-between">
                         <div>
-                          <div className="text-brand-red text-sm font-semibold mb-2">
+                          <div className="text-[#D64F68] text-sm font-semibold mb-2">
                             Épisode {episode.episodeNumber || index + 1}
                           </div>
                           <h3 className="text-lg font-bold text-white mb-2 line-clamp-2 leading-tight">
@@ -342,7 +344,7 @@ export default function Index() {
                       {/* Episode Info */}
                       <div className="flex-1 py-1 pr-2 flex flex-col h-[160px] justify-between">
                         <div>
-                          <div className="text-brand-red text-sm font-semibold mb-2">
+                          <div className="text-[#D64F68] text-sm font-semibold mb-2">
                             Épisode {episode.episodeNumber || index + 1}
                           </div>
                           <h3 className="text-lg font-bold text-white mb-2 line-clamp-2 leading-tight">

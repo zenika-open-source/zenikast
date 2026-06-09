@@ -3,7 +3,7 @@ import { SITE_CONFIG, NAVIGATION_ITEMS, SOCIAL_LINKS } from "@/lib/constants";
 
 export default function Footer() {
   return (
-    <footer className="bg-brand-dark border-t border-border">
+    <footer className="bg-brand-dark">
       <div className="container mx-auto container-padding">
         <div className="py-12">
           {/* Main Footer Content */}
@@ -39,7 +39,7 @@ export default function Footer() {
           </div>
 
           {/* Bottom Bar */}
-          <div className="mt-12 pt-8 border-t border-border">
+          <div className="mt-12 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
               <p className="text-sm text-muted-foreground">
                 © {new Date().getFullYear()} {SITE_CONFIG.name}. Tous droits

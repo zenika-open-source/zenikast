@@ -74,7 +74,7 @@ export default function EpisodeDetail() {
             </div>
 
             <div className="flex-1 flex flex-col justify-center">
-              <div className="text-brand-red mb-3">
+              <div className="text-[#D64F68] mb-3">
                 <span className="text-white/60">Saison {episode.season}</span>{" "}
                 <span className="mx-2 text-white/40">›</span>{" "}
                 <span className="font-semibold">
