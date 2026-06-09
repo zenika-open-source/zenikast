@@ -29,16 +29,16 @@ export default function Episodes() {
           {/* Saison 4 */}
           <div className="mb-16">
             <h2 className="text-4xl font-bold text-white mb-8">Saison 4</h2>
-            <div className="flex overflow-x-auto pb-8 gap-6 scrollbar-hide snap-x">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
               {SAISON_4_EPISODES.map((episode, index) => (
                 <Link
                   key={episode.id}
                   to={`/episodes/${episode.season}/episode/${episode.id}`}
-                  className="flex-none w-[600px] h-[232px] bg-[#221e1f] border-none rounded-[2rem] overflow-hidden snap-start hover:bg-[#2a2527] transition-colors p-4 relative block"
+                  className="w-full bg-[#1A1A1A] border border-white/5 rounded-[1.5rem] overflow-hidden hover:bg-[#222222] transition-colors p-4 relative block"
                 >
-                  <div className="flex flex-row gap-6 h-full items-stretch">
+                  <div className="flex flex-row gap-6 h-full items-center">
                     {/* Episode Artwork */}
-                    <div className="w-[200px] h-[200px] flex-shrink-0 relative overflow-hidden rounded-[1.5rem] group cursor-pointer bg-black">
+                    <div className="w-[160px] h-[160px] flex-shrink-0 relative overflow-hidden rounded-[1rem] group cursor-pointer bg-black">
                       {episode.image ? (
                         <img
                           src={getAssetUrl(episode.image)}
@@ -47,23 +47,23 @@ export default function Episodes() {
                         />
                       ) : (
                         <div className="w-full h-full bg-brand-red/20 flex items-center justify-center">
-                          <div className="w-20 h-20 bg-brand-red/30 rounded-2xl flex items-center justify-center">
-                            <Play className="w-10 h-10 text-white" />
+                          <div className="w-16 h-16 bg-brand-red/30 rounded-2xl flex items-center justify-center">
+                            <Play className="w-8 h-8 text-white" />
                           </div>
                         </div>
                       )}
                       <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center z-20">
-                        <Play className="w-12 h-12 text-white fill-white" />
+                        <Play className="w-10 h-10 text-white fill-white" />
                       </div>
                     </div>
 
                     {/* Episode Info */}
-                    <div className="flex-1 py-1 pr-2 flex flex-col justify-between">
+                    <div className="flex-1 py-1 pr-2 flex flex-col h-[160px] justify-between">
                       <div>
                         <div className="text-brand-red text-sm font-semibold mb-2">
                           Épisode {episode.episodeNumber || index + 1}
                         </div>
-                        <h3 className="text-xl font-bold text-white mb-3 line-clamp-2 leading-tight">
+                        <h3 className="text-lg font-bold text-white mb-2 line-clamp-2 leading-tight">
                           {episode.title}
                         </h3>
                         <p className="text-white/60 text-sm line-clamp-2 leading-relaxed">
@@ -73,16 +73,16 @@ export default function Episodes() {
 
                       <div className="flex items-center justify-between mt-auto">
                         <div className="text-sm text-white/70 flex items-center gap-2">
-                          <span>À venir</span>
+                          <span>{episode.date || "À venir"}</span>
                           <span className="w-1 h-1 bg-white/40 rounded-full" />
-                          <span>Durée inconnue</span>
+                          <span>{episode.duration || "Durée inconnue"}</span>
                         </div>
 
-                        <Button className="bg-[#2A2A2A] hover:bg-[#3A3A3A] text-white rounded-full px-6 py-5 transition-colors border border-white/10 flex items-center gap-2 font-semibold">
-                          <span className="w-6 h-6 bg-white rounded-full flex items-center justify-center text-black">
+                        <Button className="bg-[#2A2A2A] hover:bg-[#3A3A3A] text-white rounded-full px-4 py-2 h-10 transition-colors border border-white/10 flex items-center gap-2 font-semibold text-sm">
+                          <span className="w-5 h-5 bg-white rounded-full flex items-center justify-center text-black">
                             <svg
-                              width="10"
-                              height="12"
+                              width="8"
+                              height="10"
                               viewBox="0 0 10 12"
                               fill="none"
                               className="ml-0.5"
@@ -106,16 +106,16 @@ export default function Episodes() {
           {/* Saison 3 */}
           <div className="mb-16">
             <h2 className="text-4xl font-bold text-white mb-8">Saison 3</h2>
-            <div className="flex overflow-x-auto pb-8 gap-6 scrollbar-hide snap-x">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
               {SAISON_3_EPISODES.map((episode, index) => (
                 <Link
                   key={episode.id}
                   to={`/episodes/${episode.season}/episode/${episode.id}`}
-                  className="flex-none w-[600px] h-[232px] bg-[#221e1f] border-none rounded-[2rem] overflow-hidden snap-start hover:bg-[#2a2527] transition-colors p-4 relative block"
+                  className="w-full bg-[#1A1A1A] border border-white/5 rounded-[1.5rem] overflow-hidden hover:bg-[#222222] transition-colors p-4 relative block"
                 >
-                  <div className="flex flex-row gap-6 h-full items-stretch">
+                  <div className="flex flex-row gap-6 h-full items-center">
                     {/* Episode Artwork */}
-                    <div className="w-[200px] h-[200px] flex-shrink-0 relative overflow-hidden rounded-[1.5rem] group cursor-pointer bg-black">
+                    <div className="w-[160px] h-[160px] flex-shrink-0 relative overflow-hidden rounded-[1rem] group cursor-pointer bg-black">
                       {episode.image ? (
                         <img
                           src={getAssetUrl(episode.image)}
@@ -124,23 +124,23 @@ export default function Episodes() {
                         />
                       ) : (
                         <div className="w-full h-full bg-brand-red/20 flex items-center justify-center">
-                          <div className="w-20 h-20 bg-brand-red/30 rounded-2xl flex items-center justify-center">
-                            <Play className="w-10 h-10 text-white" />
+                          <div className="w-16 h-16 bg-brand-red/30 rounded-2xl flex items-center justify-center">
+                            <Play className="w-8 h-8 text-white" />
                           </div>
                         </div>
                       )}
                       <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center z-20">
-                        <Play className="w-12 h-12 text-white fill-white" />
+                        <Play className="w-10 h-10 text-white fill-white" />
                       </div>
                     </div>
 
                     {/* Episode Info */}
-                    <div className="flex-1 py-1 pr-2 flex flex-col justify-between">
+                    <div className="flex-1 py-1 pr-2 flex flex-col h-[160px] justify-between">
                       <div>
                         <div className="text-brand-red text-sm font-semibold mb-2">
                           Épisode {episode.episodeNumber || index + 1}
                         </div>
-                        <h3 className="text-xl font-bold text-white mb-3 line-clamp-2 leading-tight">
+                        <h3 className="text-lg font-bold text-white mb-2 line-clamp-2 leading-tight">
                           {episode.title}
                         </h3>
                         <p className="text-white/60 text-sm line-clamp-2 leading-relaxed">
@@ -150,16 +150,16 @@ export default function Episodes() {
 
                       <div className="flex items-center justify-between mt-auto">
                         <div className="text-sm text-white/70 flex items-center gap-2">
-                          <span>À venir</span>
+                          <span>{episode.date || "À venir"}</span>
                           <span className="w-1 h-1 bg-white/40 rounded-full" />
-                          <span>Durée inconnue</span>
+                          <span>{episode.duration || "Durée inconnue"}</span>
                         </div>
 
-                        <Button className="bg-[#2A2A2A] hover:bg-[#3A3A3A] text-white rounded-full px-6 py-5 transition-colors border border-white/10 flex items-center gap-2 font-semibold">
-                          <span className="w-6 h-6 bg-white rounded-full flex items-center justify-center text-black">
+                        <Button className="bg-[#2A2A2A] hover:bg-[#3A3A3A] text-white rounded-full px-4 py-2 h-10 transition-colors border border-white/10 flex items-center gap-2 font-semibold text-sm">
+                          <span className="w-5 h-5 bg-white rounded-full flex items-center justify-center text-black">
                             <svg
-                              width="10"
-                              height="12"
+                              width="8"
+                              height="10"
                               viewBox="0 0 10 12"
                               fill="none"
                               className="ml-0.5"
@@ -183,16 +183,16 @@ export default function Episodes() {
           {/* Saison 2 */}
           <div className="mb-16">
             <h2 className="text-4xl font-bold text-white mb-8">Saison 2</h2>
-            <div className="flex overflow-x-auto pb-8 gap-6 scrollbar-hide snap-x">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
               {SAISON_2_EPISODES.map((episode, index) => (
                 <Link
                   key={episode.id}
                   to={`/episodes/${episode.season}/episode/${episode.id}`}
-                  className="flex-none w-[600px] h-[232px] bg-[#221e1f] border-none rounded-[2rem] overflow-hidden snap-start hover:bg-[#2a2527] transition-colors p-4 relative block"
+                  className="w-full bg-[#1A1A1A] border border-white/5 rounded-[1.5rem] overflow-hidden hover:bg-[#222222] transition-colors p-4 relative block"
                 >
-                  <div className="flex flex-row gap-6 h-full items-stretch">
+                  <div className="flex flex-row gap-6 h-full items-center">
                     {/* Episode Artwork */}
-                    <div className="w-[200px] h-[200px] flex-shrink-0 relative overflow-hidden rounded-[1.5rem] group cursor-pointer bg-black">
+                    <div className="w-[160px] h-[160px] flex-shrink-0 relative overflow-hidden rounded-[1rem] group cursor-pointer bg-black">
                       {episode.image ? (
                         <img
                           src={getAssetUrl(episode.image)}
@@ -201,23 +201,23 @@ export default function Episodes() {
                         />
                       ) : (
                         <div className="w-full h-full bg-brand-red/20 flex items-center justify-center">
-                          <div className="w-20 h-20 bg-brand-red/30 rounded-2xl flex items-center justify-center">
-                            <Play className="w-10 h-10 text-white" />
+                          <div className="w-16 h-16 bg-brand-red/30 rounded-2xl flex items-center justify-center">
+                            <Play className="w-8 h-8 text-white" />
                           </div>
                         </div>
                       )}
                       <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center z-20">
-                        <Play className="w-12 h-12 text-white fill-white" />
+                        <Play className="w-10 h-10 text-white fill-white" />
                       </div>
                     </div>
 
                     {/* Episode Info */}
-                    <div className="flex-1 py-1 pr-2 flex flex-col justify-between">
+                    <div className="flex-1 py-1 pr-2 flex flex-col h-[160px] justify-between">
                       <div>
                         <div className="text-brand-red text-sm font-semibold mb-2">
                           Épisode {episode.episodeNumber || index + 1}
                         </div>
-                        <h3 className="text-xl font-bold text-white mb-3 line-clamp-2 leading-tight">
+                        <h3 className="text-lg font-bold text-white mb-2 line-clamp-2 leading-tight">
                           {episode.title}
                         </h3>
                         <p className="text-white/60 text-sm line-clamp-2 leading-relaxed">
@@ -227,16 +227,16 @@ export default function Episodes() {
 
                       <div className="flex items-center justify-between mt-auto">
                         <div className="text-sm text-white/70 flex items-center gap-2">
-                          <span>À venir</span>
+                          <span>{episode.date || "À venir"}</span>
                           <span className="w-1 h-1 bg-white/40 rounded-full" />
-                          <span>Durée inconnue</span>
+                          <span>{episode.duration || "Durée inconnue"}</span>
                         </div>
 
-                        <Button className="bg-[#2A2A2A] hover:bg-[#3A3A3A] text-white rounded-full px-6 py-5 transition-colors border border-white/10 flex items-center gap-2 font-semibold">
-                          <span className="w-6 h-6 bg-white rounded-full flex items-center justify-center text-black">
+                        <Button className="bg-[#2A2A2A] hover:bg-[#3A3A3A] text-white rounded-full px-4 py-2 h-10 transition-colors border border-white/10 flex items-center gap-2 font-semibold text-sm">
+                          <span className="w-5 h-5 bg-white rounded-full flex items-center justify-center text-black">
                             <svg
-                              width="10"
-                              height="12"
+                              width="8"
+                              height="10"
                               viewBox="0 0 10 12"
                               fill="none"
                               className="ml-0.5"
@@ -260,16 +260,16 @@ export default function Episodes() {
           {/* Saison 1 */}
           <div className="mb-16">
             <h2 className="text-4xl font-bold text-white mb-8">Saison 1</h2>
-            <div className="flex overflow-x-auto pb-8 gap-6 scrollbar-hide snap-x">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
               {SAISON_1_EPISODES.map((episode, index) => (
                 <Link
                   key={episode.id}
                   to={`/episodes/${episode.season}/episode/${episode.id}`}
-                  className="flex-none w-[600px] h-[232px] bg-[#221e1f] border-none rounded-[2rem] overflow-hidden snap-start hover:bg-[#2a2527] transition-colors p-4 relative block"
+                  className="w-full bg-[#1A1A1A] border border-white/5 rounded-[1.5rem] overflow-hidden hover:bg-[#222222] transition-colors p-4 relative block"
                 >
-                  <div className="flex flex-row gap-6 h-full items-stretch">
+                  <div className="flex flex-row gap-6 h-full items-center">
                     {/* Episode Artwork */}
-                    <div className="w-[200px] h-[200px] flex-shrink-0 relative overflow-hidden rounded-[1.5rem] group cursor-pointer bg-black">
+                    <div className="w-[160px] h-[160px] flex-shrink-0 relative overflow-hidden rounded-[1rem] group cursor-pointer bg-black">
                       {episode.image ? (
                         <img
                           src={getAssetUrl(episode.image)}
@@ -278,23 +278,23 @@ export default function Episodes() {
                         />
                       ) : (
                         <div className="w-full h-full bg-brand-red/20 flex items-center justify-center">
-                          <div className="w-20 h-20 bg-brand-red/30 rounded-2xl flex items-center justify-center">
-                            <Play className="w-10 h-10 text-white" />
+                          <div className="w-16 h-16 bg-brand-red/30 rounded-2xl flex items-center justify-center">
+                            <Play className="w-8 h-8 text-white" />
                           </div>
                         </div>
                       )}
                       <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center z-20">
-                        <Play className="w-12 h-12 text-white fill-white" />
+                        <Play className="w-10 h-10 text-white fill-white" />
                       </div>
                     </div>
 
                     {/* Episode Info */}
-                    <div className="flex-1 py-1 pr-2 flex flex-col justify-between">
+                    <div className="flex-1 py-1 pr-2 flex flex-col h-[160px] justify-between">
                       <div>
                         <div className="text-brand-red text-sm font-semibold mb-2">
                           Épisode {episode.episodeNumber || index + 1}
                         </div>
-                        <h3 className="text-xl font-bold text-white mb-3 line-clamp-2 leading-tight">
+                        <h3 className="text-lg font-bold text-white mb-2 line-clamp-2 leading-tight">
                           {episode.title}
                         </h3>
                         <p className="text-white/60 text-sm line-clamp-2 leading-relaxed">
@@ -304,16 +304,16 @@ export default function Episodes() {
 
                       <div className="flex items-center justify-between mt-auto">
                         <div className="text-sm text-white/70 flex items-center gap-2">
-                          <span>À venir</span>
+                          <span>{episode.date || "À venir"}</span>
                           <span className="w-1 h-1 bg-white/40 rounded-full" />
-                          <span>Durée inconnue</span>
+                          <span>{episode.duration || "Durée inconnue"}</span>
                         </div>
 
-                        <Button className="bg-[#2A2A2A] hover:bg-[#3A3A3A] text-white rounded-full px-6 py-5 transition-colors border border-white/10 flex items-center gap-2 font-semibold">
-                          <span className="w-6 h-6 bg-white rounded-full flex items-center justify-center text-black">
+                        <Button className="bg-[#2A2A2A] hover:bg-[#3A3A3A] text-white rounded-full px-4 py-2 h-10 transition-colors border border-white/10 flex items-center gap-2 font-semibold text-sm">
+                          <span className="w-5 h-5 bg-white rounded-full flex items-center justify-center text-black">
                             <svg
-                              width="10"
-                              height="12"
+                              width="8"
+                              height="10"
                               viewBox="0 0 10 12"
                               fill="none"
                               className="ml-0.5"
