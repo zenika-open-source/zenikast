@@ -90,7 +90,7 @@ export default function Index() {
                       <img
                         src={getAssetUrl(FEATURED_EPISODE.image)}
                         alt={FEATURED_EPISODE.title}
-                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                        className="w-full h-full object-cover"
                       />
                     </div>
                   )}

@@ -89,7 +89,7 @@ export default function Header() {
               </Link>
             ))}
             <div className="pt-4 px-4">
-              <Button className="bg-primary hover:bg-primary/90 text-white w-full">
+              <Button className="bg-white text-black hover:bg-white/90 font-bold rounded-full w-full h-12">
                 Écouter maintenant
               </Button>
             </div>
