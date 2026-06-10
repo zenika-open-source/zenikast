@@ -54,7 +54,10 @@ export default function Index() {
 
         <div className="container mx-auto px-4 sm:px-6 relative z-10 w-full mb-8">
           <div className="w-full mx-auto max-w-6xl">
-            <div className="glass-card rounded-[40px] p-6 sm:p-12 md:p-16 relative overflow-hidden w-full">
+            <Link
+              to={`/saison/${FEATURED_EPISODE.season}/episode/${FEATURED_EPISODE.id}`}
+              className="glass-card rounded-[40px] p-6 sm:p-12 md:p-16 relative overflow-hidden w-full block group transition-all duration-300 hover:bg-white/5"
+            >
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
                 <div>
                   <h1 className="text-5xl md:text-6xl font-bold text-white mb-2">
@@ -68,17 +71,12 @@ export default function Index() {
                     {FEATURED_EPISODE.description}
                   </p>
 
-                  <Link
-                    to={`/saison/${FEATURED_EPISODE.season}/episode/${FEATURED_EPISODE.id}`}
+                  <div
+                    className="inline-flex items-center justify-center whitespace-nowrap bg-white text-black font-bold h-14 px-8 rounded-full shadow-lg transition-all duration-300 group-hover:scale-105 group-hover:bg-white/90 text-[15px]"
                   >
-                    <Button
-                      size="lg"
-                      className="bg-white hover:bg-white/90 text-black font-bold h-14 px-8 rounded-full shadow-lg hover:scale-105 transition-all duration-300"
-                    >
-                      <Mic className="w-5 h-5 mr-3" />
-                      Écouter maintenant
-                    </Button>
-                  </Link>
+                    <Mic className="w-5 h-5 mr-3" />
+                    Écouter maintenant
+                  </div>
                 </div>
 
                 <div className="hidden md:flex flex-col items-end gap-6">
@@ -88,7 +86,7 @@ export default function Index() {
                       : "Nouvel épisode"}
                   </p>
                   {FEATURED_EPISODE.image && (
-                    <div className="w-[200px] h-[200px] rounded-[1.5rem] overflow-hidden shadow-2xl border border-white/10 relative group">
+                    <div className="w-[200px] h-[200px] rounded-[1.5rem] overflow-hidden shadow-2xl border border-white/10 relative">
                       <img
                         src={getAssetUrl(FEATURED_EPISODE.image)}
                         alt={FEATURED_EPISODE.title}
@@ -98,7 +96,7 @@ export default function Index() {
                   )}
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
         </div>
       </section>
