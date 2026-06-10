@@ -56,7 +56,7 @@ export default function Header() {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden p-2 rounded-lg hover:bg-muted/50 transition-colors"
+            className="md:hidden flex items-center justify-center min-h-[48px] min-w-[48px] rounded-lg text-white hover:bg-white/10 transition-colors"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             aria-label="Toggle mobile menu"
           >
@@ -82,7 +82,7 @@ export default function Header() {
               <Link
                 key={item.name}
                 to={item.href}
-                className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors py-2 px-4 rounded-lg hover:bg-muted/50"
+                className="text-sm font-medium text-white/80 hover:text-white transition-colors py-2 px-4 rounded-lg hover:bg-white/10"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 {item.name}
