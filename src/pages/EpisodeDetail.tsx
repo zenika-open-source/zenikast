@@ -97,7 +97,7 @@ export default function EpisodeDetail() {
                   href={episode.spotifyUrl || "#"}
                   target={episode.spotifyUrl ? "_blank" : "_self"}
                   rel="noreferrer"
-                  className="flex items-center gap-2 bg-[#1A1A1A] hover:bg-[#2A2A2A] transition-colors border border-white/5 rounded-full px-4 py-2 text-sm font-medium"
+                  className="flex items-center gap-2 bg-[#2A2A2A] hover:bg-[#3A3A3A] transition-colors border border-white/5 rounded-full px-4 py-2 text-sm font-medium"
                 >
                   <div className="w-5 h-5 rounded-full bg-[#1DB954] flex items-center justify-center">
                     <svg
@@ -115,7 +115,7 @@ export default function EpisodeDetail() {
                   href={episode.youtubeUrl || "#"}
                   target={episode.youtubeUrl ? "_blank" : "_self"}
                   rel="noreferrer"
-                  className="flex items-center gap-2 bg-[#1A1A1A] hover:bg-[#2A2A2A] transition-colors border border-white/5 rounded-full px-4 py-2 text-sm font-medium"
+                  className="flex items-center gap-2 bg-[#2A2A2A] hover:bg-[#3A3A3A] transition-colors border border-white/5 rounded-full px-4 py-2 text-sm font-medium"
                 >
                   <div className="w-5 h-5 rounded-full bg-[#FF0000] flex items-center justify-center flex-shrink-0">
                     <svg
@@ -133,7 +133,7 @@ export default function EpisodeDetail() {
                   href={episode.deezerUrl || "#"}
                   target={episode.deezerUrl ? "_blank" : "_self"}
                   rel="noreferrer"
-                  className="flex items-center gap-2 bg-[#1A1A1A] hover:bg-[#2A2A2A] transition-colors border border-white/5 rounded-full px-4 py-2 text-sm font-medium"
+                  className="flex items-center gap-2 bg-[#2A2A2A] hover:bg-[#3A3A3A] transition-colors border border-white/5 rounded-full px-4 py-2 text-sm font-medium"
                 >
                   <div className="w-5 h-5 flex items-center justify-center text-[#8e43e7]">
                     <Mic className="w-4 h-4 fill-current" />
@@ -144,7 +144,7 @@ export default function EpisodeDetail() {
                   href={episode.appleUrl || "#"}
                   target={episode.appleUrl ? "_blank" : "_self"}
                   rel="noreferrer"
-                  className="flex items-center gap-2 bg-[#1A1A1A] hover:bg-[#2A2A2A] transition-colors border border-white/5 rounded-full px-4 py-2 text-sm font-medium"
+                  className="flex items-center gap-2 bg-[#2A2A2A] hover:bg-[#3A3A3A] transition-colors border border-white/5 rounded-full px-4 py-2 text-sm font-medium"
                 >
                   <div className="w-5 h-5 flex items-center justify-center text-[#A668D3]">
                     <Mic className="w-4 h-4" />

@@ -39,7 +39,7 @@ export default function Episodes() {
                   <Link
                     key={episode.id}
                     to={`/episodes/${episode.season}/episode/${episode.id}`}
-                    className="w-full bg-[#1A1A1A] border border-white/5 rounded-[1.5rem] overflow-hidden hover:bg-[#222222] transition-colors p-4 relative block"
+                    className="w-full bg-[#2A2A2A] border border-white/5 rounded-[1.5rem] overflow-hidden hover:bg-[#3A3A3A] transition-colors p-4 relative block"
                   >
                     <div className="flex flex-row gap-6 h-full items-center">
                       {/* Episode Artwork */}
