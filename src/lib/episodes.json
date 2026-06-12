@@ -1,6 +1,32 @@
 {
   "saison4": [
     {
+      "id": 5,
+      "title": "Biztrot Café #5 - Le Zenikanard se ballade",
+      "description": "Ce mois de Juin est chargé en conférence tech en France. Julien et Jean-Phi, fraichement revenu du DevQuest, présentent les conférences et talks que l'on a pu voir. En seconde partie des news autour d'Ona et OpenAI et de l'évènement GitLab Transcend.",
+      "longDescription": "Ce mois de Juin est chargé en conférence tech en France. Julien et Jean-Phi, fraichement revenu du DevQuest, présentent les conférences et talks que l'on a pu voir. En seconde partie des news autour d'Ona et OpenAI et de l'évènement GitLab Transcend.",
+      "duration": "46'33",
+      "date": "12/06/2026",
+      "status": "Disponible",
+      "image": "/img/episodes/S4/BiztrotCafe-5.png",
+      "season": 4,
+      "episodeNumber": 5,
+      "spotifyUrl": "",
+      "youtubeUrl": "https://www.youtube.com/watch?v=6NYhEJmGSWk",
+      "deezerUrl": "",
+      "appleUrl": "",
+      "hostsList": [
+        {
+          "name": "Jean-Philippe Baconnais",
+          "role": "Consultant & Directeur Technique - Zenika Nantes"
+        },
+        {
+          "name": "Julien Haumont",
+          "role": "Consultant DevOps - Zenika Nantes"
+        }
+      ]
+    },
+    {
       "id": 4,
       "title": "Biztrot Café #4 - IO IO IO",
       "description": "Lors de sa conférence annuelle Google I/O, Google a annoncé beaucoup (beaucoup) de nouveautés.",
