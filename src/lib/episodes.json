@@ -1,6 +1,32 @@
 {
   "saison4": [
     {
+      "id": 6,
+      "title": "Biztrot Café #6 - Cursor, worktrees & Hellfest 🤘",
+      "description": "Jean-Phi et Julien (fraichement revenu du HellFest) évoquent quelques liens d'actualité comme le rachat de Cursor par Space X et parlent des Git Worktrees.",
+      "longDescription": "Jean-Phi et Julien (fraichement revenu du HellFest) évoquent quelques liens d'actualité comme le rachat de Cursor par Space X et parlent des Git Worktrees.<br /><br />Podcast enregistré le 22/06/2026<br /><br />La transcription de cet épisode est disponible : https://links.zenika.com/link/zenikast/biztrot-cafe/6<br /><br />Liens échangés pendant le live :<br />- https://cursor.com/fr/blog/spacex-model-training<br />- https://www.lemondeinformatique.fr/actualites/lire-spacex-s-empare-de-cursor-pour-60-md$-100467.html<br />- https://www.nytimes.com/2026/06/17/technology/anthropic-trump-administration-fable.html?unlocked_article_code=1.q1A.71Hi.d_0hm8pezUw9&smid=url-share&utm_source=tldrnewsletter<br />- https://github.blog/ai-and-ml/github-copilot/what-are-git-worktrees-and-why-should-i-use-them/<br />- https://lours.me/<br />- https://github.com/maxandersen/jhostty",
+      "duration": "22'31",
+      "date": "22/06/2026",
+      "status": "Disponible",
+      "image": "/img/episodes/S4/BiztrotCafe-6.png",
+      "season": 4,
+      "episodeNumber": 6,
+      "spotifyUrl": "",
+      "youtubeUrl": "https://www.youtube.com/watch?v=_Qz4mGY7uGY",
+      "deezerUrl": "",
+      "appleUrl": "",
+      "hostsList": [
+        {
+          "name": "Jean-Philippe Baconnais",
+          "role": "Consultant & Directeur Technique - Zenika Nantes"
+        },
+        {
+          "name": "Julien Haumont",
+          "role": "Consultant DevOps - Zenika Nantes"
+        }
+      ]
+    },
+    {
       "id": 5,
       "title": "Biztrot Café #5 - Le Zenikanard se ballade",
       "description": "Ce mois de Juin est chargé en conférence tech en France. Julien et Jean-Phi, fraichement revenu du DevQuest, présentent les conférences et talks que l'on a pu voir. En seconde partie des news autour d'Ona et OpenAI et de l'évènement GitLab Transcend.",
