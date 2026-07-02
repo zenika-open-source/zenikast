@@ -1,6 +1,32 @@
 {
   "saison4": [
     {
+      "id": 7,
+      "title": "Biztrot Café #7 - A la recherche du talk disparu?",
+      "description": "Julien et Jean-Phi se sont réunis pour échanger sur les conférences de la semaine passée : Breizhcamp, Google I/O à Berlin et échangent sur l'outil de CI/CD BuildKite.",
+      "longDescription": "Julien et Jean-Phi se sont réunis pour faire un retour des conférences de la semaine passée : Breizhcamp, Google I/O à Berlin et échangent sur l'outil de CI/CD BuildKite.<br /><br />Podcast enregistré le 20/06/2026<br /><br />La transcription de cet épisode est disponible : https://links.zenika.com/link/zenikast/biztrot-cafe/7<br /><br />Liens échangés pendant le live :<br />- https://www.breizhcamp.org/programme/vendredi<br />- https://rsvp.withgoogle.com/events/ioconnect-berlin-2026<br />- https://reachymini.net/<br />- https://www.youtube.com/watch?v=KPx3nRwbldE<br />- https://buildkite.com/home/",
+      "duration": "27'49",
+      "date": "20/06/2026",
+      "status": "Disponible",
+      "image": "/img/episodes/S4/BiztrotCafe-7.png",
+      "season": 4,
+      "episodeNumber": 7,
+      "youtubeUrl": "https://www.youtube.com/watch?v=QgmmJUhHa84",
+      "spotifyUrl": "https://open.spotify.com/episode/1pcXJO8eXMbpWVeNUSR8W5?si=dWPkFZU2T0yjZE2-W_Y_qw",
+      "deezerUrl": "",
+      "appleUrl": "https://podcasts.apple.com/us/podcast/biztrot-cafe-7-a-la-recherche-du-talk-disparu/id1750454113?i=1000775178474",
+      "hostsList": [
+        {
+          "name": "Jean-Philippe Baconnais",
+          "role": "Consultant & Directeur Technique - Zenika Nantes"
+        },
+        {
+          "name": "Julien Haumont",
+          "role": "Consultant DevOps - Zenika Nantes"
+        }
+      ]
+    },
+    {
       "id": 6,
       "title": "Biztrot Café #6 - Cursor, worktrees & Hellfest 🤘",
       "description": "Jean-Phi et Julien (fraichement revenu du HellFest) évoquent quelques liens d'actualité comme le rachat de Cursor par Space X et parlent des Git Worktrees.",
