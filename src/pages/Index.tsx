@@ -71,9 +71,7 @@ export default function Index() {
                     {FEATURED_EPISODE.description}
                   </p>
 
-                  <div
-                    className="inline-flex items-center justify-center whitespace-nowrap bg-white text-black font-bold h-14 px-8 rounded-full shadow-lg transition-all duration-300 group-hover:scale-105 group-hover:bg-white/90 text-[15px]"
-                  >
+                  <div className="inline-flex items-center justify-center whitespace-nowrap bg-white text-black font-bold h-14 px-8 rounded-full shadow-lg transition-all duration-300 group-hover:scale-105 group-hover:bg-white/90 text-[15px]">
                     <Mic className="w-5 h-5 mr-3" />
                     Écouter maintenant
                   </div>
@@ -86,7 +84,7 @@ export default function Index() {
                       : "Nouvel épisode"}
                   </p>
                   {FEATURED_EPISODE.image && (
-                    <div className="w-[200px] h-[200px] rounded-[1.5rem] overflow-hidden shadow-2xl border border-white/10 relative">
+                    <div className="w-[320px] h-[320px] rounded-[1.5rem] overflow-hidden shadow-2xl border border-white/10 relative">
                       <img
                         src={getAssetUrl(FEATURED_EPISODE.image)}
                         alt={FEATURED_EPISODE.title}

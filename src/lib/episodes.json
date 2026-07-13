@@ -1,6 +1,28 @@
 {
   "saison4": [
     {
+      "id": 8,
+      "title": "Zenikast - S4E1 - L'avenir de l'IA dans les poches?",
+      "description": "Et si l'avenir de l'IA ne passait pas seulement par le Cloud, mais directement par nos machines ? 🤖\n\nDans ce premier épisode de la Saison 4, nous explorons les modèles \"réduits\" avec les SLM (Small Language Models) et les TLM (Tiny Language Models).\n\n",
+      "longDescription": "Et si l'avenir de l'IA ne passait pas seulement par le Cloud, mais directement par nos machines ? 🤖<br /><br />Dans ce premier épisode de la Saison 4, nous explorons les modèles \"réduits\" avec les SLM (Small Language Models) et les TLM (Tiny Language Models).<br /><br />Qu'il s'agisse de développer vos applications, d'automatiser des tâches du quotidien ou de garantir une meilleure sécurisation de vos données, ces modèles sont en train de changer la donne. Nous discutons des avantages de l'IA embarquée, des enjeux de souveraineté numérique et des cas d'usage concrets qui prouvent qu'il n'est pas toujours nécessaire d'avoir un GPU surpuissant pour innover.<br /><br />Podcast enregistré le 09/07/2026<br /><br />Intervenants :<br />- Ingrid Jardillier Consultante Elastic  -  Zenika Clermont Ferrand<br />- Philippe Charrière - Principal Solution Architect - Docker<br />- Ronan Pors Practice Leader et consultant en IA - Zenika Brest<br />- Olivier Coupelon Head of AI - Zenika Clermont Ferrand<br />- Jean-Philippe Baconnais Consultant Dev | Tech Lead & Directeur Technique - Zenika Nantes<br /><br />La transcription de cet épisode est disponible : https://links.zenika.com/link/zenikast/episode-1-s4 <br /><br />Les jingle son et video ont été réalisés par Jonathan Beaton de Classic Production (https://www.classic.productions/)",
+      "duration": "1h13'01",
+      "date": "13/07/2026",
+      "status": "Disponible",
+      "image": "/img/episodes/S4/S4E1 - IA.png",
+      "season": 4,
+      "episodeNumber": 8,
+      "youtubeUrl": "https://www.youtube.com/watch?v=WeGya844TJI",
+      "hostsList": [
+        "Jean-Philippe Baconnais"
+      ],
+      "guestsList": [
+        " Ingrid Jardillier - Consultante Elastic  -  Zenika Clermont Ferrand",
+        "Philippe Charrière - Principal Solution Architect - Docker",
+        "Ronan Pors Practice Leader et consultant en IA - Zenika Brest",
+        "Olivier Coupelon Head of AI - Zenika Clermont Ferrand"
+      ]
+    },
+    {
       "id": 7,
       "title": "Biztrot Café #7 - A la recherche du talk disparu?",
       "description": "Julien et Jean-Phi se sont réunis pour échanger sur les conférences de la semaine passée : Breizhcamp, Google I/O à Berlin et échangent sur l'outil de CI/CD BuildKite.",
