@@ -34,7 +34,7 @@ export default function Index() {
   return (
     <Layout>
       {/* Hero Section with Video Background */}
-      <section className="relative min-h-[600px] flex items-center overflow-hidden">
+      <section className="relative min-h-[600px] flex items-center overflow-hidden pt-12 sm:pt-16 pb-8">
         {/* Video Background Layer */}
         <div className="absolute inset-0 z-0">
           <video
