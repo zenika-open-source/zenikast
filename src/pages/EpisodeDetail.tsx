@@ -168,7 +168,9 @@ export default function EpisodeDetail() {
             {episode.longDescription ? (
               <div
                 dangerouslySetInnerHTML={{
-                  __html: linkify(episode.longDescription.replace(/\n/g, "<br />")),
+                  __html: linkify(
+                    episode.longDescription.replace(/\n/g, "<br />"),
+                  ),
                 }}
               />
             ) : (

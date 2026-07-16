@@ -62,5 +62,4 @@ Zenikast is a modern web application designed for Zenika Nantes to manage and sh
 - `src/hooks`: Custom React hooks.
 - `public`: Static assets (images, icons, etc.).
 
-
 Made with ❤️ by Zenika

@@ -33,7 +33,9 @@ export default function Episodes() {
             { id: 4, name: "Saison 4", episodes: SAISON_4_EPISODES },
           ].map((season) => (
             <div key={season.id} className="mb-16">
-              <h2 className="text-4xl font-bold text-white mb-8">{season.name}</h2>
+              <h2 className="text-4xl font-bold text-white mb-8">
+                {season.name}
+              </h2>
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 {season.episodes.map((episode, index) => (
                   <Link
