@@ -16,12 +16,24 @@
       "deezerUrl": "https://link.deezer.com/s/33R17NA4QkaAL0qynL2jB",
       "appleUrl": "https://podcasts.apple.com/us/podcast/zenikast-s4e1-lavenir-de-lia-dans-les-poches/id1750454113?i=1000777044426",
       "hostsList": [
-        "Jean-Philippe Baconnais"
+        {
+          "name": "Jean-Philippe Baconnais",
+          "role": "Consultant & Directeur Technique - Zenika Nantes"
+        }
       ],
       "guestsList": [
-        " Ingrid Jardillier - Consultante Elastic  -  Zenika Clermont Ferrand",
-        "Philippe Charrière - Principal Solution Architect - Docker",
-        "Ronan Pors Practice Leader et consultant en IA - Zenika Brest",
+        {
+          "name": "Ingrid Jardillier",
+          "role": "Consultante Elastic  -  Zenika Clermont Ferrand"
+        },
+        {
+          "name": "Philippe Charrière",
+          "role": "Principal Solution Architect - Docker"
+        },
+        {
+          "name": "Ronan Pors",
+          "role": "Practice Leader et consultant en IA - Zenika Brest"
+        },
         "Olivier Coupelon Head of AI - Zenika Clermont Ferrand"
       ]
     },
