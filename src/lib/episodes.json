@@ -1,6 +1,46 @@
 {
   "saison4": [
     {
+      "id": 9,
+      "title": "Zenikast - S4E2 - Initier les enfants au numérique",
+      "description": "Et si apprendre à coder, c'était surtout apprendre à se tromper ? Dans cet épisode de Zenikast, on parle de code pour les enfants sans tomber dans le cliché du futur ingénieur en Silicon Valley. Logique, frustration, créativité, inclusion... Le vrai sujet, c'est bien plus que la syntaxe.",
+      "longDescription": "Et si apprendre à coder, c'était surtout apprendre à se tromper ? Dans cet épisode de Zenikast, on parle de code pour les enfants sans tomber dans le cliché du futur ingénieur en Silicon Valley. Logique, frustration, créativité, inclusion... Le vrai sujet, c'est bien plus que la syntaxe. <br /><br />Podcast enregistré le 08/07/2026<br /><br />Intervenants :<br /><br />- Marie Cauchy (RCA)<br />- Florence Morel des Vallons (ADN Ouest)<br />- Aude Lemar-Verrier (Fluid Topics) <br />- Guillaume Membré (Zenika)<br />- Jean-Philippe Baconnais (Zenika)<br /><br />La transcription de cet épisode est disponible : https://links.zenika.com/link/zenikast/episode-2-s4<br />Les jingle son et video ont été réalisés par Jonathan Beaton de Classic Production (https://www.classic.productions/",
+      "duration": "1h09'57",
+      "date": "06/08/2026",
+      "status": "Disponible",
+      "image": "/img/episodes/S4/S4E2-init-dev-enfants.png",
+      "season": 4,
+      "episodeNumber": 9,
+      "youtubeUrl": "https://www.youtube.com/watch?v=bdgqc0Cew2k",
+      "spotifyUrl": "https://open.spotify.com/episode/1N3wRn3IBTDOXaRdr7lKqt?si=Ms63paidQ8-aedXBNOzyWw",
+      "deezerUrl": "",
+      "appleUrl": "https://podcasts.apple.com/us/podcast/zenikast-s4e2-initier-les-enfants-au-num%C3%A9rique/id1750454113?i=1000780208685",
+      "hostsList": [
+        {
+          "name": "Guillaume Membré",
+          "role": "Zenika"
+        }
+      ],
+      "guestsList": [
+        {
+          "name": "Marie Cauchy",
+          "role": "RCA"
+        },
+        {
+          "name": "Florence Morel des Vallons",
+          "role": "ADN Ouest"
+        },
+        {
+          "name": "Aude Lemar-Verrier",
+          "role": "Fluid Topics"
+        },
+        {
+          "name": "Jean-Philippe Baconnais",
+          "role": "Zenika"
+        }
+      ]
+    },
+    {
       "id": 8,
       "title": "Zenikast - S4E1 - L'avenir de l'IA dans les poches?",
       "description": "Et si l'avenir de l'IA ne passait pas seulement par le Cloud, mais directement par nos machines ? 🤖\n\nDans ce premier épisode de la Saison 4, nous explorons les modèles \"réduits\" avec les SLM (Small Language Models) et les TLM (Tiny Language Models).\n\n",
