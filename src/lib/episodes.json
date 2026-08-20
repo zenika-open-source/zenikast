@@ -1,6 +1,38 @@
 {
   "saison4": [
     {
+      "id": 10,
+      "title": "Zenikast - S4E3 - Numérique responsable et IA dans un contexte de PME",
+      "description": "Et si intégrer le numérique responsable et l'IA en PME, c'était avant tout faire preuve de sobriété et de bon sens ?\n\nDans cet épisode, on aborde la mise en place concrète du numérique responsable au sein des PME et la juste place à accorder à l'IA générative. Allongement de la durée de vie du matériel, écoconception logicielle, démarche FinOps/GreenOps, souveraineté numérique et sobriété dans l'usage des modèles IA : nos invités partagent leurs retours d'expérience et leurs conseils terrain.",
+      "longDescription": "Et si intégrer le numérique responsable et l'IA en PME, c'était avant tout faire preuve de sobriété et de bon sens ?<br /><br />Dans cet épisode, on aborde la mise en place concrète du numérique responsable au sein des PME et la juste place à accorder à l'IA générative. Allongement de la durée de vie du matériel, écoconception logicielle, démarche FinOps/GreenOps, souveraineté numérique et sobriété dans l'usage des modèles IA : nos invités partagent leurs retours d'expérience et leurs conseils terrain.<br /><br />Podcast enregistré le 08/07/2026<br /><br />Intervenants :<br />- Sylvain Révéreault (SeeYouSun)<br />- Florian Girard (Ouest-France)<br />- Raphaël Lemaire (Zenika)<br /><br />La transcription de cet épisode est disponible : https://links.zenika.com/link/zenikast/episode-3-s4 <br /><br />Les jingle son et video ont été réalisés par Jonathan Beaton de Classic Production (https://www.classic.productions/ )",
+      "duration": "58'08",
+      "date": "20/08/2026",
+      "status": "Disponible",
+      "image": "/img/episodes/S4/S4E3.png",
+      "season": 4,
+      "episodeNumber": 10,
+      "youtubeUrl": "https://www.youtube.com/watch?v=I63yR1-o9D8",
+      "appleUrl": "https://podcasts.apple.com/us/podcast/zenikast-s4e3-num%C3%A9rique-responsable-et-ia-dans-un/id1750454113?i=1000784591048",
+      "deezerUrl": "",
+      "spotifyUrl": "https://spotifycreators-web.app.link/e/zcz7QKkRK5b",
+      "hostsList": [
+        {
+          "name": "Raphaël Lemaire",
+          "role": "Zenika"
+        }
+      ],
+      "guestsList": [
+        {
+          "name": "Sylvain Révéreault",
+          "role": "SeeYouSun"
+        },
+        {
+          "name": "Florian Girard",
+          "role": "Ouest-France"
+        }
+      ]
+    },
+    {
       "id": 9,
       "title": "Zenikast - S4E2 - Initier les enfants au numérique",
       "description": "Et si apprendre à coder, c'était surtout apprendre à se tromper ? Dans cet épisode de Zenikast, on parle de code pour les enfants sans tomber dans le cliché du futur ingénieur en Silicon Valley. Logique, frustration, créativité, inclusion... Le vrai sujet, c'est bien plus que la syntaxe.",
