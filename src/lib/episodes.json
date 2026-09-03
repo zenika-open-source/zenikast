@@ -1,6 +1,40 @@
 {
   "saison4": [
     {
+      "id": 11,
+      "title": "Biztrot Café #8 - L'IA fait sa rentrée",
+      "description": "C'est la rentrée de Biztrot Café ! <br /><br />Après cet été très chaud, nous avons revu l'actualité IA qui fut elle aussi assez bouillante. Entre sécurité, impact écologique et dérives de l'usage au quotidien, nous étions accompagnés de Nahia Gorrichon pour discuter (entre autres) de ces sujets.",
+      "longDescription": "C'est la rentrée de Biztrot Café ! <br /><br />Après cet été très chaud, nous avons revu l'actualité IA qui fut elle aussi assez bouillante. Entre sécurité, impact écologique et dérives de l'usage au quotidien, nous étions accompagnés de Nahia Gorrichon pour discuter (entre autres) de ces sujets. <br /><br />Podcast enregistré le 01/09/2026<br /><br />La transcription est disponible sur ce lien <br />https://links.zenika.com/link/zenikast/biztrot-cafe/8<br />Les liens échangés pendant le live sont disponibles dans le document de transcription.",
+      "duration": "30'00",
+      "date": "03/09/2026",
+      "status": "Disponible",
+      "image": "/img/episodes/S4/BiztrotCafe-8.png",
+      "season": 4,
+      "episodeNumber": 11,
+      "youtubeUrl": "https://www.youtube.com/watch?v=KhaDxZhVQBU",
+      "spotifyUrl": "https://open.spotify.com/episode/5ZcEoY7xJ26FxVnX6vcSjv?si=Vxft1_fpQFOoYkk15k7QZA",
+      "hostsList": [
+        {
+          "name": "Julien Haumont",
+          "role": "Consultant DevOps - Zenika Nantes"
+        },
+        {
+          "name": "Marian Gappa",
+          "role": "Consultant DevOps - Zenika Lille"
+        },
+        {
+          "name": "Jean-Philippe Baconnais",
+          "role": "Consultant & Directeur Technique - Zenika Nantes"
+        }
+      ],
+      "guestsList": [
+        {
+          "name": "Nahia Gorrichon",
+          "role": "The Eye of NahIA"
+        }
+      ]
+    },
+    {
       "id": 10,
       "title": "Zenikast - S4E3 - Numérique responsable et IA dans un contexte de PME",
       "description": "Et si intégrer le numérique responsable et l'IA en PME, c'était avant tout faire preuve de sobriété et de bon sens ?\n\nDans cet épisode, on aborde la mise en place concrète du numérique responsable au sein des PME et la juste place à accorder à l'IA générative. Allongement de la durée de vie du matériel, écoconception logicielle, démarche FinOps/GreenOps, souveraineté numérique et sobriété dans l'usage des modèles IA : nos invités partagent leurs retours d'expérience et leurs conseils terrain.",
