@@ -40,7 +40,7 @@
     "@radix-ui/react-tooltip": "^1.1.4",
     "@react-three/drei": "^10.7.7",
     "@react-three/fiber": "^8.18.0",
-    "@swc/core": "^1.15.43",
+    "@swc/core": "^1.16.2",
     "@tanstack/react-query": "^5.101.2",
     "@types/three": "^0.176.0",
     "class-variance-authority": "^0.7.1",
