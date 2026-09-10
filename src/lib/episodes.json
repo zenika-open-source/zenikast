@@ -1,6 +1,30 @@
 {
   "saison4": [
     {
+      "id": 12,
+      "title": "Biztrot Café #9 - Julien président",
+      "description": "Car oui, chez Zenika, on a aussi son candidat ! Et quoi de mieux que le biztrot pour se déclarer ?\n\nIl vous présentera son programme à base de Jug Summer Camp (qui a lieu vendredi dernier), d'avenir pour les conférences tech avec la \"Lettre ouverte pour la survie des événements techniques en France\" initiée entre autres par l'AFUP, d'IA (forcément 🤷) , d'open source avec le Hacktoberfest qui démarre dans quelques semaines et d'outils comme Sofka et Memray.\n\nCe programme est d'une tel fluidité, l'enchainement logique, que même nous, ça nous a supris 🤯.\n\nAlors, est-ce que vous aussi vous allez devenir adepte du Julienning en 2027 ?",
+      "longDescription": "Car oui, chez Zenika, on a aussi son candidat ! Et quoi de mieux que le biztrot pour se déclarer ? <br /><br />Il vous présentera son programme à base de Jug Summer Camp (qui a lieu vendredi dernier), d'avenir pour les conférences tech avec la \"Lettre ouverte pour la survie des événements techniques en France\" initiée entre autres par l'AFUP, d'IA (forcément 🤷) , d'open source avec le Hacktoberfest qui démarre dans quelques semaines et d'outils comme Sofka et Memray. <br /><br />Ce programme est d'une tel fluidité, l'enchainement logique, que même nous, ça nous a supris 🤯. <br /><br />Alors, est-ce que vous aussi vous allez devenir adepte du Julienning en 2027 ?",
+      "duration": "58'09",
+      "date": "10/09/2026",
+      "status": "Disponible",
+      "image": "/img/episodes/S4/BiztrotCafe-9.png",
+      "season": 4,
+      "episodeNumber": 12,
+      "youtubeUrl": "https://www.youtube.com/watch?v=NQHcfcI_-MY",
+      "spotifyUrl": "https://open.spotify.com/episode/4SDx0ZIyJHVpr85ZjndK9L?si=JDK5NUxWTYaYgiBxokdX9A",
+      "hostsList": [
+        {
+          "name": "Julien Haumont",
+          "role": "Consultant DevOps - Zenika Nantes"
+        },
+        {
+          "name": "Jean-Philippe Baconnais",
+          "role": "Consultant & Directeur Technique - Zenika Nantes"
+        }
+      ]
+    },
+    {
       "id": 11,
       "title": "Biztrot Café #8 - L'IA fait sa rentrée",
       "description": "C'est la rentrée de Biztrot Café ! Après cet été très chaud, nous avons revu l'actualité IA qui fut elle aussi assez bouillante. Entre sécurité, impact écologique et dérives de l'usage au quotidien, nous étions accompagnés de Nahia Gorrichon pour discuter (entre autres) de ces sujets.",
