@@ -13,10 +13,16 @@
       "episodeNumber": 12,
       "youtubeUrl": "https://www.youtube.com/watch?v=NQHcfcI_-MY",
       "spotifyUrl": "https://open.spotify.com/episode/4SDx0ZIyJHVpr85ZjndK9L?si=JDK5NUxWTYaYgiBxokdX9A",
+      "appleUrl": "https://podcasts.apple.com/us/podcast/zenikast-biztrot-caf%C3%A9-9-julien-pr%C3%A9sident/id1750454113?i=1000788849227",
+      "deezerUrl": "",
       "hostsList": [
         {
           "name": "Julien Haumont",
           "role": "Consultant DevOps - Zenika Nantes"
+        },
+        {
+          "name": "Marian Gappa",
+          "role": "Consultant DevOps - Zenika Lille"
         },
         {
           "name": "Jean-Philippe Baconnais",
