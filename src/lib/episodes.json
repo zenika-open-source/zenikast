@@ -1,6 +1,42 @@
 {
   "saison4": [
     {
+      "id": 13,
+      "title": "Zenikast - Biztrot Café #10 - IA, Cloud et souveraineté : il va faire tout noir !!",
+      "description": "On y voit plus rien ! On en est ou dans cette histoire en septembre 2026 ? Pour nous éclairer, nous avons eu l'honneur d'accueillir Stéphane Philippart, DevRel chez OVH Cloud, pour nous aider à retrouver la vue. Au passage, on a encore pas mal dérivé pour causer Java, de Muse, de raquettes et ... de moustiques ?! Courage (déjà 10 épisodes, encore un nombre indéterminé à venir !) et bon épisode !",
+      "longDescription": "On y voit plus rien ! On en est ou dans cette histoire en septembre 2026 ? Pour nous éclairer, nous avons eu l'honneur d'accueillir Stéphane Philippart, DevRel chez OVH Cloud, pour nous aider à retrouver la vue. Au passage, on a encore pas mal dérivé pour causer Java, de Muse, de raquettes et ... de moustiques ?! Courage (déjà 10 épisodes, encore un nombre indéterminé à venir !) et bon épisode ! <br /><br />Podcast enregistré le 14/09/2026<br /><br />La transcription est disponible sur ce lien <br />https://links.zenika.com/link/zenikast/biztrot-cafe/10<br />Les liens échangés pendant le live sont disponibles dans le document de transcription.",
+      "duration": "1h21'05",
+      "date": "17/09/2026",
+      "status": "Disponible",
+      "image": "/img/episodes/S4/BiztrotCafe-10.png",
+      "season": 4,
+      "episodeNumber": 13,
+      "youtubeUrl": "https://www.youtube.com/watch?v=mN7jkvIRAW4",
+      "spotifyUrl": "https://spotifycreators-web.app.link/e/bmQUOHzAv6b",
+      "appleUrl": "https://podcasts.apple.com/fr/podcast/zenikast-biztrot-caf%C3%A9-10-ia-cloud-et-souverainet%C3%A9-il/id1750454113?i=1000790360063",
+      "deezerUrl": "",
+      "hostsList": [
+        {
+          "name": "Julien Haumont",
+          "role": "Consultant DevOps - Zenika Nantes"
+        },
+        {
+          "name": "Marian Gappa",
+          "role": "Consultant DevOps - Zenika Lille"
+        },
+        {
+          "name": "Jean-Philippe Baconnais",
+          "role": "Consultant & Directeur Technique - Zenika Nantes"
+        }
+      ],
+      "guestsList": [
+        {
+          "name": "Stéphane Philippart",
+          "role": "DevRel chez OVH Cloud"
+        }
+      ]
+    },
+    {
       "id": 12,
       "title": "Biztrot Café #9 - Julien président",
       "description": "Car oui, chez Zenika, on a aussi son candidat ! Et quoi de mieux que le biztrot pour se déclarer ?\n\nIl vous présentera son programme à base de Jug Summer Camp (qui a lieu vendredi dernier), d'avenir pour les conférences tech avec la \"Lettre ouverte pour la survie des événements techniques en France\" initiée entre autres par l'AFUP, d'IA (forcément 🤷) , d'open source avec le Hacktoberfest qui démarre dans quelques semaines et d'outils comme Sofka et Memray.\n\nCe programme est d'une tel fluidité, l'enchainement logique, que même nous, ça nous a supris 🤯.\n\nAlors, est-ce que vous aussi vous allez devenir adepte du Julienning en 2027 ?",
