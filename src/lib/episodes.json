@@ -1,6 +1,42 @@
 {
   "saison4": [
     {
+      "id": 14,
+      "title": "Zenikast - Biztrot Café #11 - Si JEVabien, c'est JEVamine !!!! 💊",
+      "description": "Si JEVabien, c'est JEVamine !!!! Si JEVabien, c'est JEVamine !!!! Si JEVabien, c'est JEVamine !!!! Si JEVabien, c'est JEVamine !!!!\nHaaa les traumatismes des pubs des années 90 !!\n\nDans cet épisode... vitaminé... nous recevons Gary Machenaud, Tech lead de l'équipe data et grand gourou IA, llm & claudio chez Invivo Digital Factory.\nIl nous présente l'introspection réalisé sur Jev, un modèle System One, afin de nous faire découvrir la réalité derrière le buzz (oui, il a pris la pilule rouge!).\nEt comme d'hab, on discute autour des news de ces 2 dernières semaines et de BC250 (gne ? XD).\n\nA la prochaine ? Uniquement si vous prenez... JEVamine !!!!",
+      "longDescription": "Si JEVabien, c'est JEVamine !!!! Si JEVabien, c'est JEVamine !!!! Si JEVabien, c'est JEVamine !!!! Si JEVabien, c'est JEVamine !!!! <br />Haaa les traumatismes des pubs des années 90 !! <br /><br />Dans cet épisode... vitaminé... nous recevons Gary Machenaud, Tech lead de l'équipe data et grand gourou IA, llm & claudio chez Invivo Digital Factory. <br />Il nous présente l'introspection réalisé sur Jev, un modèle System One, afin de nous faire découvrir la réalité derrière le buzz (oui, il a pris la pilule rouge!). <br />Et comme d'hab, on discute autour des news de ces 2 dernières semaines et de BC250 (gne ? XD). <br /><br />A la prochaine ? Uniquement si vous prenez... JEVamine !!!! <br /><br />Podcast enregistré le 28/09/2026<br /><br />La transcription est disponible sur ce lien <br />https://links.zenika.com/link/zenikast/biztrot-cafe/11<br />Les liens échangés pendant le live sont disponibles dans le document de transcription.",
+      "duration": "",
+      "date": "28/09/2026",
+      "status": "Disponible",
+      "image": "/img/episodes/S4/BiztrotCafe-11.png",
+      "season": 4,
+      "episodeNumber": 14,
+      "youtubeUrl": "",
+      "spotifyUrl": "",
+      "appleUrl": "",
+      "deezerUrl": "",
+      "hostsList": [
+        {
+          "name": "Julien Haumont",
+          "role": "Consultant DevOps - Zenika Nantes"
+        },
+        {
+          "name": "Marian Gappa",
+          "role": "Consultant DevOps - Zenika Lille"
+        },
+        {
+          "name": "Jean-Philippe Baconnais",
+          "role": "Consultant & Directeur Technique - Zenika Nantes"
+        }
+      ],
+      "guestsList": [
+        {
+          "name": "Gary Machenaud",
+          "role": "Tech lead chez Invivo Digital Factory"
+        }
+      ]
+    },
+    {
       "id": 13,
       "title": "Zenikast - Biztrot Café #10 - IA, Cloud et souveraineté : il va faire tout noir !!",
       "description": "On y voit plus rien ! On en est ou dans cette histoire en septembre 2026 ? Pour nous éclairer, nous avons eu l'honneur d'accueillir Stéphane Philippart, DevRel chez OVH Cloud, pour nous aider à retrouver la vue. Au passage, on a encore pas mal dérivé pour causer Java, de Muse, de raquettes et ... de moustiques ?! Courage (déjà 10 épisodes, encore un nombre indéterminé à venir !) et bon épisode !",
