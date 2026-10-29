@@ -1,6 +1,36 @@
 {
   "saison4": [
     {
+      "id": 15,
+      "title": "Zenikast - Biztrot Café #12 - Argon ou comment se faire gazer pour halloween ?",
+      "description": "Pour cet épisode aux couleurs d'Haloween, Marian, Julien et Jean-Phi vous présentent des news qui vont peut-être vous effrayer. Alors oui on parlera de failles de sécurité qui font froid dans le dos (ou chaud dans les supermarchés), mais nous évoquons aussi d'autres informations plus sympa à écouter 🙂\n\n#Zenikast #BiztrotCafé #TechNews #Podcast #Zenika",
+      "longDescription": "Pour cet épisode aux couleurs d'Haloween, Marian, Julien et Jean-Phi vous présentent des news qui vont peut-être vous effrayer. Alors oui on parlera de failles de sécurité qui font froid dans le dos (ou chaud dans les supermarchés), mais nous évoquons aussi d'autres informations plus sympa à écouter 🙂<br /><br />Podcast enregistré le 29/10/2026<br /><br />La transcription est disponible sur ce lien <br />https://links.zenika.com/link/zenikast/biztrot-cafe/12<br />Les liens échangés pendant le live sont disponibles dans le document de transcription.",
+      "duration": "1h11'54",
+      "date": "29/10/2026",
+      "status": "Disponible",
+      "image": "/img/episodes/S4/BiztrotCafe-12.png",
+      "season": 4,
+      "episodeNumber": 15,
+      "youtubeUrl": "https://youtu.be/JLQ8xeR9tQs",
+      "spotifyUrl": "https://open.spotify.com/episode/2VKOtmZ1eSyuxTEjgt10yN?si=HKf5OziJT5KVQ1-ai48Oyg",
+      "appleUrl": "https://podcasts.apple.com/fr/podcast/zenikast-biztrot-caf%C3%A9-12-argon-ou-comment-se-faire/id1750454113?i=1000798709236",
+      "deezerUrl": "https://link.deezer.com/s/34OlExn3wN2k5agqkMv1P",
+      "hostsList": [
+        {
+          "name": "Julien Haumont",
+          "role": "Consultant DevOps - Zenika Nantes"
+        },
+        {
+          "name": "Marian Gappa",
+          "role": "Consultant DevOps - Zenika Lille"
+        },
+        {
+          "name": "Jean-Philippe Baconnais",
+          "role": "Consultant & Directeur Technique - Zenika Nantes"
+        }
+      ]
+    },
+    {
       "id": 14,
       "title": "Zenikast - Biztrot Café #11 - Si JEVabien, c'est JEVamine !!!! 💊",
       "description": "Si JEVabien, c'est JEVamine !!!! Si JEVabien, c'est JEVamine !!!! Si JEVabien, c'est JEVamine !!!! Si JEVabien, c'est JEVamine !!!!\nHaaa les traumatismes des pubs des années 90 !!\n\nDans cet épisode... vitaminé... nous recevons Gary Machenaud, Tech lead de l'équipe data et grand gourou IA, llm & claudio chez Invivo Digital Factory.\nIl nous présente l'introspection réalisé sur Jev, un modèle System One, afin de nous faire découvrir la réalité derrière le buzz (oui, il a pris la pilule rouge!).\nEt comme d'hab, on discute autour des news de ces 2 dernières semaines et de BC250 (gne ? XD).\n\nA la prochaine ? Uniquement si vous prenez... JEVamine !!!!",
