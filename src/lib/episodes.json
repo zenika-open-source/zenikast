@@ -1,6 +1,36 @@
 {
   "saison4": [
     {
+      "id": 16,
+      "title": "Zenikast - Biztrot Café #13 - Jensen est tombé un panier de crabe 🦀!! 😱",
+      "description": "Quel est le rapport entre un crabe 🦀, Jensen Huang et Litellm ? Aucun !! (outre la chute de Jensen dans le panier des crabes) Sauf qu'on en parle dans cet épidsode et qu'on essaie de répondre à des questions vitales :\nLes histoires coquines de Jensen vont-elles déclencher l'éclatement de la bulle IA ?\nRust sera-t-il le highlander des langages de programmation ?\nLitellm, ça fait quoi en condition réelle quand on le POC ?\nTant de questions dont la réponse changera complètement votre vie.... ou pas ! Allez, prenez du popcorn, une grande bouffé d'air et rejoignez nous pour cette épisode. Spoiler alert : Marian a beaucoup changé, ne prenez pas peur !! 🤣",
+      "longDescription": "Quel est le rapport entre un crabe 🦀, Jensen Huang et Litellm ? Aucun !! (outre la chute de Jensen dans le panier des crabes) Sauf qu'on en parle dans cet épidsode et qu'on essaie de répondre à des questions vitales :<br />Les histoires coquines de Jensen vont-elles déclencher l'éclatement de la bulle IA ?<br />Rust sera-t-il le highlander des langages de programmation ?<br />Litellm, ça fait quoi en condition réelle quand on le POC ?<br />Tant de questions dont la réponse changera complètement votre vie.... ou pas ! Allez, prenez du popcorn, une grande bouffé d'air et rejoignez nous pour cette épisode. Spoiler alert : Marian a beaucoup changé, ne prenez pas peur !! 🤣<br /><br />Podcast enregistré le 10/11/2026<br /><br />La transcription est disponible sur ce lien <br />https://links.zenika.com/link/zenikast/biztrot-cafe/13<br />Les liens échangés pendant le live sont disponibles dans le document de transcription.",
+      "duration": "51'50",
+      "date": "10/11/2026",
+      "status": "Disponible",
+      "image": "/img/episodes/S4/BiztrotCafe-13.png",
+      "season": 4,
+      "episodeNumber": 16,
+      "youtubeUrl": "https://www.youtube.com/watch?v=plvWboPwBKw",
+      "spotifyUrl": "",
+      "appleUrl": "",
+      "deezerUrl": "",
+      "hostsList": [
+        {
+          "name": "Julien Haumont",
+          "role": "Consultant DevOps - Zenika Nantes"
+        },
+        {
+          "name": "Sylvain Lavazais",
+          "role": "Consultant - Zenika Lille"
+        },
+        {
+          "name": "Jean-Philippe Baconnais",
+          "role": "Consultant & Directeur Technique - Zenika Nantes"
+        }
+      ]
+    },
+    {
       "id": 15,
       "title": "Zenikast - Biztrot Café #12 - Argon ou comment se faire gazer pour halloween ?",
       "description": "Pour cet épisode aux couleurs d'Haloween, Marian, Julien et Jean-Phi vous présentent des news qui vont peut-être vous effrayer. Alors oui on parlera de failles de sécurité qui font froid dans le dos (ou chaud dans les supermarchés), mais nous évoquons aussi d'autres informations plus sympa à écouter 🙂\n\n#Zenikast #BiztrotCafé #TechNews #Podcast #Zenika",
